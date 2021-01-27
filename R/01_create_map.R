@@ -10,7 +10,7 @@ library(slippymath)
 library(grid)
 
 
-
+time <- as.character(format(Sys.time(),tz = "CET", usetz = TRUE))
 
 
 # 2. Load data ----
@@ -63,7 +63,7 @@ if (file.exists("data/datalog_satellite_mask.csv")) {
   # If it doesn't exist, create one empty
   datalog <- data[1, ]
   datalog[1,] <- "xxx"
-  datalog$datetime <- as.character(Sys.time())
+  datalog$datetime <- time
 }
 
 
@@ -88,7 +88,7 @@ munic <- mapdata[mapdata$LAU_CODE == data_filter$LAU_CODE,]
 
 
 df <- munic %>% st_drop_geometry() %>%
-  mutate(datetime = as.character(Sys.time()))
+  mutate(datetime = time)
 
 
 
@@ -178,8 +178,6 @@ xlab <- prettylab(xtick, "lon")
 ylab <- prettylab(ytick, "lat")
 
 
-
-
 # Overall map
 map <- tm_shape(raster) +
   tm_rgba() +
@@ -241,9 +239,6 @@ insetmap <- tm_shape(mapESP) +
   tm_symbols(col = "firebrick3",
              size = 0.6,
              border.col = "black")
-
-
-
 
 tmap_save(
   tm = map,
@@ -333,7 +328,7 @@ journey <- journey +  tm_shape(cent) +
     alpha = 0.7,
     border.col = "transparent"
   ) +
-  tm_credits(text = paste0(Sys.time()),
+  tm_credits(text = time,
              position = c("left", "BOTTOM")) +
   tm_credits(text = "satellite_mask style",
              position = c("center", "top"),
@@ -352,4 +347,5 @@ tmap_save(
   height = 7,
   width = 7
 )
+
 rm(list = ls())
