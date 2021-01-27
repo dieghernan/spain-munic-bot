@@ -1,5 +1,8 @@
 # spain-munic-bot
 
+![tweet-satellite-mask](https://github.com/dieghernan/spain-munic-bot/workflows/tweet-satellite-mask/badge.svg)
+![Twitter Follow](https://img.shields.io/twitter/follow/spainmunic?style=social)
+
 A Twitter bot written in R, see https://twitter.com/spainmunic for actual tweets.
 
 It tweets a map of an Spanish town together with its name, province, and autonomous community
