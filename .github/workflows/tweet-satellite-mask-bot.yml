@@ -1,19 +1,23 @@
+name: tweet-satellite-mask
+
 on:
   workflow_dispatch:
   schedule:
-    # * is a special character in YAML so you have to quote this string
     - cron:  '*/15 * * * *'
   
-name: tweet-satellite-mask
 
 jobs:
-  spain-munic-bot:
-    runs-on: windows-latest
+  tweet-satellite-mask:
+    runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
+        name: Checkout
+        
       - uses: r-lib/actions/setup-r@v1
+        name: Setup R
         
       - uses: actions/cache@v2
+        name: Cache for Linux
         if: startsWith(runner.os, 'Linux')    
         with:
           path: ~/.local/share/renv
@@ -22,6 +26,7 @@ jobs:
             ${{ runner.os }}-renv-
       
       - uses: actions/cache@v2
+        name: Cache for macOS
         if: startsWith(runner.os, 'macOS')
         with:
           path: ~/Library/Application Support/renv
@@ -30,6 +35,7 @@ jobs:
             ${{ runner.os }}-renv-
       
       - uses: actions/cache@v2
+        name: Cache for Windows
         if: startsWith(runner.os, 'Windows')  
         with:
           path: ~\AppData\Local\renv
