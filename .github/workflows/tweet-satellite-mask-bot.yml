@@ -8,7 +8,7 @@ on:
 
 jobs:
   tweet-satellite-mask:
-    runs-on: windows-latest
+    runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
         name: Checkout
