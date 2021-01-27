@@ -252,13 +252,6 @@
       "Repository": "CRAN",
       "Hash": "3eb6477d01eb5bbdc03f7d5f70f2733e"
     },
-    "giscoR": {
-      "Package": "giscoR",
-      "Version": "0.2.3-9001",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "ce4abc5cf790debd3aca4b1bfed54f7b"
-    },
     "glue": {
       "Package": "glue",
       "Version": "1.4.2",
