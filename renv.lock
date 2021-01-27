@@ -252,6 +252,13 @@
       "Repository": "CRAN",
       "Hash": "3eb6477d01eb5bbdc03f7d5f70f2733e"
     },
+    "giscoR": {
+      "Package": "giscoR",
+      "Version": "0.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fc88178efb2a2b963252a9469e6be148"
+    },
     "glue": {
       "Package": "glue",
       "Version": "1.4.2",
@@ -380,10 +387,10 @@
     },
     "mapSpain": {
       "Package": "mapSpain",
-      "Version": "0.1.3-9000",
+      "Version": "0.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fbc5df71b2375f38cee894963f6185e5"
+      "Hash": "ac5010e5a6bc7ca7bdc493a8867d42aa"
     },
     "markdown": {
       "Package": "markdown",
