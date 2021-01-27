@@ -12,7 +12,13 @@ hlp_install("slippymath")
 hlp_install("stars")
 hlp_install("rgdal")
 
+output_dir <- "./data/archive/"
 
+if (!dir.exists(output_dir)){
+  dir.create(output_dir, recursive = TRUE)
+} else {
+    print("Dir already exists!")
+}
 
 source("R/01_create_map.R")
 
