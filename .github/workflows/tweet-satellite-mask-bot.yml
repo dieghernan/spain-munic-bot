@@ -3,7 +3,7 @@ name: tweet-satellite-mask
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '*/20 * * * *'
   
 
 jobs:
