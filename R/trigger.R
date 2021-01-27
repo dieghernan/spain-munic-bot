@@ -1,6 +1,6 @@
 hlp_install <- function(pkg){
   if (isFALSE(requireNamespace(pkg, quietly = TRUE))) {
-    install.packages(pkg, repos = "http://cran.us.r-project.org")
+    install.packages(pkg)
   }
 }
 
