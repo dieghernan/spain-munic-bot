@@ -92,8 +92,12 @@ munic <- mapdata[mapdata$LAU_CODE == data_filter$LAU_CODE,]
 df <- munic %>% st_drop_geometry() %>%
   mutate(datetime = time)
 
-
-
+message("Munic selected: ", 
+        df$name,
+        " ",
+        df$LAU_CODE)
+        
+        
 
 # 3. Spatial operations ----
 
