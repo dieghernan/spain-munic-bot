@@ -104,8 +104,8 @@ munic <- st_transform(munic, 3857)
 bbx <- st_bbox(st_transform(munic, 4326))
 gz <- slippymath::bbox_tile_query(bbx)
 
-# max 12 tiles, min 4
-zoom <- max(gz[gz$total_tiles %in% 4:12, "zoom"])
+# max 16 tiles, min 4
+zoom <- max(gz[gz$total_tiles %in% 4:16, "zoom"])
 
 # Function to get tiles an avoid errors
 
