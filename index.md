@@ -19,28 +19,28 @@ See <https://twitter.com/spainmunic> for actual tweets.
 
 It tweets a map of a random Spanish town together with its name, province, and autonomous community (and a inset map of Spain showing the region and the community). The bot is set to run every 15 minutes.
 
-### Satellite map
+### 🌍 Satellite map 
 
 ![last-map-satellite](/assets/img/munic-satellite.png)
 
 Last generated image: Satellite 
 {: .caption}
 
-### Street maps
+### 🚶🏻‍♂️Street maps 
 
 ![last-map-streets](/assets/img/munic-streets.png)
 
 Last generated image: Streets
 {: .caption}
 
-## ✈️🇪🇸 The journey of the 🤖
+## ✈️ The journey of the 🤖
 
 ![journey](/assets/img/journey.png)
 
-Places I have visited
+Places I have visited 🇪🇸
 {: .caption}
 
-## Credits
+## 🙌🏻 Credits
 
 -   Based on
 
@@ -54,7 +54,7 @@ Places I have visited
 
     -   [mapSpain](https://ropenspain.github.io/mapSpain/) R package.
 
-## How to run it
+## ❔How to run it
 
 From the command line it is enough to run the following command:
 
