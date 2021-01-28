@@ -51,6 +51,8 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
+          
+          renv::snapshot()
             
       - name: Run bot
         run: Rscript R/trigger.R
