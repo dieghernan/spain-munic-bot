@@ -8,6 +8,7 @@ library(dplyr)
 library(tmap)
 library(slippymath)
 library(grid)
+library(rgdal)
 
 
 time <- as.character(format(Sys.time(),tz = "CET", usetz = TRUE))
