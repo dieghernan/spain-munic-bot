@@ -1,0 +1,80 @@
+remote_theme: dieghernan/chulapa   
+title                   : spain-munic-bot
+timezone                : "Europe/Madrid"
+og_image                : 
+author:
+  name                  :  dieghernan
+  location              :  "Madrid, España"
+
+navbar:
+  expand: always
+  brand:
+    title   :  Home
+  nav:
+  - title: Gallery
+    url: /Galeria
+footer:
+  links:
+    - label: "StackOverflow"
+      icon: "fab fa-stack-overflow"
+      url:  https://stackoverflow.com/users/7877917/dieghernan
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: https://github.com/dieghernan/
+    - label: "Blog"
+      icon: "fas fa-blog"
+      url: "https://dieghernan.github.io/"
+    - label: "RPubs"
+      icon: "fab fa-r-project"
+      url: "https://rpubs.com/dieghernan"
+
+chulapa-skin: 
+  autothemer  :  true 
+  skin        : journal
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      header_type: "base"
+      show_sociallinks  : true
+  
+compress_html:
+  clippings: all
+  blanklines: true
+plugins:
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - vendor
+  - index.Rmd
+  - R/
+  - data/
+  - LICENSE
+  
+include:
+  - _pages
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  footnote_backlink: '&uarr;'
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+sass:
+  sass_dir: _sass
+  style: compressed
