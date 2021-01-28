@@ -1,18 +1,20 @@
-—--
-title: spain-munic-bot 
+---
+layout: default
+title: spain-munic-bot
+subtitle: "Twitter bot: random municipalities of Spain with mapSpain"
 project_links:
     - url: https://github.com/dieghernan/spain-munic-bot/
       icon: fab fa-github my-2
       label: See on Github
-—--
-
-
-# spain-munic-bot
-
+---
+<div markdown="1" class="badges">
 ![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/tweet-maps/badge.svg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/spainmunic?style=social)](https://twitter.com/spainmunic)
+</div>
 
-A Twitter bot written in R, see <https://twitter.com/spainmunic> for actual tweets.
+## 📍🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action
+
+See <https://twitter.com/spainmunic> for actual tweets.
 
 It tweets a map of a random Spanish town together with its name, province, and autonomous community (and a inset map of Spain showing the region and the community). The bot is set to run every 15 minutes.
 

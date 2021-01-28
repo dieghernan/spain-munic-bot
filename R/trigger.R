@@ -13,13 +13,22 @@ hlp_install("stars")
 hlp_install("rgdal")
 hlp_install("osmdata")
 
-output_dir <- file.path("data", "archive")
+output_dir <- file.path("assets", "img","archive_satellite")
 
 if (!dir.exists(output_dir)){
   dir.create(output_dir, recursive = TRUE)
 } else {
     print("Dir already exists!")
 }
+
+output_dir <- file.path("assets", "img","archive_streets")
+
+if (!dir.exists(output_dir)){
+  dir.create(output_dir, recursive = TRUE)
+} else {
+  print("Dir already exists!")
+}
+
 
 source("R/01_create_map.R")
 

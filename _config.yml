@@ -1,4 +1,6 @@
 remote_theme: dieghernan/chulapa   
+twitter_site            : spainmunic    
+baseurl                 : spain-munic-bot
 title                   : spain-munic-bot
 timezone                : "Europe/Madrid"
 og_image                : 

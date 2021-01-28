@@ -55,9 +55,9 @@ data <- st_drop_geometry(mapdata)
 
 # Load log
 
-if (file.exists("data/datalog.csv")) {
+if (file.exists("assets/datalog.csv")) {
   datalog <-
-    read.csv2("data/datalog.csv",
+    read.csv2("assets/datalog.csv",
               sep = ",",
               stringsAsFactors = FALSE)
   
@@ -248,7 +248,7 @@ insetmap <- tm_shape(mapESP) +
 
 tmap_save(
   tm = map,
-  filename = "./data/munic-raster.png",
+  filename = "./assets/img/munic-raster.png",
   insets_tm = insetmap,
   height = 7,
   width = 7,
@@ -261,7 +261,7 @@ tmap_save(
 )
 
 hist <-
-  paste0("./data/archive/", munic$LAU_CODE, "_satellite_mask.png")
+  paste0("./assets/img/archive_satellite/", munic$LAU_CODE, "_satellite_mask.png")
 tmap_save(
   tm = map,
   filename = hist,
@@ -414,7 +414,7 @@ if (!is.null(major)) {
 
 tmap_save(
   tm = streetmap,
-  filename = "./data/munic-streets.png",
+  filename = "./assets/img/munic-streets.png",
   insets_tm = insetmap,
   height = 7,
   width = 7,
@@ -427,7 +427,7 @@ tmap_save(
 )
 
 hist2 <-
-  paste0("./data/archive/", munic$LAU_CODE, "_streets.png")
+  paste0("./assets/img/archive_streets/", munic$LAU_CODE, "_streets.png")
 tmap_save(
   tm = streetmap,
   filename = hist2,
@@ -502,7 +502,7 @@ journey <- journey +  tm_shape(cent) +
 
 tmap_save(
   tm = journey,
-  filename = "./data/journey.png",
+  filename = "./assets/img/journey.png",
   height = 7,
   width = 7
 )
@@ -511,7 +511,7 @@ tmap_save(
 # Save datalog if everything was correct
 write.table(
   datalog,
-  "./data/datalog.csv",
+  "./assets/datalog.csv",
   sep = ",",
   row.names = FALSE
 )
