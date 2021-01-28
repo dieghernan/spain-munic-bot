@@ -14,7 +14,14 @@ navbar:
     title   :  Home
   nav:
   - title: Gallery
-    url: /Galeria
+    child:		
+     - title: Satellite		
+       url  : /satellite	
+     - title: Streets		
+       url  : /streets
+  - title: On GitHub
+    url: https://github.com/dieghernan/spain-munic-bot
+
 footer:
   links:
     - label: "StackOverflow"
@@ -42,6 +49,16 @@ defaults:
       layout: "default"
       header_type: "base"
       show_sociallinks  : true
+  -
+    scope:
+      path: "assets/img/archive_satellite"
+    values:
+      image_col         : satellite
+  -
+    scope:
+      path: "assets/img/archive_streets"
+    values:
+      image_col         : streets
   
 compress_html:
   clippings: all
