@@ -23,13 +23,22 @@ It tweets a map of a random Spanish town together with its name, province, and a
 
 ![last-map-sat](/assets/img/munic-raster.png)
 
+Last generated image
+{: .caption}
+
 ### Street maps
 
 ![last-map-streets](/assets/img/munic-streets.png)
 
+Last generated image
+{: .caption}
+
 ## The journey
 
 ![journey](/assets/img/journey.png)
+
+Where the bot has been
+{: .caption}
 
 ## Credits
 

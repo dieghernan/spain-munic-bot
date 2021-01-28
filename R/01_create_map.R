@@ -411,22 +411,6 @@ if (!is.null(major)) {
     }
 }
 
-
-tmap_save(
-  tm = streetmap,
-  filename = "./assets/img/munic-streets.png",
-  insets_tm = insetmap,
-  height = 7,
-  width = 7,
-  insets_vp = viewport(
-    x = 0.175,
-    y = 0.175,
-    w = .35,
-    h = .35
-  )
-)
-
-
 insetmap2 <- tm_shape(mapESP) +
   tm_polygons(col = "white", border.col = "black") +
   tm_layout(frame = FALSE,
@@ -445,6 +429,22 @@ insetmap2 <- tm_shape(mapESP) +
   tm_symbols(col = "firebrick3",
              size = 0.6,
              border.col = "black")
+
+
+
+tmap_save(
+  tm = streetmap,
+  filename = "./assets/img/munic-streets.png",
+  insets_tm = insetmap2,
+  height = 7,
+  width = 7,
+  insets_vp = viewport(
+    x = 0.175,
+    y = 0.175,
+    w = .35,
+    h = .35
+  )
+)
 
 hist2 <-
   paste0("./assets/img/archive_streets/", munic$LAU_CODE, "_streets.png")
