@@ -7,4 +7,4 @@ permalink: /satellite
 
 ## 🌍 Maps created
 
-{% include_cached snippets/masonry.html internal="satellite" index_sort_asc="false" index_items=30 %}
+{% include_cached snippets/masonry.html internal="satellite" index_sort="modified_time" index_sort_asc="false" index_items=30 %}
