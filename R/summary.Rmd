@@ -1,0 +1,85 @@
+---
+title: Summary
+subtitle: Table summray with the codes and executions of the bot
+header_type: base
+permalink: /summary
+datatables: true
+output: 
+  md_document:
+    preserve_yaml: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The next table shows the summary of executions of the bot. Note that it is 
+sorted by the latest date of execution (datetime).
+
+You can find the archive on [this folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img). Note
+that the image uses the LAU CODE for identifying the municipality (i.e. 
+`46136_*.png` correspond to Godelleta images).
+
+
+```{r summary, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(mapSpain)
+library(sf)
+library(dplyr)
+
+data <- esp_get_munic(year = 2019,
+                      cache_dir = "data",
+                      moveCAN = FALSE) %>%
+  st_drop_geometry() %>%
+  mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
+
+
+# LAU_CODE is INE CODE
+data <- data %>% filter(!is.na(LAU_CODE))
+
+
+
+# Fix names
+codauto <-
+  esp_codelist %>% select(codauto, ccaa.shortname.es) %>% unique()
+
+cpro <- esp_codelist %>% select(cpro, prov.shortname.es) %>%
+  unique()
+
+data <- data %>% left_join(codauto) %>% left_join(cpro)
+
+data <- data %>%
+  select(codauto,
+         ccaa.shortname.es,
+         cpro,
+         prov.shortname.es,
+         LAU_CODE,
+         LAU_CODE_NUM,
+         name)
+
+datalog <-
+  read.csv2("../assets/datalog.csv",
+            sep = ",",
+            stringsAsFactors = FALSE) %>% select(LAU_CODE_NUM,
+                                                 datetime)
+
+# Join
+
+data <- data %>%
+  left_join(datalog) %>% arrange(desc(datetime))
+
+data[is.na(data$datetime),"datetime"] <- "Not Executed"
+
+data <- data %>% select(name, LAU_CODE, prov.shortname.es, ccaa.shortname.es, 
+                        datetime)
+
+
+knitr::kable(data, format = "html",
+             row.names = FALSE,
+             escape = FALSE,
+             table.attr = c("id=\"summary\" class=\"nowrap table table-striped stripe table-sm display compact\""))
+
+
+```
+
+
