@@ -9,7 +9,7 @@ It tweets a map of a random Spanish town together with its name, province, and a
 
 ### Satellite map
 
-![last-map-sat](/assets/img/munic-raster.png)
+![last-map-satellite](/assets/img/munic-satellite.png)
 
 ### Street maps
 

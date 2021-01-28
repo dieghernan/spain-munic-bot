@@ -248,7 +248,7 @@ insetmap <- tm_shape(mapESP) +
 
 tmap_save(
   tm = map,
-  filename = "./assets/img/munic-raster.png",
+  filename = "./assets/img/munic-satellite.png",
   insets_tm = insetmap,
   height = 7,
   width = 7,
@@ -262,10 +262,10 @@ tmap_save(
 )
 
 hist <-
-  paste0("./assets/img/archive_satellite/", munic$LAU_CODE, "_satellite_mask.png")
+  paste0("./assets/img/archive_satellite/", munic$LAU_CODE, "_satellite.png")
   
   
-file.copy("./assets/img/munic-raster.png", hist, overwrite = TRUE)
+file.copy("./assets/img/munic-satellite.png", hist, overwrite = TRUE)
 
 
 
