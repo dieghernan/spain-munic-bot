@@ -30,7 +30,7 @@ jobs:
         if: startsWith(runner.os, 'macOS')
         with:
           path: ~/Library/Application Support/renv
-          key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}-${{ hashFiles('**/renv.lock') }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
       
@@ -39,7 +39,7 @@ jobs:
         if: startsWith(runner.os, 'Windows')  
         with:
           path: ~\AppData\Local\renv
-          key: ${{ runner.os }}-${{ steps.get-date.outputs.date }}-${{ hashFiles('**/renv.lock') }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
             
