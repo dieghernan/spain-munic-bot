@@ -12,6 +12,7 @@ navbar:
   expand: always
   brand:
     title   :  Home
+    img: "./assets/icons/brand.png"
   nav:
   - title: Gallery
     child:		
