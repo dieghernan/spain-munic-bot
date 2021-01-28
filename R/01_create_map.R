@@ -437,6 +437,7 @@ journey <- tm_shape(mapESP) +
     asp = 1,
     inner.margins = c(0, 0, 0.1, 0),
     main.title = "spain-munic-bot journey",
+    main.title.size = 1.5,
     main.title.position = "center",
     bg.color = "grey95"
   ) +
@@ -457,11 +458,6 @@ journey <- journey +  tm_shape(cent) +
     alpha = 0.7,
     border.col = "transparent"
   ) +
-  tm_credits(text = time,
-             position = c("left", "BOTTOM")) +
-  tm_credits(text = "satellite_mask style",
-             position = c("center", "top"),
-             size = 0.9) +
   tm_shape(last) +
   tm_text("name",
           size = 0.7,
