@@ -3,7 +3,7 @@ name: tweet-maps
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron:  '1,16,31,46 * * * *'
   
 
 jobs:
@@ -33,9 +33,9 @@ jobs:
         if: startsWith(runner.os, 'macOS')
         with:
           path: ~/Library/Application Support/renv
-          key: ${{ runner.os }}-renv-v2-${{ hashFiles('**/renv.lock') }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
-            ${{ runner.os }}-renv-v2-
+            ${{ runner.os }}-renv-
       
       - uses: actions/cache@v2
         name: Cache for Windows
@@ -52,7 +52,6 @@ jobs:
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
           
-          renv::snapshot()
             
       - name: Run bot
         run: Rscript R/trigger.R

@@ -33,7 +33,7 @@ if (!dir.exists(output_dir)){
 
 source("R/01_create_map.R")
 
-library(knitr)
+
 library(rmarkdown)
 
 rmarkdown::render("R/journey.Rmd", output_dir = "_pages/",
