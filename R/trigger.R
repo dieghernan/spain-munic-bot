@@ -11,6 +11,7 @@ hlp_install("tmap")
 hlp_install("slippymath")
 hlp_install("stars")
 hlp_install("rgdal")
+hlp_install("osmdata")
 
 output_dir <- file.path("data", "archive")
 

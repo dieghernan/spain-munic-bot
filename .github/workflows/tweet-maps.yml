@@ -1,4 +1,4 @@
-name: tweet-satellite-mask
+name: tweet-maps
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
   
 
 jobs:
-  tweet-satellite-mask:
+  tweet-maps:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2

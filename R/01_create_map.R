@@ -9,9 +9,10 @@ library(tmap)
 library(slippymath)
 library(grid)
 library(rgdal)
+library(osmdata)
 
 
-time <- as.character(format(Sys.time(),tz = "CET", usetz = TRUE))
+time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
 
 # 2. Load data ----
@@ -54,9 +55,9 @@ data <- st_drop_geometry(mapdata)
 
 # Load log
 
-if (file.exists("data/datalog_satellite_mask.csv")) {
+if (file.exists("data/datalog.csv")) {
   datalog <-
-    read.csv2("data/datalog_satellite_mask.csv",
+    read.csv2("data/datalog.csv",
               sep = ",",
               stringsAsFactors = FALSE)
   
@@ -124,10 +125,10 @@ hlp_gettile <- function(munic, provider, zoom) {
   )
   
   if (isTRUE(get)) {
-    message("Error with zoom ",zoom,". Retry")
+    message("Error with zoom ", zoom, ". Retry")
     if (zoom < 1) {
       stop("Aborted")
-    
+      
     }
     get <- hlp_gettile(munic, provider, zoom - 1)
   } else {
@@ -272,17 +273,144 @@ tmap_save(
 )
 
 
-# Save datalog if everything was correct
-datalog <- rbind(datalog, df) %>% filter(cpro != "xxx") %>% unique()
-write.table(datalog,
-            "./data/datalog_satellite_mask.csv",
-            sep = ",",
-            row.names = FALSE)
 
 
+# OSM Lines----
+# https://github.com/danielredondo/30diasdegraficos/blob/master/scripts/18_mapa.R
 
+munictransf <- munic %>% st_transform(4326)
+municbb <- munictransf %>%  st_bbox()
+
+types <-
+  c(
+    "motorway",
+    "primary",
+    "motorway_link",
+    "primary_link",
+    "secondary",
+    "tertiary",
+    "secondary_link",
+    "tertiary_link",
+    "unclassified",
+    "residential",
+    "living_street",
+    "pedestrian",
+    "service",
+    "track"
+  )
+
+osmlines <- opq(municbb)  %>%
+  add_osm_feature(key = "highway",
+                  value = types) %>%
+  osmdata_sf()
+
+obj.lines <- osmlines$osm_lines %>% st_transform(3857)
+
+major <-
+  obj.lines %>%
+  filter(
+    highway %in%  c(
+      "motorway",
+      "primary",
+      "motorway_link",
+      "primary_link",
+      "secondary",
+      "tertiary",
+      "secondary_link",
+      "tertiary_link"
+    )
+  )
+
+minor <- obj.lines %>%
+  filter(!highway %in% unique(major$highway))
+
+river <- opq(municbb) %>%
+  add_osm_feature(key = "waterway", value = "river") %>%
+  osmdata_sf()
+
+river <- river$osm_lines
+
+# Ready to plot
+
+streetmap <- tm_shape(major) +
+  tm_lines(col = "black") +
+  tm_layout(
+    main.title = title,
+    asp = 1,
+    main.title.position = "center",
+    main.title.size = 1,
+    main.title.fontface = "bold",
+    inner.margins = c(0.1, 0, 0.11, 0),
+    outer.margins = c(0, 0, 0, 0),
+    attr.outside = FALSE,
+    frame = FALSE,
+    design.mode = FALSE
+  )  +
+  tm_credits(
+    "\u00a9 OpenStreetMap Contributors",
+    align = "right",
+    fontface = "italic",
+    size = 0.8,
+    bg.color = "white",
+    bg.alpha = 0.5
+  ) +
+  tm_credits(
+    text = paste0("\n", sub, "\n", ylab, " / ", xlab),
+    size = 0.85,
+    just = "center",
+    align = "center",
+    position = c("center", "TOP"),
+    bg.color = "white",
+    bg.alpha = 0.5
+  )
+
+if (!is.null(minor)) {
+  streetmap <- streetmap +
+    tm_shape(minor) +
+    tm_lines("grey30", lwd = 0.9)
+}
+
+if (!is.null(river)) {
+  river <- st_transform(river, 3857)
+  streetmap <- streetmap +
+    tm_shape(river) +
+    tm_lines("#7fc0ff", lwd = 1.1, alpha = 0.8)
+}
+
+
+tmap_save(
+  tm = streetmap,
+  filename = "./data/munic-streets.png",
+  insets_tm = insetmap,
+  height = 7,
+  width = 7,
+  insets_vp = viewport(
+    x = 0.175,
+    y = 0.175,
+    w = .35,
+    h = .35
+  )
+)
+
+hist2 <-
+  paste0("./data/archive/", munic$LAU_CODE, "_streets.png")
+tmap_save(
+  tm = streetmap,
+  filename = hist2,
+  insets_tm = insetmap,
+  height = 7,
+  width = 7,
+  insets_vp = viewport(
+    x = 0.18,
+    y = 0.19,
+    w = .35,
+    h = .35
+  )
+)
 
 # Plot the Journey ----
+
+datalog <- rbind(datalog, df) %>% filter(cpro != "xxx") %>% unique()
 
 municall <- esp_get_munic(moveCAN = c(13, 0)) %>%
   mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
@@ -347,6 +475,15 @@ tmap_save(
   filename = "./data/journey-satellite-mask.png",
   height = 7,
   width = 7
+)
+
+# Clean ----
+# Save datalog if everything was correct
+write.table(
+  datalog,
+  "./data/datalog.csv",
+  sep = ",",
+  row.names = FALSE
 )
 
 rm(list = ls())
