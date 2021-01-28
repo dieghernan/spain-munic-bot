@@ -426,12 +426,32 @@ tmap_save(
   )
 )
 
+
+insetmap2 <- tm_shape(mapESP) +
+  tm_polygons(col = "white", border.col = "black") +
+  tm_layout(frame = FALSE,
+            bg.color = "transparent") +
+  tm_shape(bboxCAN) +
+  tm_lines(col = "black") +
+  tm_shape(mapProv) +
+  tm_polygons("grey40") +
+  tm_layout(
+    design.mode = FALSE,
+    asp = 1,
+    inner.margins = c(0, 0, 0, 0),
+    outer.margins = c(0, 0, 0, 0)
+  ) +
+  tm_shape(municinset) +
+  tm_symbols(col = "firebrick3",
+             size = 0.6,
+             border.col = "black")
+
 hist2 <-
   paste0("./assets/img/archive_streets/", munic$LAU_CODE, "_streets.png")
 tmap_save(
   tm = streetmap,
   filename = hist2,
-  insets_tm = insetmap,
+  insets_tm = insetmap2,
   height = 7,
   width = 7,
   insets_vp = viewport(
