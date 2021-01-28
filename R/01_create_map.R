@@ -333,7 +333,7 @@ river <- river$osm_lines
 # Ready to plot
 
 streetmap <- tm_shape(major) +
-  tm_lines(col = "black") +
+  tm_lines(col = "black", lwd = 1.4) +
   tm_layout(
     main.title = title,
     asp = 1,
@@ -367,14 +367,14 @@ streetmap <- tm_shape(major) +
 if (!is.null(minor)) {
   streetmap <- streetmap +
     tm_shape(minor) +
-    tm_lines("grey30", lwd = 0.9)
+    tm_lines("grey30", lwd = 1)
 }
 
 if (!is.null(river)) {
   river <- st_transform(river, 3857)
   streetmap <- streetmap +
     tm_shape(river) +
-    tm_lines("#7fc0ff", lwd = 1.1, alpha = 0.8)
+    tm_lines("#7fc0ff", lwd = 1.3, alpha = 0.8)
 }
 
 
