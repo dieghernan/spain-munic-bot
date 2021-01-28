@@ -19,7 +19,7 @@ See <https://twitter.com/spainmunic> for actual tweets.
 
 It tweets a map of a random Spanish town together with its name, province, and autonomous community (and a inset map of Spain showing the region and the community). The bot is set to run every 15 minutes.
 
-### 🌍 Satellite map 
+### 🌍 Satellite maps 
 
 ![last-map-satellite](/assets/img/munic-satellite.png)
 
