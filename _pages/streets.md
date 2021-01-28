@@ -7,4 +7,4 @@ permalink: /streets
 
 ## 🚶🏻‍♂️ Maps created
 
-{% include_cached snippets/masonry.html internal="streets" index_sort_asc="true" %}
+{% include_cached snippets/masonry.html internal="streets" index_sort_asc="false" index_items=30 %}
