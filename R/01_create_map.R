@@ -332,8 +332,10 @@ river <- river$osm_lines
 
 # Ready to plot
 
-streetmap <- tm_shape(major) +
-  tm_lines(col = "black", lwd = 1.4) +
+munictransf2 <- munictransf %>% st_transform(st_crs(major))
+
+streetmap <- tm_shape(munictransf2) +
+  tm_fill("white") +
   tm_layout(
     main.title = title,
     asp = 1,
@@ -364,17 +366,26 @@ streetmap <- tm_shape(major) +
     bg.alpha = 0.5
   )
 
+if (!is.null(river)) {
+  river <- st_transform(river, 3857)
+  streetmap <- streetmap +
+    tm_shape(river) +
+    tm_lines("#7fc0ff", 
+    lwd = 1.5, 
+    alpha = 0.8)
+}
+
 if (!is.null(minor)) {
   streetmap <- streetmap +
     tm_shape(minor) +
     tm_lines("grey30", lwd = 1)
 }
 
-if (!is.null(river)) {
-  river <- st_transform(river, 3857)
+if (!is.null(major)) {
   streetmap <- streetmap +
-    tm_shape(river) +
-    tm_lines("#7fc0ff", lwd = 1.3, alpha = 0.8)
+    tm_shape(major) +
+    tm_lines(col = "black", 
+             lwd = 1.5)
 }
 
 
