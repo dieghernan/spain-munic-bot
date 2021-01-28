@@ -78,7 +78,8 @@ data <- data %>% select(name, LAU_CODE, prov.shortname.es, ccaa.shortname.es,
 
 knitr::kable(data, format = "html",
              row.names = FALSE,
-             escape = FALSE,
+             col.names = gsub("_","",colnames(data)),
+             escape = TRUE,
              table.attr = c("id=\"summary\" class=\"nowrap table table-striped stripe table-sm display compact\""))
 
 
