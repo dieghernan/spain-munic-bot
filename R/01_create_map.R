@@ -332,7 +332,7 @@ river <- river$osm_lines
 
 # Ready to plot
 
-munictransf2 <- munictransf %>% st_transform(st_crs(major))
+munictransf2 <- munictransf %>% st_transform(3857)
 
 streetmap <- tm_shape(munictransf2) +
   tm_fill("white") +
@@ -367,7 +367,10 @@ streetmap <- tm_shape(munictransf2) +
   )
 
 if (!is.null(river)) {
-  river <- st_transform(river, 3857)
+  river <- river %>%
+     st_transform(3857) %>%
+     st_intersection(munictransf2)
+     
   streetmap <- streetmap +
     tm_shape(river) +
     tm_lines("#7fc0ff", 
@@ -376,12 +379,20 @@ if (!is.null(river)) {
 }
 
 if (!is.null(minor)) {
+  minor <- minor %>%
+     st_transform(3857) %>%
+     st_intersection(munictransf2)
+     
   streetmap <- streetmap +
     tm_shape(minor) +
     tm_lines("grey30", lwd = 1)
 }
 
 if (!is.null(major)) {
+  major <- major %>%
+     st_transform(3857) %>%
+     st_intersection(munictransf2)
+     
   streetmap <- streetmap +
     tm_shape(major) +
     tm_lines(col = "black", 
