@@ -502,7 +502,7 @@ journey <- journey +  tm_shape(cent) +
 
 tmap_save(
   tm = journey,
-  filename = "./data/journey-satellite-mask.png",
+  filename = "./data/journey.png",
   height = 7,
   width = 7
 )
