@@ -339,15 +339,16 @@ streetmap <- tm_shape(munictransf2) +
   tm_layout(
     main.title = title,
     asp = 1,
+    bg.color = "white",
     main.title.position = "center",
     main.title.size = 1,
     main.title.fontface = "bold",
-    inner.margins = c(0.1, 0, 0.11, 0),
-    outer.margins = c(0, 0, 0, 0),
+    inner.margins = c(0.1, 0, 0.12, 0),
+    outer.margins = c(0, 0.1, 0, 0.1),
     attr.outside = FALSE,
     frame = FALSE,
     design.mode = FALSE
-  )  +
+  ) +
   tm_credits(
     "\u00a9 OpenStreetMap Contributors",
     align = "right",
