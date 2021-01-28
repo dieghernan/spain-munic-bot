@@ -1,6 +1,6 @@
 ---
 title: Summary
-subtitle: Table summray with the codes and executions of the bot
+subtitle: Table summary with the codes and executions of the bot
 header_type: base
 permalink: /summary
 datatables: true
@@ -11,6 +11,8 @@ output:
 
 The next table shows the summary of executions of the bot. Note that it
 is sorted by the latest date of execution (datetime).
+
+<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" class="img-thumbnail" style="max-width: 33%;">
 
 You can find the archive on [this
 folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img).
@@ -38,6 +40,23 @@ datetime
 </tr>
 </thead>
 <tbody>
+<tr>
+<td style="text-align:left;">
+Deifontes
+</td>
+<td style="text-align:left;">
+18066
+</td>
+<td style="text-align:left;">
+Granada
+</td>
+<td style="text-align:left;">
+Andalucía
+</td>
+<td style="text-align:left;">
+2021-01-28 16:06:26 CET
+</td>
+</tr>
 <tr>
 <td style="text-align:left;">
 Cardenete
@@ -4906,23 +4925,6 @@ Dehesas Viejas
 </td>
 <td style="text-align:left;">
 18065
-</td>
-<td style="text-align:left;">
-Granada
-</td>
-<td style="text-align:left;">
-Andalucía
-</td>
-<td style="text-align:left;">
-Not Executed
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Deifontes
-</td>
-<td style="text-align:left;">
-18066
 </td>
 <td style="text-align:left;">
 Granada
