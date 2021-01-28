@@ -376,21 +376,25 @@ if (!is.null(river)) {
      st_transform(3857) %>%
      st_intersection(munictransf2)
      
+  if (any(!st_is_empty(river))) {
   streetmap <- streetmap +
     tm_shape(river) +
     tm_lines("#7fc0ff", 
     lwd = 1.5, 
     alpha = 0.8)
+    }
 }
 
 if (!is.null(minor)) {
   minor <- minor %>%
      st_transform(3857) %>%
      st_intersection(munictransf2)
-     
+  
+  if (any(!st_is_empty(minor))) {
   streetmap <- streetmap +
     tm_shape(minor) +
     tm_lines("grey30", lwd = 1)
+    }
 }
 
 if (!is.null(major)) {
@@ -398,10 +402,13 @@ if (!is.null(major)) {
      st_transform(3857) %>%
      st_intersection(munictransf2)
      
+  if (any(!st_is_empty(major))) {
+     
   streetmap <- streetmap +
     tm_shape(major) +
     tm_lines(col = "black", 
              lwd = 1.5)
+    }
 }
 
 
