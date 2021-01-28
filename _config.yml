@@ -3,7 +3,7 @@ twitter_site            : spainmunic
 baseurl                 : spain-munic-bot
 title                   : spain-munic-bot
 timezone                : "Europe/Madrid"
-og_image                : 
+og_image                : /assets/img/munic-streets.png
 author:
   name                  :  dieghernan
   location              :  "Madrid, España"
