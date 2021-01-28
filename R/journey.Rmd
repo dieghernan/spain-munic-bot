@@ -1,8 +1,8 @@
 ---
-title: Summary
-subtitle: Table summary with the codes and executions of the bot
+title: The Journey
+subtitle: A summary with the codes and executions of the bot
 header_type: base
-permalink: /summary
+permalink: /journey
 datatables: true
 output: 
   md_document:
