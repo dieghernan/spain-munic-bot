@@ -5,6 +5,6 @@ header_type: base
 permalink: /satellite
 ---
 
-## Satellite images generated
+## 🌍 Maps created
 
 {% include_cached snippets/masonry.html internal="satellite" index_sort="basename" %}
