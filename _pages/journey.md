@@ -12,7 +12,7 @@ output:
 The next table shows the summary of executions of the bot. Note that it
 is sorted by the latest date of execution (datetime).
 
-<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" class="img-thumbnail" style="max-width: 33%;">
+<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" class="img-thumbnail" style="max-width: 50%;">
 
 You can find the archive on [this
 folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img).
@@ -26149,7 +26149,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
-Not Executed
+2021-01-28 18:16:00 CET
 </td>
 </tr>
 <tr>
