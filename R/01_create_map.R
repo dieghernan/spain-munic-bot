@@ -252,6 +252,7 @@ tmap_save(
   insets_tm = insetmap,
   height = 7,
   width = 7,
+  dpi = 96,
   insets_vp = viewport(
     x = 0.175,
     y = 0.175,
@@ -262,19 +263,9 @@ tmap_save(
 
 hist <-
   paste0("./assets/img/archive_satellite/", munic$LAU_CODE, "_satellite_mask.png")
-tmap_save(
-  tm = map,
-  filename = hist,
-  insets_tm = insetmap,
-  height = 7,
-  width = 7,
-  insets_vp = viewport(
-    x = 0.18,
-    y = 0.19,
-    w = .35,
-    h = .35
-  )
-)
+  
+  
+file.copy("./assets/img/munic-raster.png", hist, overwrite = TRUE)
 
 
 
@@ -438,6 +429,7 @@ tmap_save(
   insets_tm = insetmap2,
   height = 7,
   width = 7,
+  dpi = 96,
   insets_vp = viewport(
     x = 0.175,
     y = 0.175,
@@ -448,19 +440,9 @@ tmap_save(
 
 hist2 <-
   paste0("./assets/img/archive_streets/", munic$LAU_CODE, "_streets.png")
-tmap_save(
-  tm = streetmap,
-  filename = hist2,
-  insets_tm = insetmap2,
-  height = 7,
-  width = 7,
-  insets_vp = viewport(
-    x = 0.18,
-    y = 0.19,
-    w = .35,
-    h = .35
-  )
-)
+  
+file.copy("./assets/img/munic-streets.png", hist2, overwrite = TRUE)
+
 
 # Plot the Journey ----
 
@@ -524,7 +506,8 @@ tmap_save(
   tm = journey,
   filename = "./assets/img/journey.png",
   height = 7,
-  width = 7
+  width = 7,
+  dpi = 96
 )
 
 # Clean ----
