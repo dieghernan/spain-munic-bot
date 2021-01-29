@@ -12107,7 +12107,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 03:19:29 CET
 </td>
 </tr>
 <tr>
@@ -19230,7 +19230,7 @@ Barcelona
 Cataluña
 </td>
 <td style="text-align:left;">
-2021-01-29 03:01:02 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -102785,7 +102785,7 @@ Segovia
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-29 03:12:37 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -130529,7 +130529,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-29 03:06:02 CET
+Not Executed
 </td>
 </tr>
 <tr>
