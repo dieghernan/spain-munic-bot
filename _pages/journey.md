@@ -9,19 +9,13 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3 places 🏙. 8.128 more to go 👍.
-
-The next table shows the summary of executions of the bot. Note that it
-is sorted by the latest date of execution (datetime).
+#### So far I have visited 4 places 🏙. 8.127 more to go 👍.
 
 <img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;">
 
-You can find the archive on [this
-folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img).
-The image uses the LAU CODE (similar to [INE
-codes](https://www.ine.es/daco/daco42/codmun/codmunmapa.htm)) for
-identifying the municipality (i.e. `28006_*.png` correspond to
-Alcobendas images, `28` being the code of Madrid province ).
+The next table shows the summary of executions of the bot. You would
+find a link to the hashtag that I used for labelling each town. Just
+follow the hashtag to see the map I tweeted.
 
 <table id="summary" class="nowrap table table-striped stripe table-sm display compact">
 <thead>
@@ -108729,10 +108723,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-Not Executed
+2021-01-30 00:45:00 CET
 </td>
 <td style="text-align:left;">
-NA
+<a href="https://twitter.com/search/?q=%23spainmunic37101">\#spainmunic37101</a>
 </td>
 <td style="text-align:left;">
 Cerralbo
