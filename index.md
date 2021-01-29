@@ -24,14 +24,14 @@ It tweets a map of a random Spanish town together with its name, province, and a
 
 ![last-map-satellite](/assets/img/munic-satellite.png)
 
-Last generated image: Satellite 
+Last tweeted image: Satellite 
 {: .caption}
 
 ### 🚶🏻‍♂️Street maps 
 
 ![last-map-streets](/assets/img/munic-streets.png)
 
-Last generated image: Streets
+Last tweeted image: Streets
 {: .caption}
 
 ## ✈️ The Journey
@@ -40,6 +40,8 @@ Last generated image: Streets
 
 Places I have visited 🇪🇸
 {: .caption}
+
+### See [here](https://dieghernan.github.io/spain-munic-bot/journey) the maps I have created 🗺
 
 ## 🙌🏻 Credits
 
