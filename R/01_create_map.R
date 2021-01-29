@@ -234,7 +234,7 @@ insetmap <- tm_shape(mapESP) +
   tm_shape(bboxCAN) +
   tm_lines(col = "grey75") +
   tm_shape(mapProv) +
-  tm_polygons("grey95") +
+  tm_fill("grey95") +
   tm_layout(
     design.mode = FALSE,
     asp = 1,
@@ -242,9 +242,9 @@ insetmap <- tm_shape(mapESP) +
     outer.margins = c(0, 0, 0, 0)
   ) +
   tm_shape(municinset) +
-  tm_symbols(col = "firebrick1",
-             size = 0.7,
-             border.col = "firebrick1")
+  tm_symbols(col = "red",
+             size = 0.6,
+             border.col = "red")
 
 tmap_save(
   tm = map,
@@ -409,7 +409,7 @@ insetmap2 <- tm_shape(mapESP) +
   tm_shape(bboxCAN) +
   tm_lines(col = "black") +
   tm_shape(mapProv) +
-  tm_polygons("grey85") +
+  tm_fill("grey95") +
   tm_layout(
     design.mode = FALSE,
     asp = 1,
@@ -417,9 +417,9 @@ insetmap2 <- tm_shape(mapESP) +
     outer.margins = c(0, 0, 0, 0)
   ) +
   tm_shape(municinset) +
-  tm_symbols(col = "firebrick1",
-             size = 0.7,
-             border.col = "firebrick1")
+  tm_symbols(col = "red",
+             size = 0.6,
+             border.col = "red")
 
 
 
