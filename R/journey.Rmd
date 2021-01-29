@@ -13,27 +13,45 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-The next table shows the summary of executions of the bot. Note that it is 
-sorted by the latest date of execution (datetime).
-
-<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" class="img-thumbnail" style="max-width: 50%;">
-
-You can find the archive on [this folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img). Note
-that the image uses the LAU CODE for identifying the municipality (i.e. 
-`46136_*.png` correspond to Godelleta images).
-
-
-```{r summary, echo=FALSE, message=FALSE, warning=FALSE}
+```{r count, message=FALSE, warning=FALSE, include=FALSE}
 
 library(mapSpain)
 library(sf)
 library(dplyr)
+
+datalog <-
+  read.csv2("../assets/datalog.csv",
+            sep = ",",
+            stringsAsFactors = FALSE) %>% select(LAU_CODE_NUM,
+                                                 datetime)
 
 data <- esp_get_munic(year = 2019,
                       cache_dir = "data",
                       moveCAN = FALSE) %>%
   st_drop_geometry() %>%
   mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
+
+been <- nrow(datalog)
+notbeen <- nrow(data) - been
+```
+
+## 🏙️ So far I have visited `r prettyNum(been, big.mark = ",", scientific = FALSE)` places
+
+### `r prettyNum(notbeen, big.mark = ",", scientific = FALSE)` more to go 👍.
+
+
+The next table shows the summary of executions of the bot. Note that it is 
+sorted by the latest date of execution (datetime).
+
+<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" class="img-thumbnail" style="max-width: 50%;">
+
+You can find the archive on [this folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img). 
+The image uses the LAU CODE (similar to [INE codes](https://www.ine.es/daco/daco42/codmun/codmunmapa.htm)) for identifying the municipality
+(i.e. `28006_*.png` correspond to Alcobendas images, `28` being the code of Madrid province ).
+
+
+```{r summary, echo=FALSE, message=FALSE, warning=FALSE}
+
 
 
 # LAU_CODE is INE CODE
@@ -58,12 +76,6 @@ data <- data %>%
          LAU_CODE,
          LAU_CODE_NUM,
          name)
-
-datalog <-
-  read.csv2("../assets/datalog.csv",
-            sep = ",",
-            stringsAsFactors = FALSE) %>% select(LAU_CODE_NUM,
-                                                 datetime)
 
 # Join
 
