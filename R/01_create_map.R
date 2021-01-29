@@ -228,13 +228,13 @@ municinset <- st_centroid(municinset, of_largest_polygon = TRUE)
 bboxCAN <- esp_get_can_box(moveCAN = c(13, 0), style = "left")
 
 insetmap <- tm_shape(mapESP) +
-  tm_polygons(col = "grey85", border.col = "grey85") +
+  tm_polygons(col = "grey75", border.col = "grey75") +
   tm_layout(frame = FALSE,
             bg.color = "transparent") +
   tm_shape(bboxCAN) +
-  tm_lines(col = "grey85") +
+  tm_lines(col = "grey75") +
   tm_shape(mapProv) +
-  tm_fill("grey90") +
+  tm_fill("grey85") +
   tm_layout(
     design.mode = FALSE,
     asp = 1,
@@ -409,7 +409,7 @@ insetmap2 <- tm_shape(mapESP) +
   tm_shape(bboxCAN) +
   tm_lines(col = "black") +
   tm_shape(mapProv) +
-  tm_fill("grey85") +
+  tm_fill("grey75") +
   tm_layout(
     design.mode = FALSE,
     asp = 1,
@@ -484,15 +484,15 @@ if (nrow(cent) > 1) {
   journey <- journey +
     tm_shape(line) +
     tm_lines("firebrick1",
-             alpha = 0.7)
+             alpha = 0.85)
 }
 
 # Add last point
 journey <- journey +  tm_shape(cent) +
   tm_symbols(
     col = "firebrick1",
-    size = 0.2,
-    alpha = 0.85,
+    size = 0.3,
+    alpha = 0.95,
     border.col = "transparent"
   ) +
   tm_shape(last) +
