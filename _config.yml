@@ -9,20 +9,17 @@ author:
   location: "Madrid, España"
 
 navbar:
-  expand: always
   brand:
     title: "🤖 Home"
-  nav:
-    - title: Gallery
-      child:
-        - title: "🌍 Satellite"
-          url: /satellite
-        - title: "🚶🏻‍♂️ Streets"
-          url: /streets
-        - title: "✈️ The Journey"
-          url: /journey
-    - title: "<i class='fab fa-github'></i>"
-      url: https://github.com/dieghernan/spain-munic-bot
+nav:
+  - title: "🌍 Satellite"
+    url: /satellite
+  - title: "🚶🏻‍♂️ Streets"
+    url: /streets
+  - title: "✈️ The Journey"
+    url: /journey
+  - title: "<i class='fab fa-github'></i>"
+    url: https://github.com/dieghernan/spain-munic-bot
 
 footer:
   links:

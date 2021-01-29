@@ -1,5 +1,5 @@
 ---
-title: The Journey
+title: "✈️ The Journey"
 subtitle: A summary with the codes and executions of the bot
 header_type: base
 permalink: /journey

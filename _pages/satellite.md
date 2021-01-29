@@ -1,10 +1,10 @@
 ---
-title: Satellite images
+title: "🌍 Satellite images"
 excerpt: Municipalities of Spain 
 header_type: base
 permalink: /satellite
 ---
 
-## 🌍 Maps created
+## 🗺 Maps created
 
 {% include_cached snippets/masonry.html internal="satellite"  index_sort_asc="false" index_items=30 %}
