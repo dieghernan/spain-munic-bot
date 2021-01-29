@@ -39,6 +39,8 @@ footer:
 chulapa-skin:
   autothemer: true
   skin: journal
+  vars: 
+    carousel-control-color: black
 
 defaults:
   - scope:
