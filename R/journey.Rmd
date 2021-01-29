@@ -65,9 +65,11 @@ cpro <- esp_codelist %>% select(cpro, prov.shortname.es) %>%
   unique()
 
 data <- data %>% left_join(codauto) %>% left_join(cpro)
+data$hashtag <-paste0("#spainmunic", data$LAU_CODE)
 
 data <- data %>%
   select(codauto,
+         hashtag,
          ccaa.shortname.es,
          cpro,
          prov.shortname.es,
@@ -82,7 +84,8 @@ data <- data %>%
 
 data[is.na(data$datetime),"datetime"] <- "Not Executed"
 
-data <- data %>% select(datetime, name, LAU_CODE, prov.shortname.es, ccaa.shortname.es) %>% arrange(LAU_CODE)
+data <- data %>% select(datetime, 
+hashtag, name, LAU_CODE, prov.shortname.es, ccaa.shortname.es) %>% arrange(LAU_CODE)
 
 
 knitr::kable(data, format = "html",
