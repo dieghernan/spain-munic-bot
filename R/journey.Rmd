@@ -33,9 +33,12 @@ data <- esp_get_munic(year = 2019,
 
 been <- nrow(datalog)
 notbeen <- nrow(data) - been
+been <- prettyNum(been, big.mark = ".", decimal.mark = ",")
+notbeen <- prettyNum(notbeen, big.mark = ".", decimal.mark = ",")
+
 ```
 
-#### So far I have visited `r prettyNum(been, big.mark = ",", scientific = FALSE)` places 🏙️ . `r prettyNum(notbeen, big.mark = ",", scientific = FALSE)` more to go 👍.
+#### So far I have visited `r been` places 🏙. `r notbeen` more to go 👍.
 
 
 The next table shows the summary of executions of the bot. Note that it is 

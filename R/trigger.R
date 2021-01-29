@@ -33,11 +33,11 @@ if (!dir.exists(output_dir)){
 
 source("R/01_create_map.R")
 
-
 library(rmarkdown)
 
 rmarkdown::render("R/journey.Rmd", output_dir = "_pages/",
                   output_format = "md_document")
+
 
 
 

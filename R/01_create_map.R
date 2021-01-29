@@ -10,7 +10,7 @@ library(slippymath)
 library(grid)
 library(rgdal)
 library(osmdata)
-
+library(rtweet)
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
@@ -63,15 +63,15 @@ if (file.exists("assets/datalog.csv")) {
   
 } else {
   # If it doesn't exist, create one empty
-  datalog <- data[1, ]
-  datalog[1,] <- "xxx"
+  datalog <- data[1,]
+  datalog[1, ] <- "xxx"
   datalog$datetime <- time
 }
 
 
 # 3. Select randomly after clean up ----
 
-data_filter <-  data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM, ]
+data_filter <-  data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM,]
 
 # Stop if we are done
 
@@ -82,22 +82,22 @@ if (nrow(data_filter) < 1) {
 
 sel <- round(runif(1, 1, nrow(data_filter)), 0)
 
-data_filter <- data_filter[sel,]
+data_filter <- data_filter[sel, ]
 
 # Get and register munic
-munic <- mapdata[mapdata$LAU_CODE == data_filter$LAU_CODE,]
+munic <- mapdata[mapdata$LAU_CODE == data_filter$LAU_CODE, ]
 
 
 
 df <- munic %>% st_drop_geometry() %>%
   mutate(datetime = time)
 
-message("Munic selected: ", 
+message("Munic selected: ",
         df$name,
         " ",
         df$LAU_CODE)
-        
-        
+
+
 
 # 3. Spatial operations ----
 
@@ -221,7 +221,7 @@ mapProv <- esp_get_prov(prov = munic$cpro, moveCAN = c(13, 0))
 
 
 municinset <- esp_get_munic(moveCAN = c(13, 0))
-municinset <- municinset[municinset$LAU_CODE == munic$LAU_CODE,]
+municinset <- municinset[municinset$LAU_CODE == munic$LAU_CODE, ]
 municinset <- st_centroid(municinset, of_largest_polygon = TRUE)
 
 
@@ -262,9 +262,11 @@ tmap_save(
 )
 
 hist <-
-  paste0("./assets/img/archive_satellite/", munic$LAU_CODE, "_satellite.png")
-  
-  
+  paste0("./assets/img/archive_satellite/",
+         munic$LAU_CODE,
+         "_satellite.png")
+
+
 file.copy("./assets/img/munic-satellite.png", hist, overwrite = TRUE)
 
 
@@ -364,42 +366,41 @@ streetmap <- tm_shape(munictransf2) +
 
 if (!is.null(river)) {
   river <- river %>%
-     st_transform(3857) %>%
-     st_intersection(munictransf2)
-     
+    st_transform(3857) %>%
+    st_intersection(munictransf2)
+  
   if (any(!st_is_empty(river))) {
-  streetmap <- streetmap +
-    tm_shape(river) +
-    tm_lines("#7fc0ff", 
-    lwd = 1.5, 
-    alpha = 0.8)
-    }
+    streetmap <- streetmap +
+      tm_shape(river) +
+      tm_lines("#7fc0ff",
+               lwd = 1.5,
+               alpha = 0.8)
+  }
 }
 
 if (!is.null(minor)) {
   minor <- minor %>%
-     st_transform(3857) %>%
-     st_intersection(munictransf2)
+    st_transform(3857) %>%
+    st_intersection(munictransf2)
   
   if (any(!st_is_empty(minor))) {
-  streetmap <- streetmap +
-    tm_shape(minor) +
-    tm_lines("grey30", lwd = 1)
-    }
+    streetmap <- streetmap +
+      tm_shape(minor) +
+      tm_lines("grey30", lwd = 1)
+  }
 }
 
 if (!is.null(major)) {
   major <- major %>%
-     st_transform(3857) %>%
-     st_intersection(munictransf2)
-     
+    st_transform(3857) %>%
+    st_intersection(munictransf2)
+  
   if (any(!st_is_empty(major))) {
-     
-  streetmap <- streetmap +
-    tm_shape(major) +
-    tm_lines(col = "black", 
-             lwd = 1.5)
-    }
+    streetmap <- streetmap +
+      tm_shape(major) +
+      tm_lines(col = "black",
+               lwd = 1.5)
+  }
 }
 
 insetmap2 <- tm_shape(mapESP) +
@@ -439,8 +440,10 @@ tmap_save(
 )
 
 hist2 <-
-  paste0("./assets/img/archive_streets/", munic$LAU_CODE, "_streets.png")
-  
+  paste0("./assets/img/archive_streets/",
+         munic$LAU_CODE,
+         "_streets.png")
+
 file.copy("./assets/img/munic-streets.png", hist2, overwrite = TRUE)
 
 
@@ -459,10 +462,10 @@ journerylog <- datalog %>% select(LAU_CODE_NUM) %>%
 municall <- municall %>% inner_join(journerylog) %>% arrange(order)
 cent <- st_centroid(municall, of_largest_polygon = TRUE)
 
-last <- cent[nrow(cent), ]
+last <- cent[nrow(cent),]
 
-line <- st_linestring(st_coordinates(cent)) %>% 
-st_sfc(crs = st_crs(cent))
+line <- st_linestring(st_coordinates(cent)) %>%
+  st_sfc(crs = st_crs(cent))
 
 
 
@@ -511,13 +514,91 @@ tmap_save(
   dpi = 96
 )
 
+
+# Tweet ----
+api_key <- Sys.getenv("TWITTER_API_KEY")
+api_secret_key <- Sys.getenv("TWITTER_API_SECRET")
+access_token <- Sys.getenv("TWITTER_ACCESS_TOKEN")
+access_token_secret <- Sys.getenv("TWITTER_ACCESS_TOKEN_SECRET")
+
+
+## authenticate via web browser
+token <- create_token(
+  app = "spainmunic",
+  consumer_key = api_key,
+  consumer_secret = api_secret_key,
+  access_token = access_token,
+  access_secret = access_token_secret
+)
+
+
+# Prepare tweet
+
+msg <-
+  paste0(munic$name, " (", sprintf("%05d", munic$LAU_CODE_NUM), ")")
+msg <-
+  paste(msg, munic$prov.shortname.es, munic$ccaa.shortname.es, sep = ", ")
+msg <- paste0(msg, " - ", ylab, " / ", xlab, " ")
+hash <-
+  paste0("#spainmunic", sprintf("%05d", munic$LAU_CODE_NUM), " ")
+
+msg <- paste0(msg, hash)
+msg
+
+
+46 %% 45
+addsat <- ifelse((nrow(datalog) %% 45) == 0,
+                 " Done in #rstats using #tmap, #rspatial, #mapSpain and #rtweet. ",
+                 " ")
+addstreet <- ifelse((nrow(datalog) %% 45) == 1,
+                    " Done in #rstats using #tmap, #osmdata, #rspatial, #mapSpain and #rtweet. ",
+                    " "
+)
+# Add credits
+addsat2 <- ifelse(nrow(datalog) %% 63 == 0,
+                  "Sources @IDEESpain",
+                  "")
+addstreet2 <- ifelse(nrow(datalog) %% 63 == 1,
+                     "Sources @openstreetmap",
+                     addsat)
+
+msgsatellite <- paste0(msg, addsat, addsat2)
+msgstreet <- paste0(msg, addstreet, addstreet2)
+
+# Tweet satellite
+
+post_tweet(msgsatellite, media = file.path("assets", "img", "munic-satellite.png"))
+message("Tweet satellite posted")
+message("Sleep for 10 seconds")
+# Sleep by 10 seconds----
+Sys.sleep(10)
+
+post_tweet(msgstreet, media = file.path("assets", "img", "munic-streets.png"))
+message("Tweet streets posted")
+
+if ((nrow(datalog) %% 50) == 0) {
+  Sys.sleep(20)
+  seen <- nrow(datalog)
+  left <- nrow(mapdata) - seen
+  seen <- prettyNum(seen, big.mark = ".", decimal.mark = ",")
+  left <- prettyNum(left, big.mark = ".", decimal.mark = ",")
+  msg <- paste0(
+    "Time to recap! ",
+    seen,
+    " places visited, ",
+    left,
+    " left. Check my journey so far #rspatial"
+  )
+  post_tweet(msg, media = file.path("assets", "img", "journey.png"))
+  message("Tweet summary posted")
+  
+}
+
 # Clean ----
 # Save datalog if everything was correct
-write.table(
-  datalog,
-  "./assets/datalog.csv",
-  sep = ",",
-  row.names = FALSE
-)
+write.table(datalog,
+            "./assets/datalog.csv",
+            sep = ",",
+            row.names = FALSE)
 
 rm(list = ls())

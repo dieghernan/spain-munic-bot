@@ -11,7 +11,7 @@ project_links:
 ## 🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action
 
 <div markdown="1" class="badges">
-![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/lasttweet/badge.svg)
+![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/last-tweet/badge.svg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/spainmunic?style=social)](https://twitter.com/spainmunic)
 [![ko-fi](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://ko-fi.com/dieghernan)
 </div>
