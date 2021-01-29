@@ -1,35 +1,34 @@
-remote_theme: dieghernan/chulapa   
-twitter_site            : spainmunic    
-baseurl                 : spain-munic-bot
-title                   : spain-munic-bot
-timezone                : "Europe/Madrid"
-og_image                : /assets/img/munic-streets.png
+remote_theme: dieghernan/chulapa
+twitter_site: spainmunic
+baseurl: spain-munic-bot
+title: spain-munic-bot
+timezone: "Europe/Madrid"
+og_image: /assets/img/munic-streets.png
 author:
-  name                  :  dieghernan
-  location              :  "Madrid, España"
+  name: dieghernan
+  location: "Madrid, España"
 
 navbar:
   expand: always
   brand:
-    title   :  Home
-    img: "./assets/icons/brand.png"
+    title: "🤖 Home"
   nav:
-  - title: Gallery
-    child:		
-     - title: "🌍 Satellite"		
-       url  : /satellite	
-     - title: "🚶🏻‍♂️ Streets"		
-       url  : /streets
-     - title: "✈️ The Journey" 		
-       url  : /journey
-  - title: "<i class='fab fa-github'></i>"
-    url: https://github.com/dieghernan/spain-munic-bot
+    - title: Gallery
+      child:
+        - title: "🌍 Satellite"
+          url: /satellite
+        - title: "🚶🏻‍♂️ Streets"
+          url: /streets
+        - title: "✈️ The Journey"
+          url: /journey
+    - title: "<i class='fab fa-github'></i>"
+      url: https://github.com/dieghernan/spain-munic-bot
 
 footer:
   links:
     - label: "StackOverflow"
       icon: "fab fa-stack-overflow"
-      url:  https://stackoverflow.com/users/7877917/dieghernan
+      url: https://stackoverflow.com/users/7877917/dieghernan
     - label: "GitHub"
       icon: "fab fa-github"
       url: https://github.com/dieghernan/
@@ -40,29 +39,26 @@ footer:
       icon: "fab fa-r-project"
       url: "https://rpubs.com/dieghernan"
 
-chulapa-skin: 
-  autothemer  :  true 
-  skin        : journal
-  
+chulapa-skin:
+  autothemer: true
+  skin: journal
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
       header_type: "base"
-      show_sociallinks  : true
-  -
-    scope:
+      show_sociallinks: true
+  - scope:
       path: "assets/img/archive_satellite"
     values:
-      image_col         : satellite
-  -
-    scope:
+      image_col: satellite
+  - scope:
       path: "assets/img/archive_streets"
     values:
-      image_col         : streets
-  
+      image_col: streets
+
 compress_html:
   clippings: all
   blanklines: true
@@ -79,9 +75,16 @@ exclude:
   - R/
   - data/
   - LICENSE
-  
+
 include:
   - _pages
+
+# XX. Other settings - no need to modify
+
+compress_html:
+  clippings: all
+  blanklines: true
+
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -92,11 +95,13 @@ kramdown:
   hard_wrap: false
   auto_ids: true
   footnote_nr: 1
-  footnote_backlink: '&uarr;'
+  footnote_backlink: "&uarr;"
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  
 sass:
   sass_dir: _sass
   style: compressed
+
