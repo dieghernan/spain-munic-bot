@@ -22,7 +22,7 @@ navbar:
        url  : /streets
      - title: The Journey		
        url  : /journey
-  - title: "<i class="fab fa-github"></i>"
+  - title: "<i class='fab fa-github'></i>"
     url: https://github.com/dieghernan/spain-munic-bot
 
 footer:
