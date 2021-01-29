@@ -9,7 +9,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 44 places 🏙️ . 8,087 more to go 👍.
+#### So far I have visited 1 places 🏙. 8.130 more to go 👍.
 
 The next table shows the summary of executions of the bot. Note that it
 is sorted by the latest date of execution (datetime).
@@ -3389,10 +3389,10 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 08:39:46 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic03030">\#spainmunic03030</a>
+NA
 </td>
 <td style="text-align:left;">
 Benidoleig
@@ -5749,10 +5749,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 07:44:06 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic04007">\#spainmunic04007</a>
+NA
 </td>
 <td style="text-align:left;">
 Alcolea
@@ -6249,10 +6249,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 23:09:58 CET
 </td>
 <td style="text-align:left;">
-NA
+<a href="https://twitter.com/search/?q=%23spainmunic04033">\#spainmunic04033</a>
 </td>
 <td style="text-align:left;">
 Castro de Filabres
@@ -6989,10 +6989,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 13:31:04 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic04073">\#spainmunic04073</a>
+NA
 </td>
 <td style="text-align:left;">
 Paterna del Río
@@ -7929,10 +7929,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 15:17:32 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic05018">\#spainmunic05018</a>
+NA
 </td>
 <td style="text-align:left;">
 Avellaneda
@@ -11749,10 +11749,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 17:39:11 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic05225">\#spainmunic05225</a>
+NA
 </td>
 <td style="text-align:left;">
 Santa María del Berrocal
@@ -12369,10 +12369,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 13:21:37 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic05259">\#spainmunic05259</a>
+NA
 </td>
 <td style="text-align:left;">
 Villanueva del Aceral
@@ -13489,10 +13489,10 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 16:10:43 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic06043">\#spainmunic06043</a>
+NA
 </td>
 <td style="text-align:left;">
 Don Álvaro
@@ -14229,10 +14229,10 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 03:19:29 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic06080">\#spainmunic06080</a>
+NA
 </td>
 <td style="text-align:left;">
 Medellín
@@ -24909,10 +24909,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 08:06:06 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic09085">\#spainmunic09085</a>
+NA
 </td>
 <td style="text-align:left;">
 Castrillo de la Vega
@@ -25909,10 +25909,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 18:28:40 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic09154">\#spainmunic09154</a>
+NA
 </td>
 <td style="text-align:left;">
 Hacinas
@@ -29489,10 +29489,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 19:08:33 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic09398">\#spainmunic09398</a>
+NA
 </td>
 <td style="text-align:left;">
 Úrbel del Castillo
@@ -29629,10 +29629,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 12:55:16 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic09409">\#spainmunic09409</a>
+NA
 </td>
 <td style="text-align:left;">
 Valle de Manzanedo
@@ -35329,10 +35329,10 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 19:05:47 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic10903">\#spainmunic10903</a>
+NA
 </td>
 <td style="text-align:left;">
 Alagón del Río
@@ -44729,10 +44729,10 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 17:57:24 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic16016">\#spainmunic16016</a>
+NA
 </td>
 <td style="text-align:left;">
 Almendros
@@ -53649,10 +53649,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 04:55:23 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic18003">\#spainmunic18003</a>
+NA
 </td>
 <td style="text-align:left;">
 Albolote
@@ -59629,10 +59629,10 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 05:55:45 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic19157">\#spainmunic19157</a>
+NA
 </td>
 <td style="text-align:left;">
 Jirueque
@@ -63549,10 +63549,10 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 15:45:32 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic20036">\#spainmunic20036</a>
+NA
 </td>
 <td style="text-align:left;">
 Hondarribia
@@ -64869,10 +64869,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 18:47:44 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic21014">\#spainmunic21014</a>
+NA
 </td>
 <td style="text-align:left;">
 Bonares
@@ -90709,10 +90709,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 03:40:31 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic29065">\#spainmunic29065</a>
+NA
 </td>
 <td style="text-align:left;">
 Júzcar
@@ -92609,10 +92609,10 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 16:20:30 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic31012">\#spainmunic31012</a>
+NA
 </td>
 <td style="text-align:left;">
 Allo
@@ -92689,10 +92689,10 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 04:19:57 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic31016">\#spainmunic31016</a>
+NA
 </td>
 <td style="text-align:left;">
 Ansoáin / Antsoain
@@ -93329,10 +93329,10 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 09:57:37 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic31048">\#spainmunic31048</a>
+NA
 </td>
 <td style="text-align:left;">
 Barillas
@@ -99989,10 +99989,10 @@ Asturias
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 10:23:19 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic33017">\#spainmunic33017</a>
+NA
 </td>
 <td style="text-align:left;">
 Castropol
@@ -101769,10 +101769,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 12:40:28 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic34037">\#spainmunic34037</a>
+NA
 </td>
 <td style="text-align:left;">
 Buenavista de Valdavia
@@ -107589,10 +107589,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 09:24:16 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic37033">\#spainmunic37033</a>
+NA
 </td>
 <td style="text-align:left;">
 Arcediano
@@ -111409,10 +111409,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 16:50:49 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic37241">\#spainmunic37241</a>
+NA
 </td>
 <td style="text-align:left;">
 Pelarrodríguez
@@ -112049,10 +112049,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 09:09:45 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic37273">\#spainmunic37273</a>
+NA
 </td>
 <td style="text-align:left;">
 Sagrada, La
@@ -118229,10 +118229,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 07:13:14 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic40053">\#spainmunic40053</a>
+NA
 </td>
 <td style="text-align:left;">
 Cerezo de Abajo
@@ -121149,10 +121149,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 17:31:58 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic40221">\#spainmunic40221</a>
+NA
 </td>
 <td style="text-align:left;">
 Valleruela de Sepúlveda
@@ -122729,10 +122729,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 06:20:26 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic41063">\#spainmunic41063</a>
+NA
 </td>
 <td style="text-align:left;">
 Molares, Los
@@ -125569,10 +125569,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 20:27:08 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic42116">\#spainmunic42116</a>
+NA
 </td>
 <td style="text-align:left;">
 Miño de San Esteban
@@ -133149,10 +133149,10 @@ Aragón
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 21:17:17 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic44126">\#spainmunic44126</a>
+NA
 </td>
 <td style="text-align:left;">
 Iglesuela del Cid, La
@@ -137689,10 +137689,10 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 03:49:27 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic45103">\#spainmunic45103</a>
+NA
 </td>
 <td style="text-align:left;">
 Mohedas de la Jara
@@ -139389,10 +139389,10 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 20:50:36 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic45189">\#spainmunic45189</a>
+NA
 </td>
 <td style="text-align:left;">
 Villamiel de Toledo
@@ -140149,10 +140149,10 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 14:56:24 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic46021">\#spainmunic46021</a>
+NA
 </td>
 <td style="text-align:left;">
 Aldaia
@@ -140169,10 +140169,10 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 05:21:24 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic46022">\#spainmunic46022</a>
+NA
 </td>
 <td style="text-align:left;">
 Alfafar
@@ -140329,10 +140329,10 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 03:24:15 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic46030">\#spainmunic46030</a>
+NA
 </td>
 <td style="text-align:left;">
 Algimia de Alfara
@@ -146269,10 +146269,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 18:56:51 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic47061">\#spainmunic47061</a>
+NA
 </td>
 <td style="text-align:left;">
 Esguevillas de Esgueva
@@ -146749,10 +146749,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 09:18:01 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic47086">\#spainmunic47086</a>
+NA
 </td>
 <td style="text-align:left;">
 Medina de Rioseco
@@ -149529,10 +149529,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 14:35:15 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic47231">\#spainmunic47231</a>
+NA
 </td>
 <td style="text-align:left;">
 Zaratán
@@ -150969,10 +150969,10 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 14:02:30 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic48071">\#spainmunic48071</a>
+NA
 </td>
 <td style="text-align:left;">
 Muskiz
@@ -152929,10 +152929,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 08:57:18 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic49062">\#spainmunic49062</a>
+NA
 </td>
 <td style="text-align:left;">
 Espadañedo
@@ -158109,10 +158109,10 @@ Aragón
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 19:55:04 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic50069">\#spainmunic50069</a>
+NA
 </td>
 <td style="text-align:left;">
 Calcena
@@ -159209,10 +159209,10 @@ Aragón
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 06:49:25 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic50128">\#spainmunic50128</a>
+NA
 </td>
 <td style="text-align:left;">
 Isuerre
