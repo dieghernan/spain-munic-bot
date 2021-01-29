@@ -16,11 +16,11 @@ navbar:
   nav:
   - title: Gallery
     child:		
-     - title: Satellite		
+     - title: "&#127757; Satellite"		
        url  : /satellite	
-     - title: Streets		
+     - title: "&#128694; Streets"		
        url  : /streets
-     - title: The Journey		
+     - title: "&#9992; The Journey" 		
        url  : /journey
   - title: "<i class='fab fa-github'></i>"
     url: https://github.com/dieghernan/spain-munic-bot

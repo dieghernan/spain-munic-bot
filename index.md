@@ -33,7 +33,7 @@ Last generated image: Satellite
 Last generated image: Streets
 {: .caption}
 
-## ✈️ The journey of the 🤖
+## ✈️ The journey
 
 ![journey](/assets/img/journey.png)
 
