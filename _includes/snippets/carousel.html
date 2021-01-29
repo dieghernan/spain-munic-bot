@@ -16,7 +16,8 @@
 <!-- To be removed in production: RANDOM Generator -->
 {%- assign bricks = bricks | sample: bricks.size   -%}
 <!-- End -->
-<div id="chulapaCarousel" class="carousel slide border rounded" data-ride="carousel" data-interval="{{- interval -}}">
+<div id="chulapaCarousel" class="carousel slide" data-ride="carousel" data-interval="{{- interval -}}">
+  {% if include.indicators %}
   <ol class="carousel-indicators">
       {%- for brick in bricks limit: end -%}
 	  {% if forloop.first == true %}
@@ -26,6 +27,7 @@
 	  {% endif %}
       {%- endfor -%}
   </ol>	
+ {% endif %}
   <div class="carousel-inner">
   {%- for brick in bricks limit: end -%}
     {% if forloop.first == true %}
@@ -37,6 +39,7 @@
 	</div>  
   {%- endfor -%}
   </div>
+  {% if include.controls %}
   <a class="carousel-control-prev" href="#chulapaCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -45,5 +48,6 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+  {%- endif -%}
 </div>
 {%- endif -%}
