@@ -40,4 +40,18 @@ rmarkdown::render("R/journey.Rmd", output_dir = "_pages/",
 
 
 
+# Manage cache, keep only 20 random images
+f <- list.files(file.path("assets","img","archive_satellite"),
+                full.names = TRUE)
+fl <- length(f)
+d <- sample.int(fl,min(fl,20))
+fd <- f[-d]
+file.remove(fd)
+rm(list = ls())
 
+f <- list.files(file.path("assets","img","archive_streets"),
+                full.names = TRUE)
+fl <- length(f)
+d <- sample.int(fl,min(fl,20))
+fd <- f[-d]
+file.remove(fd)
