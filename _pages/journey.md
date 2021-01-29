@@ -6249,10 +6249,10 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
-2021-01-29 23:09:58 CET
+Not Executed
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic04033">\#spainmunic04033</a>
+NA
 </td>
 <td style="text-align:left;">
 Castro de Filabres
@@ -129429,10 +129429,10 @@ Cataluña
 </tr>
 <tr>
 <td style="text-align:left;">
-Not Executed
+2021-01-30 00:05:21 CET
 </td>
 <td style="text-align:left;">
-NA
+<a href="https://twitter.com/search/?q=%23spainmunic43110">\#spainmunic43110</a>
 </td>
 <td style="text-align:left;">
 Pobla de Massaluca, La
