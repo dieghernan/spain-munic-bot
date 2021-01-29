@@ -41,7 +41,7 @@ notbeen <- nrow(data) - been
 The next table shows the summary of executions of the bot. Note that it is 
 sorted by the latest date of execution (datetime).
 
-<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" class="img-thumbnail" style="max-width: 50%;">
+<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;">
 
 You can find the archive on [this folder](https://github.com/dieghernan/spain-munic-bot/tree/main/assets/img). 
 The image uses the LAU CODE (similar to [INE codes](https://www.ine.es/daco/daco42/codmun/codmunmapa.htm)) for identifying the municipality
@@ -65,16 +65,17 @@ cpro <- esp_codelist %>% select(cpro, prov.shortname.es) %>%
   unique()
 
 data <- data %>% left_join(codauto) %>% left_join(cpro)
-data$hashtag <-paste0("spainmunic", data$LAU_CODE)
+
+# Create hashtag
+datalog$hashtag <-paste0("spainmunic", datalog$LAU_CODE)
 
 # compose url
-data$hashtag <- paste0('<a href="https://twitter.com/search/?q=%23',data$hashtag,
+datalog$hashtag <- paste0('<a href="https://twitter.com/search/?q=%23',datalog$hashtag,
 '">#',
-data$hashtag,"</a>")
+datalog$hashtag,"</a>")
 
 data <- data %>%
   select(codauto,
-         hashtag,
          ccaa.shortname.es,
          cpro,
          prov.shortname.es,

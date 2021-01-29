@@ -1,6 +1,6 @@
 # spain-munic-bot 🇪🇸🤖
 
-![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/tweet-maps/badge.svg)
+![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/lasttweet/badge.svg)
 [![Twitter Follow](https://img.shields.io/twitter/follow/spainmunic?style=social)](https://twitter.com/spainmunic)
 
 A Twitter bot written in R, see <https://twitter.com/spainmunic> for actual tweets.

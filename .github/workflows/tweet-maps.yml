@@ -1,4 +1,4 @@
-name: tweet-maps
+name: lasttweet
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
   
 
 jobs:
-  tweet-maps:
+  lasttweet:
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v2
