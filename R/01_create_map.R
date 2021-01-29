@@ -483,21 +483,21 @@ journey <- tm_shape(mapESP) +
 if (nrow(cent) > 1) {
   journey <- journey +
     tm_shape(line) +
-    tm_lines("firebrick1",
+    tm_lines("red",
              alpha = 0.85)
 }
 
 # Add last point
 journey <- journey +  tm_shape(cent) +
   tm_symbols(
-    col = "firebrick1",
-    size = 0.3,
+    col = "red",
+    size = 0.4,
     alpha = 0.95,
-    border.col = "transparent"
+    border.col = "black"
   ) +
   tm_shape(last) +
   tm_text("name",
-          size = 1,
+          size = 1.5,
           shadow = TRUE,
           auto.placement = TRUE)
 
