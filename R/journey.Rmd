@@ -68,7 +68,7 @@ data <- data %>% left_join(codauto) %>% left_join(cpro)
 data$hashtag <-paste0("#spainmunic", data$LAU_CODE)
 
 # compose url
-data$hashtag <- paste0("<a href='https://www.w3schools.com'>",
+data$hashtag <- paste0('<a href="https://www.w3schools.com">',
 data$hashtag,"</a>")
 
 data <- data %>%
@@ -95,7 +95,7 @@ hashtag, name, LAU_CODE, prov.shortname.es, ccaa.shortname.es) %>% arrange(LAU_C
 knitr::kable(data, format = "html",
              row.names = FALSE,
              col.names = gsub("_","",colnames(data)),
-             escape = TRUE,
+             escape = FALSE,
              table.attr = c("id=\"summary\" class=\"nowrap table table-striped stripe table-sm display compact\""))
 
 
