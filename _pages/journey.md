@@ -6038,7 +6038,7 @@ Almería
 Andalucía
 </td>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 02:24:31 CET
 </td>
 </tr>
 <tr>
@@ -10441,7 +10441,7 @@ Vega de Santa María
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-28 21:15:54 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -16034,7 +16034,7 @@ Barcelona
 Cataluña
 </td>
 <td style="text-align:left;">
-2021-01-28 20:55:54 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -23225,7 +23225,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-28 19:53:08 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -25112,7 +25112,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-28 21:51:53 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -26149,7 +26149,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-28 18:16:00 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -39494,7 +39494,7 @@ Cuenca
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
-2021-01-28 18:34:52 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -39970,7 +39970,7 @@ Cuenca
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
-2021-01-28 19:12:25 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -40718,7 +40718,7 @@ Cuenca
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
-2021-01-29 02:03:18 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -43302,7 +43302,7 @@ Gerona
 Cataluña
 </td>
 <td style="text-align:left;">
-2021-01-28 23:13:26 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -45427,7 +45427,7 @@ Gerona
 Cataluña
 </td>
 <td style="text-align:left;">
-2021-01-28 17:23:23 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -48300,7 +48300,7 @@ Granada
 Andalucía
 </td>
 <td style="text-align:left;">
-2021-01-29 01:05:52 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -52363,7 +52363,7 @@ Guadalajara
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
-2021-01-29 02:11:11 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -54386,7 +54386,7 @@ Guipúzcoa
 País Vasco
 </td>
 <td style="text-align:left;">
-2021-01-28 22:34:13 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -57174,7 +57174,7 @@ Huesca
 Aragón
 </td>
 <td style="text-align:left;">
-2021-01-28 17:43:05 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -63753,7 +63753,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-28 22:24:08 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -67884,7 +67884,7 @@ Lérida
 Cataluña
 </td>
 <td style="text-align:left;">
-2021-01-28 17:54:33 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -74038,7 +74038,7 @@ Madrid
 Madrid
 </td>
 <td style="text-align:left;">
-2021-01-28 22:13:46 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -79495,7 +79495,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
-2021-01-28 21:27:54 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -93350,7 +93350,7 @@ Salamanca
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-29 00:41:18 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -111591,7 +111591,7 @@ Teruel
 Aragón
 </td>
 <td style="text-align:left;">
-2021-01-28 20:34:43 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -113206,7 +113206,7 @@ Teruel
 Aragón
 </td>
 <td style="text-align:left;">
-2021-01-28 22:57:11 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -131124,7 +131124,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-01-28 23:40:43 CET
+Not Executed
 </td>
 </tr>
 <tr>
