@@ -1,5 +1,5 @@
 ---
-title: The Journey
+title: "✈️ The Journey"
 subtitle: A summary with the codes and executions of the bot
 header_type: base
 permalink: /journey
@@ -86516,7 +86516,7 @@ Palencia
 Castilla y León
 </td>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 12:40:28 CET
 </td>
 </tr>
 <tr>
