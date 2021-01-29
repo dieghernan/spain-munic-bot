@@ -5086,7 +5086,7 @@ Almería
 Andalucía
 </td>
 <td style="text-align:left;">
-2021-01-29 02:48:13 CET
+Not Executed
 </td>
 </tr>
 <tr>
@@ -19230,7 +19230,7 @@ Barcelona
 Cataluña
 </td>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 03:01:02 CET
 </td>
 </tr>
 <tr>
@@ -74276,7 +74276,7 @@ Madrid
 Madrid
 </td>
 <td style="text-align:left;">
-2021-01-29 02:35:24 CET
+Not Executed
 </td>
 </tr>
 <tr>
