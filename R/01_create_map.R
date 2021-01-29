@@ -228,13 +228,13 @@ municinset <- st_centroid(municinset, of_largest_polygon = TRUE)
 bboxCAN <- esp_get_can_box(moveCAN = c(13, 0), style = "left")
 
 insetmap <- tm_shape(mapESP) +
-  tm_polygons(col = "grey75", border.col = "grey75") +
+  tm_polygons(col = "grey85", border.col = "grey85") +
   tm_layout(frame = FALSE,
             bg.color = "transparent") +
   tm_shape(bboxCAN) +
-  tm_lines(col = "grey75") +
+  tm_lines(col = "grey85") +
   tm_shape(mapProv) +
-  tm_fill("grey95") +
+  tm_fill("grey90") +
   tm_layout(
     design.mode = FALSE,
     asp = 1,
@@ -254,8 +254,8 @@ tmap_save(
   width = 7,
   dpi = 96,
   insets_vp = viewport(
-    x = 0.175,
-    y = 0.175,
+    x = 0.18,
+    y = 0.18,
     w = .35,
     h = .35
   )
@@ -409,7 +409,7 @@ insetmap2 <- tm_shape(mapESP) +
   tm_shape(bboxCAN) +
   tm_lines(col = "black") +
   tm_shape(mapProv) +
-  tm_fill("grey95") +
+  tm_fill("grey85") +
   tm_layout(
     design.mode = FALSE,
     asp = 1,
@@ -431,8 +431,8 @@ tmap_save(
   width = 7,
   dpi = 96,
   insets_vp = viewport(
-    x = 0.175,
-    y = 0.175,
+    x = 0.18,
+    y = 0.18,
     w = .35,
     h = .35
   )
