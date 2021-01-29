@@ -255,7 +255,7 @@ tmap_save(
   dpi = 96,
   insets_vp = viewport(
     x = 0.18,
-    y = 0.18,
+    y = 0.175,
     w = .35,
     h = .35
   )
@@ -432,7 +432,7 @@ tmap_save(
   dpi = 96,
   insets_vp = viewport(
     x = 0.18,
-    y = 0.18,
+    y = 0.175,
     w = .35,
     h = .35
   )
@@ -461,8 +461,8 @@ cent <- st_centroid(municall, of_largest_polygon = TRUE)
 
 last <- cent[nrow(cent), ]
 
-line <-
-  st_linestring(st_coordinates(cent)) %>% st_sfc(crs = st_crs(cent))
+line <- st_linestring(st_coordinates(cent)) %>% 
+st_sfc(crs = st_crs(cent))
 
 
 
@@ -497,7 +497,7 @@ journey <- journey +  tm_shape(cent) +
   ) +
   tm_shape(last) +
   tm_text("name",
-          size = 0.7,
+          size = 1,
           shadow = TRUE,
           auto.placement = TRUE)
 
