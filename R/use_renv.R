@@ -4,3 +4,4 @@ install.packages("renv")
 renv::status()
 renv::snapshot()
 
+renv::restore()
