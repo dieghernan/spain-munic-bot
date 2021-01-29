@@ -69,7 +69,7 @@ data$hashtag <-paste0("spainmunic", data$LAU_CODE)
 
 # compose url
 data$hashtag <- paste0('<a href="https://twitter.com/search/?q=%23',data$hashtag,
-'">\\#',
+'">#',
 data$hashtag,"</a>")
 
 data <- data %>%
@@ -95,7 +95,7 @@ hashtag, name, LAU_CODE, prov.shortname.es, ccaa.shortname.es) %>% arrange(LAU_C
 
 knitr::kable(data, format = "html",
              row.names = FALSE,
-             col.names = gsub("_","\\_",colnames(data)),
+             col.names = gsub("_","",colnames(data)),
              escape = FALSE,
              table.attr = c("id=\"summary\" class=\"nowrap table table-striped stripe table-sm display compact\""))
 
