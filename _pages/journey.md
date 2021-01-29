@@ -9,7 +9,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 39 places 🏙️ . 8,092 more to go 👍.
+#### So far I have visited 40 places 🏙️ . 8,091 more to go 👍.
 
 The next table shows the summary of executions of the bot. Note that it
 is sorted by the latest date of execution (datetime).
@@ -29489,10 +29489,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 19:08:33 CET
 </td>
 <td style="text-align:left;">
-NA
+<a href="https://twitter.com/search/?q=%23spainmunic9398">\#spainmunic9398</a>
 </td>
 <td style="text-align:left;">
 Úrbel del Castillo
