@@ -7,4 +7,6 @@ permalink: /streets
 
 ## 🗺 Maps created
 
+😉 A sample of street maps created.
+
 {% include_cached snippets/carousel.html internal="streets" index_sort_asc="false" controls="true" interval=2500 index_items=30 %}
