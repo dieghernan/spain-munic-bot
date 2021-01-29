@@ -9,7 +9,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 41 places 🏙️ . 8,090 more to go 👍.
+#### So far I have visited 42 places 🏙️ . 8,089 more to go 👍.
 
 The next table shows the summary of executions of the bot. Note that it
 is sorted by the latest date of execution (datetime).
@@ -3392,7 +3392,7 @@ Comunidad Valenciana
 2021-01-29 08:39:46 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic3030">\#spainmunic3030</a>
+<a href="https://twitter.com/search/?q=%23spainmunic03030">\#spainmunic03030</a>
 </td>
 <td style="text-align:left;">
 Benidoleig
@@ -5752,7 +5752,7 @@ Andalucía
 2021-01-29 07:44:06 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic4007">\#spainmunic4007</a>
+<a href="https://twitter.com/search/?q=%23spainmunic04007">\#spainmunic04007</a>
 </td>
 <td style="text-align:left;">
 Alcolea
@@ -6992,7 +6992,7 @@ Andalucía
 2021-01-29 13:31:04 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic4073">\#spainmunic4073</a>
+<a href="https://twitter.com/search/?q=%23spainmunic04073">\#spainmunic04073</a>
 </td>
 <td style="text-align:left;">
 Paterna del Río
@@ -7932,7 +7932,7 @@ Castilla y León
 2021-01-29 15:17:32 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic5018">\#spainmunic5018</a>
+<a href="https://twitter.com/search/?q=%23spainmunic05018">\#spainmunic05018</a>
 </td>
 <td style="text-align:left;">
 Avellaneda
@@ -11752,7 +11752,7 @@ Castilla y León
 2021-01-29 17:39:11 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic5225">\#spainmunic5225</a>
+<a href="https://twitter.com/search/?q=%23spainmunic05225">\#spainmunic05225</a>
 </td>
 <td style="text-align:left;">
 Santa María del Berrocal
@@ -12372,7 +12372,7 @@ Castilla y León
 2021-01-29 13:21:37 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic5259">\#spainmunic5259</a>
+<a href="https://twitter.com/search/?q=%23spainmunic05259">\#spainmunic05259</a>
 </td>
 <td style="text-align:left;">
 Villanueva del Aceral
@@ -13492,7 +13492,7 @@ Extremadura
 2021-01-29 16:10:43 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic6043">\#spainmunic6043</a>
+<a href="https://twitter.com/search/?q=%23spainmunic06043">\#spainmunic06043</a>
 </td>
 <td style="text-align:left;">
 Don Álvaro
@@ -14232,7 +14232,7 @@ Extremadura
 2021-01-29 03:19:29 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic6080">\#spainmunic6080</a>
+<a href="https://twitter.com/search/?q=%23spainmunic06080">\#spainmunic06080</a>
 </td>
 <td style="text-align:left;">
 Medellín
@@ -24912,7 +24912,7 @@ Castilla y León
 2021-01-29 08:06:06 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic9085">\#spainmunic9085</a>
+<a href="https://twitter.com/search/?q=%23spainmunic09085">\#spainmunic09085</a>
 </td>
 <td style="text-align:left;">
 Castrillo de la Vega
@@ -25912,7 +25912,7 @@ Castilla y León
 2021-01-29 18:28:40 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic9154">\#spainmunic9154</a>
+<a href="https://twitter.com/search/?q=%23spainmunic09154">\#spainmunic09154</a>
 </td>
 <td style="text-align:left;">
 Hacinas
@@ -29492,7 +29492,7 @@ Castilla y León
 2021-01-29 19:08:33 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic9398">\#spainmunic9398</a>
+<a href="https://twitter.com/search/?q=%23spainmunic09398">\#spainmunic09398</a>
 </td>
 <td style="text-align:left;">
 Úrbel del Castillo
@@ -29632,7 +29632,7 @@ Castilla y León
 2021-01-29 12:55:16 CET
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic9409">\#spainmunic9409</a>
+<a href="https://twitter.com/search/?q=%23spainmunic09409">\#spainmunic09409</a>
 </td>
 <td style="text-align:left;">
 Valle de Manzanedo
@@ -125569,10 +125569,10 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-Not Executed
+2021-01-29 20:27:08 CET
 </td>
 <td style="text-align:left;">
-NA
+<a href="https://twitter.com/search/?q=%23spainmunic42116">\#spainmunic42116</a>
 </td>
 <td style="text-align:left;">
 Miño de San Esteban
