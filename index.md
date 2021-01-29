@@ -8,7 +8,7 @@ project_links:
       label: See on Github
 ---
 
-## 📍🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action
+## 🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action
 
 <div markdown="1" class="badges">
 ![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/tweet-maps/badge.svg)
