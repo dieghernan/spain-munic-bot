@@ -9,14 +9,14 @@
 {%- elsif include.external -%}
   {%- assign bricks = include.external | strip_newlines | replace: " " , "" |split: ","  -%}
 {%- endif -%}
-{%- assign interval =   include.interval | default: 2500   -%}
+{%- assign interval =   include.interval | default: 5000   -%}
 {%- assign end =   include.index_items | default: 100   -%}
 
 {%- if bricks -%}
 <!-- To be removed in production: RANDOM Generator -->
 {%- assign bricks = bricks | sample: bricks.size   -%}
 <!-- End -->
-<div id="chulapaCarousel" class="carousel slide" data-ride="carousel" data-interval="{{- interval -}}">
+<div id="chulapaCarousel" class="carousel slide border rounded" data-ride="carousel" data-interval="{{- interval -}}">
   <ol class="carousel-indicators">
       {%- for brick in bricks limit: end -%}
 	  {% if forloop.first == true %}
