@@ -65,10 +65,11 @@ cpro <- esp_codelist %>% select(cpro, prov.shortname.es) %>%
   unique()
 
 data <- data %>% left_join(codauto) %>% left_join(cpro)
-data$hashtag <-paste0("#spainmunic", data$LAU_CODE)
+data$hashtag <-paste0("spainmunic", data$LAU_CODE)
 
 # compose url
-data$hashtag <- paste0('<a href="https://www.w3schools.com">',
+data$hashtag <- paste0('<a href="https://twitter.com/search/?q=%23',data$hashtag,
+'">&num;',
 data$hashtag,"</a>")
 
 data <- data %>%
