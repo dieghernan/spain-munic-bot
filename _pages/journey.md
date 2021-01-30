@@ -11,6 +11,8 @@ output:
 
 #### So far I have visited 4 places 🏙. 8.127 more to go 👍.
 
+I think I would finish tweeting on **2021-07-18**.
+
 <img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;">
 
 The next table shows the summary of executions of the bot. You would
