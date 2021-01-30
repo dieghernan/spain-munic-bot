@@ -3,7 +3,7 @@ name: last-tweet
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '1,31 * * * *'
+    - cron:  '1,21,41 * * * *'
   
 
 jobs:

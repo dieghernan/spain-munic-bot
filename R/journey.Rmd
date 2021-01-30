@@ -36,7 +36,7 @@ notbeen <- nrow(data) - been
 
 # Assuming cron in minutes
 
-cron <- 30
+cron <- 20
 
 daysleft <- as.integer(notbeen / (24*60/cron))
 
