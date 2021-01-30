@@ -9,7 +9,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 8 places 🏙. 8.123 more to go 👍.
+#### So far I have visited 9 places 🏙. 8.122 more to go 👍.
 
 I think I would finish tweeting on **2021-05-22**.
 
@@ -25716,6 +25716,7 @@ Castilla y León
 San Adrián de Juarros
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09335">\#spainmunic09335</a>
 </td>
 <td style="text-align:left;">
 09335
@@ -25727,6 +25728,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-01-30 04:26:22 CET
 </td>
 </tr>
 <tr>
