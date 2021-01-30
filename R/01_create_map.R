@@ -520,8 +520,8 @@ api_key <- Sys.getenv("TWITTER_API_KEY")
 api_secret_key <- Sys.getenv("TWITTER_API_SECRET")
 access_token <- Sys.getenv("TWITTER_ACCESS_TOKEN")
 access_token_secret <- Sys.getenv("TWITTER_ACCESS_TOKEN_SECRET")
-
-
+message("Sleep 10 seconds")
+Sys.sleep(10)
 ## authenticate via web browser
 token <- create_token(
   app = "spainmunic",
@@ -543,10 +543,7 @@ hash <-
   paste0("#spainmunic", sprintf("%05d", munic$LAU_CODE_NUM), " ")
 
 msg <- paste0(msg, hash)
-msg
 
-
-46 %% 45
 addsat <- ifelse((nrow(datalog) %% 45) == 0,
                  " Done in #rstats using #tmap, #rspatial, #mapSpain and #rtweet. ",
                  " ")
