@@ -33,6 +33,17 @@ data <- esp_get_munic(year = 2019,
 
 been <- nrow(datalog)
 notbeen <- nrow(data) - been
+
+# Assuming cron in minutes
+
+cron <- 30
+
+daysleft <- as.integer(notbeen / (24*60/cron))
+
+d <- as.character(Sys.Date() + daysleft)
+ 
+ 
+
 been <- prettyNum(been, big.mark = ".", decimal.mark = ",")
 notbeen <- prettyNum(notbeen, big.mark = ".", decimal.mark = ",")
 
@@ -40,6 +51,7 @@ notbeen <- prettyNum(notbeen, big.mark = ".", decimal.mark = ",")
 
 #### So far I have visited `r been` places 🏙. `r notbeen` more to go 👍.
 
+I think I would finish tweeting on **`r d`**.
 
 <img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;">
 
