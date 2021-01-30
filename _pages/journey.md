@@ -9,9 +9,9 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7 places 🏙. 8.124 more to go 👍.
+#### So far I have visited 8 places 🏙. 8.123 more to go 👍.
 
-I think I would finish tweeting on **2021-07-18**.
+I think I would finish tweeting on **2021-05-22**.
 
 <img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;">
 
@@ -143810,6 +143810,7 @@ Aragón
 Malón
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic50157">\#spainmunic50157</a>
 </td>
 <td style="text-align:left;">
 50157
@@ -143821,6 +143822,7 @@ Zaragoza
 Aragón
 </td>
 <td style="text-align:left;">
+2021-01-30 02:31:32 CET
 </td>
 </tr>
 <tr>
