@@ -101,8 +101,8 @@ data <- data %>%
 
 data[is.na(data$datetime),"datetime"] <- "Not Executed"
 
-data <- data %>% select(datetime, 
-hashtag, name, LAU_CODE, prov.shortname.es, ccaa.shortname.es) %>% arrange(LAU_CODE)
+data <- data %>% select(name, 
+hashtag, LAU_CODE, prov.shortname.es, ccaa.shortname.es, datetime) %>% arrange(LAU_CODE)
 
 
 knitr::kable(data, format = "html",
