@@ -31,7 +31,7 @@ if (!dir.exists(output_dir)){
 }
 
 
-#source("R/01_create_map.R")
+source("R/01_create_map.R")
 
 library(rmarkdown)
 
