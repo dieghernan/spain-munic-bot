@@ -9,7 +9,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 9 places 🏙. 8.122 more to go 👍.
+#### So far I have visited 10 places 🏙. 8.121 more to go 👍.
 
 I think I would finish tweeting on **2021-05-22**.
 
@@ -61448,6 +61448,7 @@ Aragón
 Jaca
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic22130">\#spainmunic22130</a>
 </td>
 <td style="text-align:left;">
 22130
@@ -61459,6 +61460,7 @@ Huesca
 Aragón
 </td>
 <td style="text-align:left;">
+2021-01-30 04:59:55 CET
 </td>
 </tr>
 <tr>
