@@ -98,9 +98,10 @@ data <- data %>%
 
 data <- data %>%
   left_join(datalog) 
+  
+data[is.na(data$datetime),"hashtag"] <- ""
 
 data[is.na(data$datetime),"datetime"] <- ""
-data[is.na(data$datetime),"hashtag"] <- ""
 
 data <- data %>% select(name, 
 hashtag, LAU_CODE, prov.shortname.es, ccaa.shortname.es, datetime) %>% arrange(LAU_CODE)
