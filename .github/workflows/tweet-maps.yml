@@ -29,18 +29,18 @@ jobs:
         if: startsWith(runner.os, 'Linux')    
         with:
           path: ~/.local/share/renv
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
-            ${{ runner.os }}-renv-
+            ${{ runner.os }}-renv2-
       
       - uses: actions/cache@v2
         name: Cache for macOS
         if: startsWith(runner.os, 'macOS')
         with:
           path: ~/Library/Application Support/renv
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
-            ${{ runner.os }}-renv-
+            ${{ runner.os }}-renv2-
       
       - uses: actions/cache@v2
         name: Cache for Windows
