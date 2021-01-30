@@ -9,7 +9,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4 places 🏙. 8.127 more to go 👍.
+#### So far I have visited 5 places 🏙. 8.126 more to go 👍.
 
 I think I would finish tweeting on **2021-07-18**.
 
@@ -137245,10 +137245,10 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
-Not Executed
+2021-01-30 01:50:29 CET
 </td>
 <td style="text-align:left;">
-NA
+<a href="https://twitter.com/search/?q=%23spainmunic45081">\#spainmunic45081</a>
 </td>
 <td style="text-align:left;">
 Illescas
