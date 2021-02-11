@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 750 places 🏙. 7.381 more to go 👍.
+#### So far I have visited 751 places 🏙. 7.380 more to go 👍.
 
 I think I would finish tweeting on **2021-06-02**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-02**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 9%;" aria-valuenow="9" aria-valuemin="0"
-aria-valuemax="100"> 9.22% </span>
+aria-valuemax="100"> 9.24% </span>
 </p>
 <!--/html_preserve-->
 
@@ -202,13 +202,13 @@ Extremadura
 Galicia
 </td>
 <td style="text-align:right;">
-31
+32
 </td>
 <td style="text-align:right;">
 313
 </td>
 <td style="text-align:right;">
-9
+10
 </td>
 </tr>
 <tr>
@@ -107980,11 +107980,13 @@ Galicia
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Meis
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic36028">\#spainmunic36028</a>
 </td>
 <td style="text-align:left;">
 36028
@@ -107996,6 +107998,7 @@ Pontevedra
 Galicia
 </td>
 <td style="text-align:left;">
+2021-02-11 16:52:43 CET
 </td>
 </tr>
 <tr>
