@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 755 places 🏙. 7.376 more to go 👍.
+#### So far I have visited 756 places 🏙. 7.375 more to go 👍.
 
 I think I would finish tweeting on **2021-06-07**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-07**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 9%;" aria-valuenow="9" aria-valuemin="0"
-aria-valuemax="100"> 9.29% </span>
+aria-valuemax="100"> 9.3% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-208
+209
 </td>
 <td style="text-align:right;">
 2248
@@ -155576,11 +155576,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Fresno de la Ribera
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49076">\#spainmunic49076</a>
 </td>
 <td style="text-align:left;">
 49076
@@ -155592,6 +155594,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-02-11 19:50:25 CET
 </td>
 </tr>
 <tr>
