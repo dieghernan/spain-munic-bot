@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 781 places 🏙. 7.350 more to go 👍.
+#### So far I have visited 782 places 🏙. 7.349 more to go 👍.
 
 I think I would finish tweeting on **2021-06-21**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-21**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 10%;" aria-valuenow="10" aria-valuemin="0"
-aria-valuemax="100"> 9.61% </span>
+aria-valuemax="100"> 9.62% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-36
+37
 </td>
 <td style="text-align:right;">
 388
@@ -35430,11 +35430,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Torrecillas de la Tiesa
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10186">\#spainmunic10186</a>
 </td>
 <td style="text-align:left;">
 10186
@@ -35446,6 +35448,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-02-12 08:37:24 CET
 </td>
 </tr>
 <tr>
