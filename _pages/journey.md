@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 791 places 🏙. 7.340 more to go 👍.
+#### So far I have visited 792 places 🏙. 7.339 more to go 👍.
 
-I think I would finish tweeting on **2021-06-20**.
+I think I would finish tweeting on **2021-06-21**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 10%;" aria-valuenow="10" aria-valuemin="0"
-aria-valuemax="100"> 9.73% </span>
+aria-valuemax="100"> 9.74% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-19
+20
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-6
+7
 </td>
 </tr>
 <tr>
@@ -94211,11 +94211,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Allín / Allin
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31011">\#spainmunic31011</a>
 </td>
 <td style="text-align:left;">
 31011
@@ -94227,6 +94229,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-12 11:55:05 CET
 </td>
 </tr>
 <tr>
