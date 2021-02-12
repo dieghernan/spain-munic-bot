@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 820 places 🏙. 7.311 more to go 👍.
+#### So far I have visited 821 places 🏙. 7.310 more to go 👍.
 
-I think I would finish tweeting on **2021-06-21**.
+I think I would finish tweeting on **2021-06-22**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 10%;" aria-valuenow="10" aria-valuemin="0"
-aria-valuemax="100"> 10.08% </span>
+aria-valuemax="100"> 10.1% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,13 +258,13 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-20
+21
 </td>
 <td style="text-align:right;">
 251
 </td>
 <td style="text-align:right;">
-7
+8
 </td>
 </tr>
 <tr>
@@ -64440,11 +64440,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Azkoitia
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic20017">\#spainmunic20017</a>
 </td>
 <td style="text-align:left;">
 20017
@@ -64456,6 +64458,7 @@ Guipúzcoa
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-02-12 23:22:36 CET
 </td>
 </tr>
 <tr>
