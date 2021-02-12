@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 806 places 🏙. 7.325 more to go 👍.
+#### So far I have visited 807 places 🏙. 7.324 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 10%;" aria-valuenow="10" aria-valuemin="0"
-aria-valuemax="100"> 9.91% </span>
+aria-valuemax="100"> 9.92% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-222
+223
 </td>
 <td style="text-align:right;">
 2248
@@ -12088,11 +12088,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 San Miguel de Corneja
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05217">\#spainmunic05217</a>
 </td>
 <td style="text-align:left;">
 05217
@@ -12104,6 +12106,7 @@ San Miguel de Corneja
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-02-12 17:31:28 CET
 </td>
 </tr>
 <tr>
