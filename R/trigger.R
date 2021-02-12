@@ -16,22 +16,6 @@ hlp_install("rgdal")
 hlp_install("osmdata")
 hlp_install("rmarkdown")
 
-output_dir <- file.path("assets", "img","archive_satellite")
-
-if (!dir.exists(output_dir)){
-  dir.create(output_dir, recursive = TRUE)
-} else {
-    print("Dir already exists!")
-}
-
-output_dir <- file.path("assets", "img","archive_streets")
-
-if (!dir.exists(output_dir)){
-  dir.create(output_dir, recursive = TRUE)
-} else {
-  print("Dir already exists!")
-}
-
 
 source("R/01_create_map.R")
 
@@ -43,23 +27,3 @@ library(rmarkdown)
 rmarkdown::render("R/journey.Rmd", output_dir = "_pages/",
                   output_format = "md_document", quiet = TRUE)
 
-
-
-# Manage cache, keep only 15 random images
-message("Manage cache")
-f <- list.files(file.path("assets","img","archive_satellite"),
-                full.names = TRUE)
-fl <- length(f)
-d <- sample.int(fl,min(fl,15))
-fd <- f[-d]
-message("Deleting ",fd," file")
-file.remove(fd)
-rm(list = ls())
-
-f <- list.files(file.path("assets","img","archive_streets"),
-                full.names = TRUE)
-fl <- length(f)
-d <- sample.int(fl,min(fl,15))
-fd <- f[-d]
-message("Deleting ",fd," file")
-file.remove(fd)

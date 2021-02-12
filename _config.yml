@@ -10,13 +10,10 @@ author:
   location: "Madrid, España"
 
 navbar:
+  expand: always
   brand:
     title: "🤖 Home"
   nav:
-    - title: "🌍 Satellite"
-      url: /satellite
-    - title: "🚶 Streets"
-      url: /streets
     - title: "✈️ The Journey"
       url: /journey
     - title: "📈 Activity"

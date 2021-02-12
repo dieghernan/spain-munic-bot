@@ -351,16 +351,6 @@ tmap_save(
   )
 )
 
-hist <-
-  paste0("./assets/img/archive_satellite/",
-         munic$LAU_CODE,
-         "_satellite.png")
-
-
-#file.copy("./assets/img/munic-satellite.png", hist, overwrite = TRUE)
-
-
-
 
 #6. OSM map----
 # https://github.com/danielredondo/30diasdegraficos/blob/master/scripts/18_mapa.R
@@ -577,14 +567,6 @@ tmap_save(
     h = .35
   )
 )
-
-hist2 <-
-  paste0("./assets/img/archive_streets/",
-         munic$LAU_CODE,
-         "_streets.png")
-
-#file.copy("./assets/img/munic-streets.png", hist2, overwrite = TRUE)
-
 
 #7. Plot the Journey ----
 
