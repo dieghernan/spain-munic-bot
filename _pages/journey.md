@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 849 places 🏙. 7.282 more to go 👍.
+#### So far I have visited 850 places 🏙. 7.281 more to go 👍.
 
 I think I would finish tweeting on **2021-06-14**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-14**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 10%;" aria-valuenow="10" aria-valuemin="0"
-aria-valuemax="100"> 10.44% </span>
+aria-valuemax="100"> 10.45% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-231
+232
 </td>
 <td style="text-align:right;">
 2248
@@ -148221,11 +148221,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Cabezón de Valderaduey
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic47028">\#spainmunic47028</a>
 </td>
 <td style="text-align:left;">
 47028
@@ -148237,6 +148239,7 @@ Valladolid
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-02-13 10:24:09 CET
 </td>
 </tr>
 <tr>
