@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 845 places 🏙. 7.286 more to go 👍.
+#### So far I have visited 846 places 🏙. 7.285 more to go 👍.
 
 I think I would finish tweeting on **2021-06-17**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-17**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 10%;" aria-valuenow="10" aria-valuemin="0"
-aria-valuemax="100"> 10.39% </span>
+aria-valuemax="100"> 10.4% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-230
+231
 </td>
 <td style="text-align:right;">
 2248
@@ -103442,11 +103442,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Barruelo de Santullán
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic34027">\#spainmunic34027</a>
 </td>
 <td style="text-align:left;">
 34027
@@ -103458,6 +103460,7 @@ Palencia
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-02-13 08:48:46 CET
 </td>
 </tr>
 <tr>
