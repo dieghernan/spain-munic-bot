@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 919 places 🏙. 7.212 more to go 👍.
+#### So far I have visited 920 places 🏙. 7.211 more to go 👍.
 
 I think I would finish tweeting on **2021-06-05**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-05**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 11%;" aria-valuenow="11" aria-valuemin="0"
-aria-valuemax="100"> 11.3% </span>
+aria-valuemax="100"> 11.31% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-253
+254
 </td>
 <td style="text-align:right;">
 2248
@@ -12395,11 +12395,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Serrada, La
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05232">\#spainmunic05232</a>
 </td>
 <td style="text-align:left;">
 05232
@@ -12411,6 +12413,7 @@ Serrada, La
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-02-14 12:17:03 CET
 </td>
 </tr>
 <tr>
