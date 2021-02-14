@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 916 places 🏙. 7.215 more to go 👍.
+#### So far I have visited 917 places 🏙. 7.214 more to go 👍.
 
 I think I would finish tweeting on **2021-06-05**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-05**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 11%;" aria-valuenow="11" aria-valuemin="0"
-aria-valuemax="100"> 11.27% </span>
+aria-valuemax="100"> 11.28% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-44
+45
 </td>
 <td style="text-align:right;">
 388
@@ -32168,11 +32168,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Arroyo de la Luz
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10021">\#spainmunic10021</a>
 </td>
 <td style="text-align:left;">
 10021
@@ -32184,6 +32186,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-02-14 11:20:52 CET
 </td>
 </tr>
 <tr>
