@@ -6,7 +6,7 @@ on:
 
 jobs:
   clear:
-    runs-on: macOS-latest
+    runs-on: windows-latest
     env:
       TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
       TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
