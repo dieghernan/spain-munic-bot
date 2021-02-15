@@ -42,7 +42,7 @@ jobs:
         name: Cache for Windows
         if: startsWith(runner.os, 'Windows')  
         with:
-          path: ~\AppData\Local\renv
+          path: C:\Users\runneradmin\AppData\Local\renv
           key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv-
