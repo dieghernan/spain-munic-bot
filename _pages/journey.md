@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 977 places 🏙. 7.154 more to go 👍.
+#### So far I have visited 978 places 🏙. 7.153 more to go 👍.
 
 I think I would finish tweeting on **2021-06-12**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-12**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 12%;" aria-valuenow="12" aria-valuemin="0"
-aria-valuemax="100"> 12.02% </span>
+aria-valuemax="100"> 12.03% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-31
+32
 </td>
 <td style="text-align:right;">
 272
@@ -95769,11 +95769,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Ziordia
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31073">\#spainmunic31073</a>
 </td>
 <td style="text-align:left;">
 31073
@@ -95785,6 +95787,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-15 11:55:26 CET
 </td>
 </tr>
 <tr>
