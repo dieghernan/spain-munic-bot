@@ -52,6 +52,7 @@ jobs:
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          print(renv::paths)
           renv::restore()
           
             
