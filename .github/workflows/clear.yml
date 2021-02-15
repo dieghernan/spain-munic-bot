@@ -14,6 +14,8 @@ jobs:
       TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
       RENV_PATHS_ROOT: ~/renv
       RENV_PATHS_CACHE: ~/renv/cache
+      RENV_PATHS_SOURCE: ~/renv/source
+      RENV_PATHS_BINARY: ~/renv/bin
     steps:
       - uses: actions/checkout@v2
         name: Checkout
@@ -45,9 +47,9 @@ jobs:
         if: startsWith(runner.os, 'Windows')  
         with:
           path: ~/renv 
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
-            ${{ runner.os }}-renv-
+            ${{ runner.os }}-renv2-
             
       - name: Restore packages
         shell: Rscript {0}
