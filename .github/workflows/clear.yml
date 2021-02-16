@@ -42,7 +42,7 @@ jobs:
         name: Cache for Windows
         if: startsWith(runner.os, 'Windows')  
         with:
-          path: ~\AppData\Local\renv 
+          path: c:/Users/runneradmin/AppData/Local/renv/ 
           key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv2-
@@ -58,8 +58,6 @@ jobs:
       - name: Run bot
         run: Rscript R/clear.R
 
-      - name: Fix path for Windows caching
-        if: runner.os == 'Windows'
-        run: echo "::add-path::C:/Program Files/Git/usr/bin"
+
 
    
