@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.054 places 🏙. 7.077 more to go 👍.
+#### So far I have visited 1.055 places 🏙. 7.076 more to go 👍.
 
-I think I would finish tweeting on **2021-06-06**.
+I think I would finish tweeting on **2021-06-10**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 13%;" aria-valuenow="13" aria-valuemin="0"
-aria-valuemax="100"> 12.96% </span>
+aria-valuemax="100"> 12.98% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-36
+37
 </td>
 <td style="text-align:right;">
 272
@@ -95729,11 +95729,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Caparroso
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31065">\#spainmunic31065</a>
 </td>
 <td style="text-align:left;">
 31065
@@ -95745,6 +95747,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-16 18:48:05 CET
 </td>
 </tr>
 <tr>
