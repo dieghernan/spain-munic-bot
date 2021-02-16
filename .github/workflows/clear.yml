@@ -6,16 +6,12 @@ on:
 
 jobs:
   clear:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
       TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
       TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
       TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-      RENV_PATHS_ROOT: ~/renv
-      RENV_PATHS_CACHE: ~/renv/cache
-      RENV_PATHS_SOURCE: ~/renv/source
-      RENV_PATHS_BINARY: ~/renv/bin
     steps:
       - uses: actions/checkout@v2
         name: Checkout
@@ -46,7 +42,7 @@ jobs:
         name: Cache for Windows
         if: startsWith(runner.os, 'Windows')  
         with:
-          path: ~/renv 
+          path: ~\AppData\Local\renv 
           key: ${{ runner.os }}-renv2-${{ hashFiles('**/renv.lock') }}
           restore-keys: |
             ${{ runner.os }}-renv2-
