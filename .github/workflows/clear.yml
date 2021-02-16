@@ -57,4 +57,9 @@ jobs:
             
       - name: Run bot
         run: Rscript R/clear.R
+
+      - name: Fix path for Windows caching
+        if: runner.os == 'Windows'
+        run: echo "::add-path::C:/Program Files/Git/usr/bin"
+
    
