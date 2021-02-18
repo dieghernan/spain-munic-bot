@@ -262,7 +262,7 @@ fact <-
 # Gif config
 gif_file <- file.path("assets", "gif", "lastgif")
 
-n_frames <- 180
+n_frames <- 100
 
 theta_val <-
   transition_values(
@@ -304,14 +304,14 @@ DEM_mat %>%
   plot_3d(DEM_mat, zscale = 5 + fact)
 
 # Render gif
-render_movie(
+render_gif(
   gif_file,
   title_text = title,
   title_position = "north",
   title_size = 16,
   type = "custom",
   frames = n_frames,
-  fps = 30,
+  fps = 20,
   phi = phi_val,
   zoom = zoom_val,
   theta = theta_val,
@@ -410,7 +410,7 @@ gifpath <- file.path("assets", "gif", "lastgif.gif")
 post_tweet("test", media = "assets/gif/lastgif.gif")
 message("Tweet satellite posted")
 
-length("assets/gif/lastgif.gif")
+
 
 
 
