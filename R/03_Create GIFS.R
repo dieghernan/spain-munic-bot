@@ -238,7 +238,7 @@ png(tmppng,
     height = dim(overlay_raster)[1],
     width = dim(overlay_raster)[2])
 par(mar = c(0, 0, 0, 0))
-plotRGB(overlay_raster, alpha = 0.8 * 255)
+plotRGB(overlay_raster, alpha = 200)
 plotRGB(mask, add = TRUE, bgalpha = 0)
 dev.off()
 
@@ -262,7 +262,7 @@ fact <-
 # Gif config
 gif_file <- file.path("assets", "gif", "lastgif")
 
-n_frames <- 100
+n_frames <- 10*5
 
 theta_val <-
   transition_values(
@@ -311,7 +311,7 @@ render_gif(
   title_size = 16,
   type = "custom",
   frames = n_frames,
-  fps = 20,
+  fps = 10,
   phi = phi_val,
   zoom = zoom_val,
   theta = theta_val,
@@ -379,6 +379,7 @@ sub <- paste(sub, collapse = ", ")
 
 msg <-
   paste(msg, sub, sep = ", ")
+msg <- paste0(msg, " - ", ylab, " / ", xlab, " ")
 hash <-
   paste0(" #spainmunic", sprintf("%05d", munic$LAU_CODE_NUM), " ")
 
@@ -407,11 +408,11 @@ gifpath <- file.path("assets", "gif", "lastgif.gif")
 
 
 
-post_tweet("test", media = "assets/gif/lastgif.gif")
+post_tweet(msggif, media = "assets/gif/lastgif.gif")
 message("Tweet satellite posted")
 
 
 
 
 
-#rm(list = ls())
+rm(list = ls())
