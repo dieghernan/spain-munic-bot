@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.165 places 🏙. 6.966 more to go 👍.
+#### So far I have visited 1.166 places 🏙. 6.965 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 14%;" aria-valuenow="14" aria-valuemin="0"
-aria-valuemax="100"> 14.33% </span>
+aria-valuemax="100"> 14.34% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-39
+40
 </td>
 <td style="text-align:right;">
 272
@@ -98997,11 +98997,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Salinas de Oro / Jaitz
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31214">\#spainmunic31214</a>
 </td>
 <td style="text-align:left;">
 31214
@@ -99013,6 +99015,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-18 13:54:20 CET
 </td>
 </tr>
 <tr>
