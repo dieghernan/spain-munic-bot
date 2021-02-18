@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.191 places 🏙. 6.940 more to go 👍.
+#### So far I have visited 1.192 places 🏙. 6.939 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 15%;" aria-valuenow="15" aria-valuemin="0"
-aria-valuemax="100"> 14.65% </span>
+aria-valuemax="100"> 14.66% </span>
 </p>
 <!--/html_preserve-->
 
@@ -160,7 +160,7 @@ Castilla-La Mancha
 Cataluña
 </td>
 <td style="text-align:right;">
-138
+139
 </td>
 <td style="text-align:right;">
 947
@@ -18569,11 +18569,13 @@ Cataluña
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Calaf
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic08031">\#spainmunic08031</a>
 </td>
 <td style="text-align:left;">
 08031
@@ -18585,6 +18587,7 @@ Barcelona
 Cataluña
 </td>
 <td style="text-align:left;">
+2021-02-18 23:54:47 CET
 </td>
 </tr>
 <tr>
