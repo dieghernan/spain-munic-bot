@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.368 places 🏙. 6.763 more to go 👍.
+#### So far I have visited 1.369 places 🏙. 6.762 more to go 👍.
 
 I think I would finish tweeting on **2021-06-06**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-06**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 17%;" aria-valuenow="17" aria-valuemin="0"
-aria-valuemax="100"> 16.82% </span>
+aria-valuemax="100"> 16.84% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-46
+47
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-16
+17
 </td>
 </tr>
 <tr>
@@ -100184,11 +100184,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villamayor de Monjardín
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31255">\#spainmunic31255</a>
 </td>
 <td style="text-align:left;">
 31255
@@ -100200,6 +100202,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-21 19:58:58 CET
 </td>
 </tr>
 <tr>
