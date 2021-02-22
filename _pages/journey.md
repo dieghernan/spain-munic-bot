@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.441 places 🏙. 6.690 more to go 👍.
+#### So far I have visited 1.442 places 🏙. 6.689 more to go 👍.
 
 I think I would finish tweeting on **2021-06-04**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-04**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 18%;" aria-valuenow="18" aria-valuemin="0"
-aria-valuemax="100"> 17.72% </span>
+aria-valuemax="100"> 17.73% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-49
+50
 </td>
 <td style="text-align:right;">
 272
@@ -99664,11 +99664,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Sartaguda
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31223">\#spainmunic31223</a>
 </td>
 <td style="text-align:left;">
 31223
@@ -99680,6 +99682,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-22 22:51:52 CET
 </td>
 </tr>
 <tr>
