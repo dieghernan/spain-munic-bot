@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.384 places 🏙. 6.747 more to go 👍.
+#### So far I have visited 1.385 places 🏙. 6.746 more to go 👍.
 
 I think I would finish tweeting on **2021-06-07**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-07**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 17%;" aria-valuenow="17" aria-valuemin="0"
-aria-valuemax="100"> 17.02% </span>
+aria-valuemax="100"> 17.03% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-64
+65
 </td>
 <td style="text-align:right;">
 388
@@ -13615,11 +13615,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Benquerencia de la Serena
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06018">\#spainmunic06018</a>
 </td>
 <td style="text-align:left;">
 06018
@@ -13631,6 +13633,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-02-22 01:41:51 CET
 </td>
 </tr>
 <tr>
