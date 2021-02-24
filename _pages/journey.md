@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.547 places 🏙. 6.584 more to go 👍.
+#### So far I have visited 1.548 places 🏙. 6.583 more to go 👍.
 
 I think I would finish tweeting on **2021-06-05**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-05**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 19%;" aria-valuenow="19" aria-valuemin="0"
-aria-valuemax="100"> 19.03% </span>
+aria-valuemax="100"> 19.04% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-55
+56
 </td>
 <td style="text-align:right;">
 272
@@ -99893,11 +99893,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Sorlada
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31225">\#spainmunic31225</a>
 </td>
 <td style="text-align:left;">
 31225
@@ -99909,6 +99911,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-24 15:24:14 CET
 </td>
 </tr>
 <tr>
