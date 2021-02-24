@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.537 places 🏙. 6.594 more to go 👍.
+#### So far I have visited 1.538 places 🏙. 6.593 more to go 👍.
 
-I think I would finish tweeting on **2021-06-09**.
+I think I would finish tweeting on **2021-06-08**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 19%;" aria-valuenow="19" aria-valuemin="0"
-aria-valuemax="100"> 18.9% </span>
+aria-valuemax="100"> 18.92% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-53
+54
 </td>
 <td style="text-align:right;">
 272
@@ -99715,11 +99715,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Sangüesa / Zangoza
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31216">\#spainmunic31216</a>
 </td>
 <td style="text-align:left;">
 31216
@@ -99731,6 +99733,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-02-24 11:42:29 CET
 </td>
 </tr>
 <tr>
