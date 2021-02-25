@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.609 places 🏙. 6.522 more to go 👍.
+#### So far I have visited 1.610 places 🏙. 6.521 more to go 👍.
 
 I think I would finish tweeting on **2021-06-06**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-06**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 20%;" aria-valuenow="20" aria-valuemin="0"
-aria-valuemax="100"> 19.79% </span>
+aria-valuemax="100"> 19.8% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-46
+47
 </td>
 <td style="text-align:right;">
 251
@@ -156603,11 +156603,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Ziortza-Bolibar
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic48915">\#spainmunic48915</a>
 </td>
 <td style="text-align:left;">
 48915
@@ -156619,6 +156621,7 @@ Vizcaya
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-02-25 15:52:16 CET
 </td>
 </tr>
 <tr>
