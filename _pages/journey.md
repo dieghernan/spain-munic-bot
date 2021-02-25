@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.598 places 🏙. 6.533 more to go 👍.
+#### So far I have visited 1.599 places 🏙. 6.532 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 20%;" aria-valuenow="20" aria-valuemin="0"
-aria-valuemax="100"> 19.65% </span>
+aria-valuemax="100"> 19.67% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-44
+45
 </td>
 <td style="text-align:right;">
 251
@@ -860,11 +860,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Leza
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01034">\#spainmunic01034</a>
 </td>
 <td style="text-align:left;">
 01034
@@ -876,6 +878,7 @@ Leza
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-02-25 11:58:51 CET
 </td>
 </tr>
 <tr>
