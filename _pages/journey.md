@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.687 places 🏙. 6.444 more to go 👍.
+#### So far I have visited 1.688 places 🏙. 6.443 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 21%;" aria-valuenow="21" aria-valuemin="0"
-aria-valuemax="100"> 20.75% </span>
+aria-valuemax="100"> 20.76% </span>
 </p>
 <!--/html_preserve-->
 
@@ -160,7 +160,7 @@ Castilla-La Mancha
 Cataluña
 </td>
 <td style="text-align:right;">
-210
+211
 </td>
 <td style="text-align:right;">
 947
@@ -22976,11 +22976,13 @@ Cataluña
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Sant Quirze de Besora
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic08237">\#spainmunic08237</a>
 </td>
 <td style="text-align:left;">
 08237
@@ -22992,6 +22994,7 @@ Barcelona
 Cataluña
 </td>
 <td style="text-align:left;">
+2021-02-26 23:55:37 CET
 </td>
 </tr>
 <tr>
