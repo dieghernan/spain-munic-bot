@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.633 places 🏙. 6.498 more to go 👍.
+#### So far I have visited 1.634 places 🏙. 6.497 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 20%;" aria-valuenow="20" aria-valuemin="0"
-aria-valuemax="100"> 20.08% </span>
+aria-valuemax="100"> 20.1% </span>
 </p>
 <!--/html_preserve-->
 
@@ -62,7 +62,7 @@ Andalucía
 Aragón
 </td>
 <td style="text-align:right;">
-139
+140
 </td>
 <td style="text-align:right;">
 731
@@ -138480,11 +138480,13 @@ Aragón
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Peñarroya de Tastavins
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic44179">\#spainmunic44179</a>
 </td>
 <td style="text-align:left;">
 44179
@@ -138496,6 +138498,7 @@ Teruel
 Aragón
 </td>
 <td style="text-align:left;">
+2021-02-26 01:42:18 CET
 </td>
 </tr>
 <tr>
