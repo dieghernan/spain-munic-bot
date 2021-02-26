@@ -28,7 +28,7 @@ square_bbox <- function(x, expand = .1) {
 }
 
 
-render_gif = function(filename,
+render_movie2 = function(filename,
                       type = "orbit",
                       frames = 360,
                       fps = 30,
@@ -92,8 +92,8 @@ render_gif = function(filename,
   } else {
     has_overlay = FALSE
   }
-  if (substring(filename, nchar(filename) - 3, nchar(filename)) != ".gif") {
-    filename = paste0(filename, ".gif")
+  if (substring(filename, nchar(filename) - 3, nchar(filename)) != ".mp4") {
+    filename = paste0(filename, ".mp4")
   }
   windowsize = rgl::par3d()$viewport
   if (is.null(fov)) {
@@ -258,68 +258,21 @@ render_gif = function(filename,
       )
     }
   }
-  gifski::gifski(
-    png_files = png_files,
-    gif_file = filename,
-    height = dimensions[1],
-    width = dimensions[2],
-    delay = 1 / fps,
-    loop = loop,
-    progress = progbar
-  )
+  # gifski::gifski(
+  #   png_files = png_files,
+  #   gif_file = filename,
+  #   height = dimensions[1],
+  #   width = dimensions[2],
+  #   delay = 1 / fps,
+  #   loop = loop,
+  #   progress = progbar
+  # )
+  
+  av::av_encode_video(png_files, output = filename, framerate = fps, 
+                      vfilter = paste0("scale=",dimensions[1],":-2"), audio=NULL)
 }
 
 
-transition_values <- function(from,
-                              to,
-                              steps = 10,
-                              one_way = FALSE,
-                              type = "cos") {
-  if (!(type %in% c("cos", "lin")))
-    stop("type must be one of: 'cos', 'lin'")
-  
-  range <- c(from, to)
-  middle <- mean(range)
-  half_width <- diff(range) / 2
-  
-  # define scaling vector starting at 1 (between 1 to -1)
-  if (type == "cos") {
-    scaling <-
-      cos(seq(0, 2 * pi / ifelse(one_way, 2, 1), length.out = steps))
-  } else if (type == "lin") {
-    if (one_way) {
-      xout <- seq(1, -1, length.out = steps)
-    } else {
-      xout <- c(seq(1, -1, length.out = floor(steps / 2)),
-                seq(-1, 1, length.out = ceiling(steps / 2)))
-    }
-    scaling <- approx(x = c(-1, 1),
-                      y = c(-1, 1),
-                      xout = xout)$y
-  }
-  
-  middle - half_width * scaling
-}
-
-#' Create a numeric vector of transition values.
-#' @description This function helps generate a sequence
-#' of numeric values to transition "from" a start point
-#' "to" some end point. The transition can be "one_way"
-#' (meaning it ends at the "to" point) or "two_way" (meaning
-#' we return back to end at the "from" point).
-#'
-#' @param from starting point for transition values
-#' @param to ending point (for one-way transitions) or turn-around point
-#'           (for two-way transitions)
-#' @param steps the number of steps to take in the transation (i.e. the length
-#'              of the returned vector)
-#' @param one_way logical value to determine if we should stop at the "to" value
-#'                (TRUE) or turn around and return to the "from" value (FALSE)
-#' @param type string defining the transition type - currently suppoerts "cos"
-#'             (for a cosine curve) and "lin" (for linear steps)
-#'
-#' @return a numeric vector of transition values
-#'
 transition_values <- function(from,
                               to,
                               steps = 10,

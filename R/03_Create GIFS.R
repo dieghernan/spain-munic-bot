@@ -1,5 +1,4 @@
 # Done in local - GH actions not building rayshader
-options(mapSpain_cache_dir = "~/R/mapslib/GISCO")
 # 1. Load libraries ----
 rm(list = ls())
 
@@ -105,13 +104,16 @@ data <- st_drop_geometry(mapdata)
 
 # Load log from url
 
-datalog <-  read.csv2("https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/assets/datalog.csv",
-                      sep = ",",
-                      stringsAsFactors = FALSE)
+datalog <-
+  read.csv2(
+    "https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/assets/datalog.csv",
+    sep = ",",
+    stringsAsFactors = FALSE
+  )
 
 # Order
 
-datalog <- datalog %>% arrange(datetime)
+datalog <- datalog %>% arrange(datetime) %>% filter(!is.na(datetime))
 
 
 
@@ -134,12 +136,11 @@ if (file.exists("assets/lastgif.csv")) {
 }
 
 
-
-data_filter <- data[n_row_gif,]
-
+LAUtogif <- datalog[n_row_gif,]$LAU_CODE_NUM
+data_filter <- data %>% filter(LAU_CODE_NUM == LAUtogif)
 
 # Get and register munic
-munic <- mapdata[mapdata$LAU_CODE == data_filter$LAU_CODE,]
+munic <- mapdata[mapdata$LAU_CODE == data_filter$LAU_CODE, ]
 
 # Add pop
 pop <- mapSpain::pobmun19 %>%
@@ -169,17 +170,17 @@ cent <- st_coordinates(square)
 
 sq <- st_sf(d = 1, square) %>% as_Spatial()
 
-DEM <- get_elev_raster(sq, z = 11, clip = "bbox") %>%
+DEM <- get_elev_raster(sq, z = 12, clip = "bbox", override_size_check = TRUE) %>%
   crop(extent(sq))
 
 minR <- min(dim(DEM)[1:2])
 maxR <- max(dim(DEM)[1:2])
-# Disaggregate to have better final resolution
-if (minR < 600) {
-  DEM <- disaggregate(DEM, fact = round(600 / minR))
-} else if (maxR > 800) {
-  DEM <- aggregate(DEM, fact = round(maxR / 900))
+dim(DEM)
+# Preserve space
+if (maxR > 1000) {
+  DEM <- aggregate(DEM, fact = max(2, round(maxR / 1000)))
 }
+dim(DEM)
 
 # Assign min to NAs - It's sea on this DEM provider
 DEM[is.na(DEM)] <- min(values(DEM), na.rm = TRUE)
@@ -238,7 +239,7 @@ png(tmppng,
     height = dim(overlay_raster)[1],
     width = dim(overlay_raster)[2])
 par(mar = c(0, 0, 0, 0))
-plotRGB(overlay_raster, alpha = 200)
+plotRGB(overlay_raster, alpha = 240)
 plotRGB(mask, add = TRUE, bgalpha = 0)
 dev.off()
 
@@ -262,7 +263,7 @@ fact <-
 # Gif config
 gif_file <- file.path("assets", "gif", "lastgif")
 
-n_frames <- 10*5
+n_frames <- 360
 
 theta_val <-
   transition_values(
@@ -279,12 +280,12 @@ phi_val1 <-
   transition_values(
     from = 90,
     to = 10,
-    steps = (n_frames / 2) - 10,
+    steps = (n_frames / 3),
     one_way = TRUE,
     type = "cos"
   )
 
-phi_val <- c(phi_val1, rep(10, 20), rev(phi_val1))
+phi_val <- c(phi_val1, rep(10, n_frames/3), rev(phi_val1))
 
 zoom_val <- transition_values(
   from = 1,
@@ -297,21 +298,21 @@ zoom_val <- transition_values(
 # Rayshade 3D with png overlay
 
 DEM_mat <- raster_to_matrix(DEM)
-
+fact
 DEM_mat %>%
   sphere_shade(texture = "desert") %>%
   add_overlay(img_overlay) %>%
-  plot_3d(DEM_mat, zscale = 5 + fact)
+  plot_3d(DEM_mat, zscale = 5 + fact/2)
 
 # Render gif
-render_gif(
+render_movie2(
   gif_file,
   title_text = title,
   title_position = "north",
   title_size = 16,
   type = "custom",
   frames = n_frames,
-  fps = 10,
+  fps = 30,
   phi = phi_val,
   zoom = zoom_val,
   theta = theta_val,
@@ -324,16 +325,6 @@ render_gif(
 
 rgl::rgl.close()
 
-# # 7. Save datalog ----
-df_log <- data.frame(n=n_row_gif)
-
-write.table(df_log,
-            "./assets/lastgif.csv",
-            sep = ",",
-            row.names = FALSE)
-
-r2 <- Sys.time() - init
-message("Time elapsed: ", format(round(r2, 2)))
 
 # 8. Tweet -----
 
@@ -364,7 +355,7 @@ prettylab <- function(x, type) {
   label <- paste0(D, "\u00b0 ", M, "' ", S, '\" ', lab)
   return(label)
 }
- bbx <- st_bbox(munic)
+bbx <- st_bbox(munic)
 xtick <- bbx[1] + (bbx[3] - bbx[1]) / 2
 ytick <- bbx[2] + (bbx[4] - bbx[2]) / 2
 
@@ -394,7 +385,8 @@ cat(msg)
 
 addgif <- ifelse((n_row_gif %% 100) == 1,
                  " Done in #rstats using #rayshader, #elevatr, #rspatial, #mapSpain and #rtweet. ",
-                 " ")
+                 " "
+)
 # Add credits
 addgif2 <- ifelse(nrow(datalog) %% 100 == 2,
                   "Sources @IDEESpain #rstatsES",
@@ -403,16 +395,25 @@ addgif2 <- ifelse(nrow(datalog) %% 100 == 2,
 msggif <- paste0(msg, addgif, addgif2)
 msggif <- gsub("  ", " ", msggif)
 # Tweet gif
-gifpath <- file.path("assets", "gif", "lastgif.gif")
+gifpath <- file.path("assets", "gif", "lastgif.mp4")
 
 
 
 
-post_tweet(msggif, media = "assets/gif/lastgif.gif")
+post_tweet(msggif, media = gifpath)
 message("Tweet satellite posted")
 
 
+# # 7. Save datalog ----
+df_log <- data.frame(n = n_row_gif)
 
+write.table(df_log,
+            "./assets/lastgif.csv",
+            sep = ",",
+            row.names = FALSE)
+
+r2 <- Sys.time() - init
+message("Time elapsed: ", format(round(r2, 2)))
 
 
 rm(list = ls())
