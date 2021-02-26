@@ -664,11 +664,12 @@ lastseen <- paste0(munic$name,
                    ", ", munic$prov)
 
 
-tweet <- list("lasttweet" = timejson,
-              "progress" = perc,
-              "lastseen" = lastseen,
-              "timestamp" = as.integer(lubridate::now())
-             ) %>% toJSON()
+tweet <- list(
+  "lasttweet" = timejson,
+  "progress" = perc,
+  "lastseen" = lastseen,
+  "timestamp" = as.integer(lubridate::now())
+) %>% toJSON()
 
 write(tweet, file.path("assets", "lasttweet.json"))
 message("JSON file written")
@@ -717,14 +718,29 @@ msgstreet <- paste0(msg, addstreet, addstreet2)
 msgsatellite <- gsub("  ", " ", msgsatellite)
 msgstreet <- gsub("  ", " ", msgstreet)
 # Tweet satellite
+cent <- munic %>% st_geometry() %>%
+  st_centroid(of_largest_polygon = TRUE) %>%
+  st_transform(4326) %>% st_coordinates()
 
-post_tweet(msgsatellite, media = file.path("assets", "img", "munic-satellite.png"))
+post_tweet(
+  msgsatellite,
+  media = file.path("assets", "img", "munic-satellite.png"),
+  lat = cent[2],
+  long = cent[1],
+  display_coordinates = TRUE
+)
 message("Tweet satellite posted")
 message("Sleep for 3 seconds")
 
 Sys.sleep(3)
 
-post_tweet(msgstreet, media = file.path("assets", "img", "munic-streets.png"))
+post_tweet(
+  msgstreet,
+  media = file.path("assets", "img", "munic-streets.png"),
+  lat = cent[2],
+  long = cent[1],
+  display_coordinates = TRUE
+)
 message("Tweet streets posted")
 
 if ((nrow(datalog) %% 200) == 0) {

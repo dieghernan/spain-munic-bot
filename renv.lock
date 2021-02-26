@@ -180,7 +180,7 @@
       "RemoteUsername": "r-lib",
       "RemoteRef": "HEAD",
       "RemoteSha": "c1752592643466041bf6169eb1aff0366cf00bd1",
-      "Hash": "4de7372a3547d09854110a074d157db4"
+      "Hash": "c57c80225136d2a333a4791d3d3ae855"
     },
     "dichromat": {
       "Package": "dichromat",
@@ -602,6 +602,13 @@
       "Repository": "CRAN",
       "Hash": "88b9f48c93d17cdb811b54079a6a414f"
     },
+    "rappdirs": {
+      "Package": "rappdirs",
+      "Version": "0.3.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5e3c5dc0b071b21fa128676560dbe94d"
+    },
     "raster": {
       "Package": "raster",
       "Version": "3.4-5",
@@ -660,10 +667,15 @@
     },
     "rtweet": {
       "Package": "rtweet",
-      "Version": "0.7.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "81f40170e8dc7216f18830f303a0f954"
+      "Version": "0.7.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "dieghernan",
+      "RemoteRepo": "rtweet",
+      "RemoteRef": "geo",
+      "RemoteSha": "0553ee1178f4cf2ff97921f17041a83f906b4456",
+      "Hash": "9315e323d092cb9d6d3d17bbab05de03"
     },
     "rvest": {
       "Package": "rvest",
