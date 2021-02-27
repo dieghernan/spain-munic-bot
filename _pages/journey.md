@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.734 places 🏙. 6.397 more to go 👍.
+#### So far I have visited 1.735 places 🏙. 6.396 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 21%;" aria-valuenow="21" aria-valuemin="0"
-aria-valuemax="100"> 21.33% </span>
+aria-valuemax="100"> 21.34% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-48
+49
 </td>
 <td style="text-align:right;">
 251
@@ -65957,11 +65957,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Getaria
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic20039">\#spainmunic20039</a>
 </td>
 <td style="text-align:left;">
 20039
@@ -65973,6 +65975,7 @@ Guipúzcoa
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-02-27 19:21:36 CET
 </td>
 </tr>
 <tr>
