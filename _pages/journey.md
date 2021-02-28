@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.780 places 🏙. 6.351 more to go 👍.
+#### So far I have visited 1.781 places 🏙. 6.350 more to go 👍.
 
 I think I would finish tweeting on **2021-06-12**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-12**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 22%;" aria-valuenow="22" aria-valuemin="0"
-aria-valuemax="100"> 21.89% </span>
+aria-valuemax="100"> 21.9% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-491
+492
 </td>
 <td style="text-align:right;">
 2248
@@ -153839,11 +153839,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Valoria la Buena
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic47184">\#spainmunic47184</a>
 </td>
 <td style="text-align:left;">
 47184
@@ -153855,6 +153857,7 @@ Valladolid
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-02-28 12:42:48 CET
 </td>
 </tr>
 <tr>
