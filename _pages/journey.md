@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.754 places 🏙. 6.377 more to go 👍.
+#### So far I have visited 1.755 places 🏙. 6.376 more to go 👍.
 
-I think I would finish tweeting on **2021-06-13**.
+I think I would finish tweeting on **2021-06-14**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 22%;" aria-valuenow="22" aria-valuemin="0"
-aria-valuemax="100"> 21.57% </span>
+aria-valuemax="100"> 21.58% </span>
 </p>
 <!--/html_preserve-->
 
@@ -90,13 +90,13 @@ Principado de Asturias
 Illes Balears
 </td>
 <td style="text-align:right;">
-21
+22
 </td>
 <td style="text-align:right;">
 67
 </td>
 <td style="text-align:right;">
-31
+32
 </td>
 </tr>
 <tr>
@@ -17470,11 +17470,13 @@ Baleares
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Marratxí
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic07036">\#spainmunic07036</a>
 </td>
 <td style="text-align:left;">
 07036
@@ -17486,6 +17488,7 @@ Baleares
 Baleares
 </td>
 <td style="text-align:left;">
+2021-02-28 03:19:42 CET
 </td>
 </tr>
 <tr>
