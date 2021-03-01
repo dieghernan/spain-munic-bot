@@ -698,18 +698,18 @@ msg <- paste0(msg, hash)
 hash2 <- paste0(" #", gsub(" ", "", munic$prov.shortname.es), " ")
 msg <- paste0(msg, hash2)
 
-addsat <- ifelse((nrow(datalog) %% 100) == 0,
+addsat <- ifelse((nrow(datalog) %% 500) == 0,
                  " Done in #rstats using #tmap, #rspatial, #mapSpain and #rtweet. ",
                  " ")
-addstreet <- ifelse((nrow(datalog) %% 100) == 20,
+addstreet <- ifelse((nrow(datalog) %% 500) == 20,
                     " Done in #rstats using #tmap, #osmdata, #rspatial, #mapSpain and #rtweet. ",
                     " "
 )
 # Add credits
-addsat2 <- ifelse(nrow(datalog) %% 130 == 0,
+addsat2 <- ifelse(nrow(datalog) %% 530 == 0,
                   "Sources @IDEESpain #rstatsES",
                   "")
-addstreet2 <- ifelse(nrow(datalog) %% 130 == 10,
+addstreet2 <- ifelse(nrow(datalog) %% 530 == 10,
                      "Sources @openstreetmap #rstatsES",
                      "")
 
@@ -743,7 +743,7 @@ post_tweet(
 )
 message("Tweet streets posted")
 
-if ((nrow(datalog) %% 200) == 0) {
+if ((nrow(datalog) %% 600) == 0) {
   Sys.sleep(3)
   seen <- nrow(datalog)
   left <- nrow(mapdata) - seen
