@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.828 places 🏙. 6.303 more to go 👍.
+#### So far I have visited 1.829 places 🏙. 6.302 more to go 👍.
 
 I think I would finish tweeting on **2021-06-12**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-12**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 22%;" aria-valuenow="22" aria-valuemin="0"
-aria-valuemax="100"> 22.48% </span>
+aria-valuemax="100"> 22.49% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-509
+510
 </td>
 <td style="text-align:right;">
 2248
@@ -32203,11 +32203,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Merindad de Río Ubierna
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09906">\#spainmunic09906</a>
 </td>
 <td style="text-align:left;">
 09906
@@ -32219,6 +32221,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-01 08:16:18 CET
 </td>
 </tr>
 <tr>
