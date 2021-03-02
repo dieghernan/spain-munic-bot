@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.899 places 🏙. 6.232 more to go 👍.
+#### So far I have visited 1.900 places 🏙. 6.231 more to go 👍.
 
 I think I would finish tweeting on **2021-06-18**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-18**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 23%;" aria-valuenow="23" aria-valuemin="0"
-aria-valuemax="100"> 23.36% </span>
+aria-valuemax="100"> 23.37% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-530
+531
 </td>
 <td style="text-align:right;">
 2248
@@ -25011,11 +25011,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Arenillas de Riopisuerga
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09024">\#spainmunic09024</a>
 </td>
 <td style="text-align:left;">
 09024
@@ -25027,6 +25029,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-02 13:42:48 CET
 </td>
 </tr>
 <tr>
