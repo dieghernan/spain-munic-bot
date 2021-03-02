@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.884 places 🏙. 6.247 more to go 👍.
+#### So far I have visited 1.885 places 🏙. 6.246 more to go 👍.
 
 I think I would finish tweeting on **2021-06-20**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-20**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 23%;" aria-valuenow="23" aria-valuemin="0"
-aria-valuemax="100"> 23.17% </span>
+aria-valuemax="100"> 23.18% </span>
 </p>
 <!--/html_preserve-->
 
@@ -272,7 +272,7 @@ País Vasco
 La Rioja
 </td>
 <td style="text-align:right;">
-37
+38
 </td>
 <td style="text-align:right;">
 174
@@ -87691,11 +87691,13 @@ La Rioja
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Zarratón
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic26180">\#spainmunic26180</a>
 </td>
 <td style="text-align:left;">
 26180
@@ -87707,6 +87709,7 @@ La Rioja
 La Rioja
 </td>
 <td style="text-align:left;">
+2021-03-02 08:17:40 CET
 </td>
 </tr>
 <tr>
