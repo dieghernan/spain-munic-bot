@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 1.940 places 🏙. 6.191 more to go 👍.
+#### So far I have visited 1.941 places 🏙. 6.190 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 24%;" aria-valuenow="24" aria-valuemin="0"
-aria-valuemax="100"> 23.86% </span>
+aria-valuemax="100"> 23.87% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-548
+549
 </td>
 <td style="text-align:right;">
 2248
@@ -116917,11 +116917,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Sardón de los Frailes
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic37301">\#spainmunic37301</a>
 </td>
 <td style="text-align:left;">
 37301
@@ -116933,6 +116935,7 @@ Salamanca
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-03 06:16:11 CET
 </td>
 </tr>
 <tr>
