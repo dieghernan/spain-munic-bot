@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.098 places 🏙. 6.033 more to go 👍.
+#### So far I have visited 2.099 places 🏙. 6.032 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 26%;" aria-valuenow="26" aria-valuemin="0"
-aria-valuemax="100"> 25.8% </span>
+aria-valuemax="100"> 25.81% </span>
 </p>
 <!--/html_preserve-->
 
@@ -48,7 +48,7 @@ progress
 Andalucía
 </td>
 <td style="text-align:right;">
-214
+215
 </td>
 <td style="text-align:right;">
 785
@@ -74525,11 +74525,13 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Peal de Becerro
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic23066">\#spainmunic23066</a>
 </td>
 <td style="text-align:left;">
 23066
@@ -74541,6 +74543,7 @@ Jaén
 Andalucía
 </td>
 <td style="text-align:left;">
+2021-03-05 21:19:29 CET
 </td>
 </tr>
 <tr>
