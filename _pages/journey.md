@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.091 places 🏙. 6.040 more to go 👍.
+#### So far I have visited 2.092 places 🏙. 6.039 more to go 👍.
 
-I think I would finish tweeting on **2021-06-11**.
+I think I would finish tweeting on **2021-06-12**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 26%;" aria-valuenow="26" aria-valuemin="0"
-aria-valuemax="100"> 25.72% </span>
+aria-valuemax="100"> 25.73% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,13 +258,13 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-57
+58
 </td>
 <td style="text-align:right;">
 251
 </td>
 <td style="text-align:right;">
-22
+23
 </td>
 </tr>
 <tr>
@@ -1035,11 +1035,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Erriberagoitia / Ribera Alta
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01046">\#spainmunic01046</a>
 </td>
 <td style="text-align:left;">
 01046
@@ -1051,6 +1053,7 @@ Erriberagoitia / Ribera Alta
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-03-05 18:53:55 CET
 </td>
 </tr>
 <tr>
