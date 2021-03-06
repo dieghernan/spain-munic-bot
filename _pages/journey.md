@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.170 places 🏙. 5.961 more to go 👍.
+#### So far I have visited 2.171 places 🏙. 5.960 more to go 👍.
 
-I think I would finish tweeting on **2021-06-10**.
+I think I would finish tweeting on **2021-06-11**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 27%;" aria-valuenow="27" aria-valuemin="0"
-aria-valuemax="100"> 26.69% </span>
+aria-valuemax="100"> 26.7% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-604
+605
 </td>
 <td style="text-align:right;">
 2248
@@ -10645,11 +10645,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Mirueña de los Infanzones
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05131">\#spainmunic05131</a>
 </td>
 <td style="text-align:left;">
 05131
@@ -10661,6 +10663,7 @@ Mirueña de los Infanzones
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-07 00:57:56 CET
 </td>
 </tr>
 <tr>
