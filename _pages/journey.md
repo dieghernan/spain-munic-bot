@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.204 places 🏙. 5.927 more to go 👍.
+#### So far I have visited 2.205 places 🏙. 5.926 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 27%;" aria-valuenow="27" aria-valuemin="0"
-aria-valuemax="100"> 27.11% </span>
+aria-valuemax="100"> 27.12% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-75
+76
 </td>
 <td style="text-align:right;">
 272
@@ -99283,11 +99283,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Lapoblación
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31141">\#spainmunic31141</a>
 </td>
 <td style="text-align:left;">
 31141
@@ -99299,6 +99301,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-03-07 14:36:44 CET
 </td>
 </tr>
 <tr>
