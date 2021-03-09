@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.314 places 🏙. 5.817 more to go 👍.
+#### So far I have visited 2.315 places 🏙. 5.816 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 28%;" aria-valuenow="28" aria-valuemin="0"
-aria-valuemax="100"> 28.46% </span>
+aria-valuemax="100"> 28.47% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-647
+648
 </td>
 <td style="text-align:right;">
 2248
@@ -29975,11 +29975,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Salas de los Infantes
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09330">\#spainmunic09330</a>
 </td>
 <td style="text-align:left;">
 09330
@@ -29991,6 +29993,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-09 11:00:12 CET
 </td>
 </tr>
 <tr>
