@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.301 places 🏙. 5.830 more to go 👍.
+#### So far I have visited 2.302 places 🏙. 5.829 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 28%;" aria-valuenow="28" aria-valuemin="0"
-aria-valuemax="100"> 28.3% </span>
+aria-valuemax="100"> 28.31% </span>
 </p>
 <!--/html_preserve-->
 
@@ -272,13 +272,13 @@ País Vasco
 La Rioja
 </td>
 <td style="text-align:right;">
-50
+51
 </td>
 <td style="text-align:right;">
 174
 </td>
 <td style="text-align:right;">
-28
+29
 </td>
 </tr>
 <tr>
@@ -84736,11 +84736,13 @@ Cataluña
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Ábalos
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic26001">\#spainmunic26001</a>
 </td>
 <td style="text-align:left;">
 26001
@@ -84752,6 +84754,7 @@ La Rioja
 La Rioja
 </td>
 <td style="text-align:left;">
+2021-03-09 06:21:38 CET
 </td>
 </tr>
 <tr>
