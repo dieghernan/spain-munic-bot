@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.345 places 🏙. 5.786 more to go 👍.
+#### So far I have visited 2.346 places 🏙. 5.785 more to go 👍.
 
-I think I would finish tweeting on **2022-01-26**.
+I think I would finish tweeting on **2022-01-14**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 29%;" aria-valuenow="29" aria-valuemin="0"
-aria-valuemax="100"> 28.84% </span>
+aria-valuemax="100"> 28.85% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,7 +174,7 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-142
+143
 </td>
 <td style="text-align:right;">
 542
@@ -4918,11 +4918,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Lorcha / Orxa, l’
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic03084">\#spainmunic03084</a>
 </td>
 <td style="text-align:left;">
 03084
@@ -4934,6 +4936,7 @@ Alicante
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-03-11 00:37:52 CET
 </td>
 </tr>
 <tr>
