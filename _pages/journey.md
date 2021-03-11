@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.377 places 🏙. 5.754 more to go 👍.
+#### So far I have visited 2.378 places 🏙. 5.753 more to go 👍.
 
-I think I would finish tweeting on **2021-08-27**.
+I think I would finish tweeting on **2021-08-23**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 29%;" aria-valuenow="29" aria-valuemin="0"
-aria-valuemax="100"> 29.23% </span>
+aria-valuemax="100"> 29.25% </span>
 </p>
 <!--/html_preserve-->
 
@@ -146,7 +146,7 @@ Castilla y León
 Castilla-La Mancha
 </td>
 <td style="text-align:right;">
-256
+257
 </td>
 <td style="text-align:right;">
 919
@@ -61279,11 +61279,13 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Centenera
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic19082">\#spainmunic19082</a>
 </td>
 <td style="text-align:left;">
 19082
@@ -61295,6 +61297,7 @@ Guadalajara
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
+2021-03-11 14:40:32 CET
 </td>
 </tr>
 <tr>
