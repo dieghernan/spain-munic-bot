@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.512 places 🏙. 5.619 more to go 👍.
+#### So far I have visited 2.513 places 🏙. 5.618 more to go 👍.
 
-I think I would finish tweeting on **2023-02-15**.
+I think I would finish tweeting on **2022-12-23**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 31%;" aria-valuenow="31" aria-valuemin="0"
-aria-valuemax="100"> 30.89% </span>
+aria-valuemax="100"> 30.91% </span>
 </p>
 <!--/html_preserve-->
 
@@ -146,7 +146,7 @@ Castilla y León
 Castilla-La Mancha
 </td>
 <td style="text-align:right;">
-271
+272
 </td>
 <td style="text-align:right;">
 919
@@ -41660,11 +41660,13 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Cañada de Calatrava
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic13029">\#spainmunic13029</a>
 </td>
 <td style="text-align:left;">
 13029
@@ -41676,6 +41678,7 @@ Ciudad Real
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
+2021-03-15 12:20:18 CET
 </td>
 </tr>
 <tr>
