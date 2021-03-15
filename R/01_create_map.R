@@ -13,6 +13,7 @@ library(jsonlite)
 library(stringr)
 library(lubridate)
 library(cartography)
+library(raster)
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
@@ -235,7 +236,7 @@ hlp_gettile <-
   }
 message("Getting raster")
 raster_nomask <- hlp_gettile(square, "Esri.WorldImagery", zoom, crop = TRUE)
-raster <- mask(raster_nomask, munic)
+raster <- raster::mask(raster_nomask, munic)
 
 # Center
 xtick <- bbx[1] + (bbx[3] - bbx[1]) / 2
