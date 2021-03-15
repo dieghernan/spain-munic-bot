@@ -1,5 +1,6 @@
 # 1. Load libraries ----
 
+library(raster)
 library(mapSpain)
 library(sf)
 library(dplyr)
@@ -13,7 +14,7 @@ library(jsonlite)
 library(stringr)
 library(lubridate)
 library(cartography)
-library(raster)
+
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
