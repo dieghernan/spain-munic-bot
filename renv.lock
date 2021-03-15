@@ -114,6 +114,13 @@
       "Repository": "CRAN",
       "Hash": "b7d7f1e926dfcd57c74ce93f5c048e80"
     },
+    "cartography": {
+      "Package": "cartography",
+      "Version": "2.4.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "10f782742c83c940b14651a99fe52366"
+    },
     "class": {
       "Package": "class",
       "Version": "7.3-18",
@@ -134,6 +141,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "3ef298932294b775fa0a3eeaa3a645b0"
+    },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-16",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "89cf4b8207269ccf82fbeb6473fd662b"
     },
     "colorspace": {
       "Package": "colorspace",
@@ -457,10 +471,10 @@
     },
     "mapSpain": {
       "Package": "mapSpain",
-      "Version": "0.1.2",
+      "Version": "0.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ac5010e5a6bc7ca7bdc493a8867d42aa"
+      "Hash": "ceec77858ba8001bae24019cce737c33"
     },
     "markdown": {
       "Package": "markdown",
@@ -636,6 +650,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "402fc3169948d26581d585360825c65c"
+    },
+    "rgeos": {
+      "Package": "rgeos",
+      "Version": "0.5-5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "94a44c3f0d49ceb80c385610696873ca"
     },
     "rlang": {
       "Package": "rlang",

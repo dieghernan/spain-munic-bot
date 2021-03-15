@@ -12,6 +12,7 @@ library(rtweet)
 library(jsonlite)
 library(stringr)
 library(lubridate)
+library(cartography)
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
@@ -99,6 +100,7 @@ if (file.exists("assets/datalog.csv")) {
 }
 
 
+
 # 3. Select randomly after clean up ----
 
 data_filter <-  data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM, ]
@@ -162,8 +164,35 @@ message("Munic selected: ",
 
 munic <- st_transform(munic, 3857)
 
+square_bbox <- function(x, expand = .1) {
+  bbx <- st_bbox(st_transform(x, 3857))
+  xtick <- bbx[1] + (bbx[3] - bbx[1]) / 2
+  ytick <- bbx[2] + (bbx[4] - bbx[2]) / 2
+  
+  x_dim <- (bbx[3] - bbx[1])
+  y_dim <- (bbx[4] - bbx[2])
+  
+  
+  max_dim <- (max(x_dim, y_dim) / 2) * (1 + expand)
+  
+  square <-
+    c(xtick - max_dim, ytick - max_dim, xtick + max_dim, ytick + max_dim)
+  names(square) <- names(bbx)
+  class(square) <- "bbox"
+  
+  
+  bbx_end <- st_as_sfc(square)
+  bbx_end <- st_set_crs(bbx_end, 3857)
+  bbx_end <- st_transform(bbx_end, st_crs(x))
+  
+  return(bbx_end)
+}
+
+square <- square_bbox(munic, exp=.2)
+
+bbx <- st_bbox(st_transform(munic,4326))
+
 # Analyze zoom
-bbx <- st_bbox(st_transform(munic, 4326))
 gz <- slippymath::bbox_tile_query(bbx)
 
 # max 14 tiles, min 4
@@ -180,10 +209,9 @@ hlp_gettile <-
            mask = TRUE,
            crop = TRUE) {
     get <- tryCatch(
-      esp_getTiles(
-        munic,
-        provider,
-        mask = mask,
+      cartography::getTiles(
+        x = munic,
+        type = provider,
         crop = crop,
         zoom = zoom,
         verbose = FALSE
@@ -205,31 +233,13 @@ hlp_gettile <-
       return(get)
     }
   }
-message("Getting masked raster")
-raster <- hlp_gettile(munic, "PNOA", zoom)
+message("Getting raster")
+raster_nomask <- hlp_gettile(square, "Esri.WorldImagery", zoom, crop = TRUE)
+raster <- mask(raster_nomask, munic)
 
-# Expand bbox to make a perfect square around the bbox
 # Center
 xtick <- bbx[1] + (bbx[3] - bbx[1]) / 2
 ytick <- bbx[2] + (bbx[4] - bbx[2]) / 2
-
-x_dim <- (bbx[3] - bbx[1])
-y_dim <- (bbx[4] - bbx[2])
-max_dim <- max(x_dim, y_dim)
-
-square <-
-  c(xtick - max_dim, ytick - max_dim, xtick + max_dim, ytick + max_dim)
-names(square) <- names(bbx)
-class(square) <- "bbox"
-
-bbx2 <-
-  square %>% st_as_sfc() %>% st_set_crs(4326) %>% st_transform(st_crs(munic))
-
-message("Getting squared raster")
-raster_nomask <-
-  hlp_gettile(bbx2, "PNOA", zoom, mask = FALSE, crop = TRUE)
-
-
 
 #5. Raster map----
 
@@ -271,9 +281,9 @@ ylab <- prettylab(ytick, "lat")
 
 # Overall map
 map <- tm_shape(raster, raster.downsample = FALSE) +
-  tm_rgba() +
+  tm_rgb() +
   tm_shape(raster_nomask, raster.downsample = FALSE) +
-  tm_rgba(alpha = 0.5) +
+  tm_rgb(alpha = 0.5) +
   tm_layout(
     main.title = title,
     asp = 1,
@@ -305,6 +315,7 @@ map <- tm_shape(raster, raster.downsample = FALSE) +
     fontface = "bold",
     position = c("center", "TOP")
   )
+
 
 # Create Inset
 mapESP <- esp_get_country(moveCAN = c(13, 0))
