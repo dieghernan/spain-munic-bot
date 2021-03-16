@@ -190,7 +190,7 @@ square_bbox <- function(x, expand = .1) {
   return(bbx_end)
 }
 
-square <- square_bbox(munic, exp=.2)
+square <- square_bbox(munic, exp=.05)
 
 bbx <- st_bbox(st_transform(munic,4326))
 
