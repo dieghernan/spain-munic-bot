@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.618 places 🏙. 5.513 more to go 👍.
+#### So far I have visited 2.619 places 🏙. 5.512 more to go 👍.
 
 I think I would finish tweeting on **2021-06-19**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-19**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 32%;" aria-valuenow="32" aria-valuemin="0"
-aria-valuemax="100"> 32.2% </span>
+aria-valuemax="100"> 32.21% </span>
 </p>
 <!--/html_preserve-->
 
@@ -146,7 +146,7 @@ Castilla y León
 Castilla-La Mancha
 </td>
 <td style="text-align:right;">
-288
+289
 </td>
 <td style="text-align:right;">
 919
@@ -64100,11 +64100,13 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Pozo de Almoguera
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic19224">\#spainmunic19224</a>
 </td>
 <td style="text-align:left;">
 19224
@@ -64116,6 +64118,7 @@ Guadalajara
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
+2021-03-18 10:00:00 CET
 </td>
 </tr>
 <tr>
