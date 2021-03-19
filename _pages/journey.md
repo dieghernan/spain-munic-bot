@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.686 places 🏙. 5.445 more to go 👍.
+#### So far I have visited 2.687 places 🏙. 5.444 more to go 👍.
 
 I think I would finish tweeting on **2021-06-18**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-18**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 33%;" aria-valuenow="33" aria-valuemin="0"
-aria-valuemax="100"> 33.03% </span>
+aria-valuemax="100"> 33.05% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-71
+72
 </td>
 <td style="text-align:right;">
 251
@@ -935,11 +935,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Moreda de Álava / Moreda Araba
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01039">\#spainmunic01039</a>
 </td>
 <td style="text-align:left;">
 01039
@@ -951,6 +953,7 @@ Moreda de Álava / Moreda Araba
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-03-19 13:21:12 CET
 </td>
 </tr>
 <tr>
