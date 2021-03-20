@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.727 places 🏙. 5.404 more to go 👍.
+#### So far I have visited 2.728 places 🏙. 5.403 more to go 👍.
 
-I think I would finish tweeting on **2021-06-22**.
+I think I would finish tweeting on **2021-06-21**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 34%;" aria-valuenow="34" aria-valuemin="0"
-aria-valuemax="100"> 33.54% </span>
+aria-valuemax="100"> 33.55% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,7 +174,7 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-164
+165
 </td>
 <td style="text-align:right;">
 542
@@ -4024,11 +4024,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Benimassot
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic03039">\#spainmunic03039</a>
 </td>
 <td style="text-align:left;">
 03039
@@ -4040,6 +4042,7 @@ Alicante
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-03-20 06:39:23 CET
 </td>
 </tr>
 <tr>
