@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.767 places 🏙. 5.364 more to go 👍.
+#### So far I have visited 2.768 places 🏙. 5.363 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 34%;" aria-valuenow="34" aria-valuemin="0"
-aria-valuemax="100"> 34.03% </span>
+aria-valuemax="100"> 34.04% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-97
+98
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-35
+36
 </td>
 </tr>
 <tr>
@@ -101426,11 +101426,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Valle de Ollo / Ollaran
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31194">\#spainmunic31194</a>
 </td>
 <td style="text-align:left;">
 31194
@@ -101442,6 +101444,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-03-20 21:50:18 CET
 </td>
 </tr>
 <tr>
