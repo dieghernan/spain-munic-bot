@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.777 places 🏙. 5.354 more to go 👍.
+#### So far I have visited 2.778 places 🏙. 5.353 more to go 👍.
 
 I think I would finish tweeting on **2021-06-17**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-17**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 34%;" aria-valuenow="34" aria-valuemin="0"
-aria-valuemax="100"> 34.15% </span>
+aria-valuemax="100"> 34.17% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-98
+99
 </td>
 <td style="text-align:right;">
 272
@@ -102638,11 +102638,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Vidángoz / Bidankoze
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31252">\#spainmunic31252</a>
 </td>
 <td style="text-align:left;">
 31252
@@ -102654,6 +102656,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-03-21 01:34:59 CET
 </td>
 </tr>
 <tr>
