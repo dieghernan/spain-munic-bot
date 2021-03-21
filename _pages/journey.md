@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.818 places 🏙. 5.313 more to go 👍.
+#### So far I have visited 2.819 places 🏙. 5.312 more to go 👍.
 
 I think I would finish tweeting on **2021-06-14**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-14**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 35%;" aria-valuenow="35" aria-valuemin="0"
-aria-valuemax="100"> 34.66% </span>
+aria-valuemax="100"> 34.67% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-127
+128
 </td>
 <td style="text-align:right;">
 388
@@ -37234,11 +37234,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villanueva de la Vera
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10212">\#spainmunic10212</a>
 </td>
 <td style="text-align:left;">
 10212
@@ -37250,6 +37252,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-03-21 18:13:00 CET
 </td>
 </tr>
 <tr>
