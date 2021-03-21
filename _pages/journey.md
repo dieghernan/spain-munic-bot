@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.823 places 🏙. 5.308 more to go 👍.
+#### So far I have visited 2.824 places 🏙. 5.307 more to go 👍.
 
 I think I would finish tweeting on **2021-06-15**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-15**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 35%;" aria-valuenow="35" aria-valuemin="0"
-aria-valuemax="100"> 34.72% </span>
+aria-valuemax="100"> 34.73% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-790
+791
 </td>
 <td style="text-align:right;">
 2248
@@ -25698,11 +25698,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Barrios de Bureba, Los
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09043">\#spainmunic09043</a>
 </td>
 <td style="text-align:left;">
 09043
@@ -25714,6 +25716,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-21 20:30:50 CET
 </td>
 </tr>
 <tr>
