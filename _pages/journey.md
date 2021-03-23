@@ -32818,6 +32818,29 @@ Castilla y León
 ✓
 </td>
 <td style="text-align:left;">
+Valle de Sedano
+</td>
+<td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09905">\#spainmunic09905</a>
+</td>
+<td style="text-align:left;">
+09905
+</td>
+<td style="text-align:left;">
+Burgos
+</td>
+<td style="text-align:left;">
+Castilla y León
+</td>
+<td style="text-align:left;">
+2021-03-23 14:44:31 CET
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+✓
+</td>
+<td style="text-align:left;">
 Merindad de Río Ubierna
 </td>
 <td style="text-align:left;">
