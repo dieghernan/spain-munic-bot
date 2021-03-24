@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 2.998 places 🏙. 5.133 more to go 👍.
+#### So far I have visited 2.999 places 🏙. 5.132 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 37%;" aria-valuenow="37" aria-valuemin="0"
-aria-valuemax="100"> 36.87% </span>
+aria-valuemax="100"> 36.88% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-845
+846
 </td>
 <td style="text-align:right;">
 2248
@@ -12617,11 +12617,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Santa Cruz de Pinares
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05222">\#spainmunic05222</a>
 </td>
 <td style="text-align:left;">
 05222
@@ -12633,6 +12635,7 @@ Santa Cruz de Pinares
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-24 18:50:51 CET
 </td>
 </tr>
 <tr>
