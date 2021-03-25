@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.034 places 🏙. 5.097 more to go 👍.
+#### So far I have visited 3.035 places 🏙. 5.096 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 37%;" aria-valuenow="37" aria-valuemin="0"
-aria-valuemax="100"> 37.31% </span>
+aria-valuemax="100"> 37.33% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,13 +258,13 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-82
+83
 </td>
 <td style="text-align:right;">
 251
 </td>
 <td style="text-align:right;">
-32
+33
 </td>
 </tr>
 <tr>
@@ -600,11 +600,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Campezo / Kanpezu
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01017">\#spainmunic01017</a>
 </td>
 <td style="text-align:left;">
 01017
@@ -616,6 +618,7 @@ Campezo / Kanpezu
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-03-25 07:06:17 CET
 </td>
 </tr>
 <tr>
