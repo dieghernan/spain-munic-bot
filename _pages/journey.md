@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.315 places 🏙. 4.816 more to go 👍.
+#### So far I have visited 3.316 places 🏙. 4.815 more to go 👍.
 
-I think I would finish tweeting on **2021-06-11**.
+I think I would finish tweeting on **2021-06-12**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 41%;" aria-valuenow="41" aria-valuemin="0"
-aria-valuemax="100"> 40.77% </span>
+aria-valuemax="100"> 40.78% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-154
+155
 </td>
 <td style="text-align:right;">
 388
@@ -36700,11 +36700,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Santiago de Alcántara
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10169">\#spainmunic10169</a>
 </td>
 <td style="text-align:left;">
 10169
@@ -36716,6 +36718,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-03-29 11:51:25 CEST
 </td>
 </tr>
 <tr>
