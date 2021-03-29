@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.323 places 🏙. 4.808 more to go 👍.
+#### So far I have visited 3.324 places 🏙. 4.807 more to go 👍.
 
 I think I would finish tweeting on **NA**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **NA**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 41%;" aria-valuenow="41" aria-valuemin="0"
-aria-valuemax="100"> 40.87% </span>
+aria-valuemax="100"> 40.88% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,7 +174,7 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-197
+198
 </td>
 <td style="text-align:right;">
 542
@@ -41015,11 +41015,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Todolella
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic12112">\#spainmunic12112</a>
 </td>
 <td style="text-align:left;">
 12112
@@ -41031,6 +41033,7 @@ Castellón
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-03-29 14:35:34 CEST
 </td>
 </tr>
 <tr>
