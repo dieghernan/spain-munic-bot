@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.392 places 🏙. 4.739 more to go 👍.
+#### So far I have visited 3.393 places 🏙. 4.738 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 42%;" aria-valuenow="42" aria-valuemin="0"
-aria-valuemax="100"> 41.72% </span>
+aria-valuemax="100"> 41.73% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,13 +188,13 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-159
+160
 </td>
 <td style="text-align:right;">
 388
 </td>
 <td style="text-align:right;">
-40
+41
 </td>
 </tr>
 <tr>
@@ -14206,11 +14206,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Cabeza la Vaca
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06024">\#spainmunic06024</a>
 </td>
 <td style="text-align:left;">
 06024
@@ -14222,6 +14224,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-03-30 16:31:33 CEST
 </td>
 </tr>
 <tr>
