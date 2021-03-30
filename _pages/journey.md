@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.359 places 🏙. 4.772 more to go 👍.
+#### So far I have visited 3.360 places 🏙. 4.771 more to go 👍.
 
-I think I would finish tweeting on **2021-06-12**.
+I think I would finish tweeting on **2021-06-13**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 41%;" aria-valuenow="41" aria-valuemin="0"
-aria-valuemax="100"> 41.31% </span>
+aria-valuemax="100"> 41.32% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,13 +258,13 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-92
+93
 </td>
 <td style="text-align:right;">
 251
 </td>
 <td style="text-align:right;">
-36
+37
 </td>
 </tr>
 <tr>
@@ -557,11 +557,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Berantevilla
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01014">\#spainmunic01014</a>
 </td>
 <td style="text-align:left;">
 01014
@@ -573,6 +575,7 @@ Berantevilla
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-03-30 04:57:04 CEST
 </td>
 </tr>
 <tr>
