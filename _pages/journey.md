@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.465 places 🏙. 4.666 more to go 👍.
+#### So far I have visited 3.466 places 🏙. 4.665 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 43%;" aria-valuenow="43" aria-valuemin="0"
-aria-valuemax="100"> 42.61% </span>
+aria-valuemax="100"> 42.63% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-164
+165
 </td>
 <td style="text-align:right;">
 388
@@ -34612,11 +34612,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Conquista de la Sierra
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10066">\#spainmunic10066</a>
 </td>
 <td style="text-align:left;">
 10066
@@ -34628,6 +34630,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-03-31 20:20:23 CEST
 </td>
 </tr>
 <tr>
