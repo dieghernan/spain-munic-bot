@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.456 places 🏙. 4.675 more to go 👍.
+#### So far I have visited 3.457 places 🏙. 4.674 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -18,8 +18,8 @@ I think I would finish tweeting on **2021-06-10**.
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
-style="width: 42%;" aria-valuenow="42" aria-valuemin="0"
-aria-valuemax="100"> 42.5% </span>
+style="width: 43%;" aria-valuenow="43" aria-valuemin="0"
+aria-valuemax="100"> 42.52% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,13 +132,13 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-966
+967
 </td>
 <td style="text-align:right;">
 2248
 </td>
 <td style="text-align:right;">
-42
+43
 </td>
 </tr>
 <tr>
@@ -10473,11 +10473,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Lanzahíta
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05110">\#spainmunic05110</a>
 </td>
 <td style="text-align:left;">
 05110
@@ -10489,6 +10491,7 @@ Lanzahíta
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-03-31 16:34:12 CEST
 </td>
 </tr>
 <tr>
