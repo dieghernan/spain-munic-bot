@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.524 places 🏙. 4.607 more to go 👍.
+#### So far I have visited 3.525 places 🏙. 4.606 more to go 👍.
 
 I think I would finish tweeting on **2021-06-20**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-20**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 43%;" aria-valuenow="43" aria-valuemin="0"
-aria-valuemax="100"> 43.34% </span>
+aria-valuemax="100"> 43.35% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-988
+989
 </td>
 <td style="text-align:right;">
 2248
@@ -13144,11 +13144,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Tiñosillos
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05242">\#spainmunic05242</a>
 </td>
 <td style="text-align:left;">
 05242
@@ -13160,6 +13162,7 @@ Tiñosillos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-01 22:06:14 CEST
 </td>
 </tr>
 <tr>
