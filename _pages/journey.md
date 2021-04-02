@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.548 places 🏙. 4.583 more to go 👍.
+#### So far I have visited 3.549 places 🏙. 4.582 more to go 👍.
 
 I think I would finish tweeting on **2021-06-30**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-30**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 44%;" aria-valuenow="44" aria-valuemin="0"
-aria-valuemax="100"> 43.64% </span>
+aria-valuemax="100"> 43.65% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-171
+172
 </td>
 <td style="text-align:right;">
 388
@@ -35857,11 +35857,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Mohedas de Granadilla
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10124">\#spainmunic10124</a>
 </td>
 <td style="text-align:left;">
 10124
@@ -35873,6 +35875,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-04-02 10:36:51 CEST
 </td>
 </tr>
 <tr>
