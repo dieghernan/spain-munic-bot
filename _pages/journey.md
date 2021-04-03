@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.655 places 🏙. 4.476 more to go 👍.
+#### So far I have visited 3.656 places 🏙. 4.475 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 45%;" aria-valuenow="45" aria-valuemin="0"
-aria-valuemax="100"> 44.95% </span>
+aria-valuemax="100"> 44.96% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-129
+130
 </td>
 <td style="text-align:right;">
 272
@@ -103276,11 +103276,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Puente la Reina / Gares
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31206">\#spainmunic31206</a>
 </td>
 <td style="text-align:left;">
 31206
@@ -103292,6 +103294,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-04-04 01:32:42 CEST
 </td>
 </tr>
 <tr>
