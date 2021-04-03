@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.650 places 🏙. 4.481 more to go 👍.
+#### So far I have visited 3.651 places 🏙. 4.480 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 45%;" aria-valuenow="45" aria-valuemin="0"
-aria-valuemax="100"> 44.89% </span>
+aria-valuemax="100"> 44.9% </span>
 </p>
 <!--/html_preserve-->
 
@@ -146,13 +146,13 @@ Castilla y León
 Castilla-La Mancha
 </td>
 <td style="text-align:right;">
-422
+423
 </td>
 <td style="text-align:right;">
 919
 </td>
 <td style="text-align:right;">
-45
+46
 </td>
 </tr>
 <tr>
@@ -147345,11 +147345,13 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Montesclaros
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic45105">\#spainmunic45105</a>
 </td>
 <td style="text-align:left;">
 45105
@@ -147361,6 +147363,7 @@ Toledo
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
+2021-04-03 23:49:24 CEST
 </td>
 </tr>
 <tr>
