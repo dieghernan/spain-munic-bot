@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.644 places 🏙. 4.487 more to go 👍.
+#### So far I have visited 3.645 places 🏙. 4.486 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 45%;" aria-valuenow="45" aria-valuemin="0"
-aria-valuemax="100"> 44.82% </span>
+aria-valuemax="100"> 44.83% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,13 +258,13 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-102
+103
 </td>
 <td style="text-align:right;">
 251
 </td>
 <td style="text-align:right;">
-40
+41
 </td>
 </tr>
 <tr>
@@ -1314,11 +1314,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Yécora / Iekora
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01060">\#spainmunic01060</a>
 </td>
 <td style="text-align:left;">
 01060
@@ -1330,6 +1332,7 @@ Yécora / Iekora
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-04-03 21:46:14 CEST
 </td>
 </tr>
 <tr>
