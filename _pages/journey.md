@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.721 places 🏙. 4.410 more to go 👍.
+#### So far I have visited 3.722 places 🏙. 4.409 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 46%;" aria-valuenow="46" aria-valuemin="0"
-aria-valuemax="100"> 45.76% </span>
+aria-valuemax="100"> 45.78% </span>
 </p>
 <!--/html_preserve-->
 
@@ -146,7 +146,7 @@ Castilla y León
 Castilla-La Mancha
 </td>
 <td style="text-align:right;">
-433
+434
 </td>
 <td style="text-align:right;">
 919
@@ -47841,11 +47841,13 @@ Galicia
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Abia de la Obispalía
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic16001">\#spainmunic16001</a>
 </td>
 <td style="text-align:left;">
 16001
@@ -47857,6 +47859,7 @@ Cuenca
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
+2021-04-05 01:49:40 CEST
 </td>
 </tr>
 <tr>
