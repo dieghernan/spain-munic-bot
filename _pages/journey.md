@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.709 places 🏙. 4.422 more to go 👍.
+#### So far I have visited 3.710 places 🏙. 4.421 more to go 👍.
 
 I think I would finish tweeting on **2021-06-08**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-08**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 46%;" aria-valuenow="46" aria-valuemin="0"
-aria-valuemax="100"> 45.62% </span>
+aria-valuemax="100"> 45.63% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-177
+178
 </td>
 <td style="text-align:right;">
 388
@@ -15941,11 +15941,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Peraleda del Zaucejo
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06101">\#spainmunic06101</a>
 </td>
 <td style="text-align:left;">
 06101
@@ -15957,6 +15959,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-04-04 21:47:01 CEST
 </td>
 </tr>
 <tr>
