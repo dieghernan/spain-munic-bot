@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.684 places 🏙. 4.447 more to go 👍.
+#### So far I have visited 3.685 places 🏙. 4.446 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 45%;" aria-valuenow="45" aria-valuemin="0"
-aria-valuemax="100"> 45.31% </span>
+aria-valuemax="100"> 45.32% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1028
+1029
 </td>
 <td style="text-align:right;">
 2248
@@ -156361,11 +156361,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Cogeces de Íscar
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic47053">\#spainmunic47053</a>
 </td>
 <td style="text-align:left;">
 47053
@@ -156377,6 +156379,7 @@ Valladolid
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-04 13:05:58 CEST
 </td>
 </tr>
 <tr>
