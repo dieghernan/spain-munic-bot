@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.756 places 🏙. 4.375 more to go 👍.
+#### So far I have visited 3.757 places 🏙. 4.374 more to go 👍.
 
-I think I would finish tweeting on **2021-06-10**.
+I think I would finish tweeting on **2021-06-09**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 46%;" aria-valuenow="46" aria-valuemin="0"
-aria-valuemax="100"> 46.19% </span>
+aria-valuemax="100"> 46.21% </span>
 </p>
 <!--/html_preserve-->
 
@@ -76,13 +76,13 @@ Aragón
 Principado de Asturias
 </td>
 <td style="text-align:right;">
-39
+40
 </td>
 <td style="text-align:right;">
 78
 </td>
 <td style="text-align:right;">
-50
+51
 </td>
 </tr>
 <tr>
@@ -107281,11 +107281,13 @@ Asturias
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Colunga
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic33019">\#spainmunic33019</a>
 </td>
 <td style="text-align:left;">
 33019
@@ -107297,6 +107299,7 @@ Asturias
 Asturias
 </td>
 <td style="text-align:left;">
+2021-04-05 14:41:40 CEST
 </td>
 </tr>
 <tr>
