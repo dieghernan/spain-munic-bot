@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.770 places 🏙. 4.361 more to go 👍.
+#### So far I have visited 3.771 places 🏙. 4.360 more to go 👍.
 
-I think I would finish tweeting on **2021-06-09**.
+I think I would finish tweeting on **2021-06-08**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 46%;" aria-valuenow="46" aria-valuemin="0"
-aria-valuemax="100"> 46.37% </span>
+aria-valuemax="100"> 46.38% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1047
+1048
 </td>
 <td style="text-align:right;">
 2248
@@ -79663,11 +79663,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Pajares de los Oteros
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic24107">\#spainmunic24107</a>
 </td>
 <td style="text-align:left;">
 24107
@@ -79679,6 +79681,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-05 20:35:31 CEST
 </td>
 </tr>
 <tr>
