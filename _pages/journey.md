@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.817 places 🏙. 4.314 more to go 👍.
+#### So far I have visited 3.818 places 🏙. 4.313 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 47%;" aria-valuenow="47" aria-valuemin="0"
-aria-valuemax="100"> 46.94% </span>
+aria-valuemax="100"> 46.96% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-111
+112
 </td>
 <td style="text-align:right;">
 251
@@ -160877,11 +160877,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Karrantza Harana / Valle de Carranza
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic48022">\#spainmunic48022</a>
 </td>
 <td style="text-align:left;">
 48022
@@ -160893,6 +160895,7 @@ Vizcaya
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-04-06 13:06:06 CEST
 </td>
 </tr>
 <tr>
