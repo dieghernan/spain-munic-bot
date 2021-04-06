@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.789 places 🏙. 4.342 more to go 👍.
+#### So far I have visited 3.790 places 🏙. 4.341 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 47%;" aria-valuenow="47" aria-valuemin="0"
-aria-valuemax="100"> 46.6% </span>
+aria-valuemax="100"> 46.61% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1053
+1054
 </td>
 <td style="text-align:right;">
 2248
@@ -32914,11 +32914,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villasur de Herreros
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09463">\#spainmunic09463</a>
 </td>
 <td style="text-align:left;">
 09463
@@ -32930,6 +32932,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-06 03:06:58 CEST
 </td>
 </tr>
 <tr>
