@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 3.854 places 🏙. 4.277 more to go 👍.
+#### So far I have visited 3.855 places 🏙. 4.276 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 47%;" aria-valuenow="47" aria-valuemin="0"
-aria-valuemax="100"> 47.4% </span>
+aria-valuemax="100"> 47.41% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,13 +174,13 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-233
+234
 </td>
 <td style="text-align:right;">
 542
 </td>
 <td style="text-align:right;">
-42
+43
 </td>
 </tr>
 <tr>
@@ -150814,11 +150814,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Alqueria de la Comtessa, l’
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic46037">\#spainmunic46037</a>
 </td>
 <td style="text-align:left;">
 46037
@@ -150830,6 +150832,7 @@ Valencia
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-04-07 02:14:07 CEST
 </td>
 </tr>
 <tr>
