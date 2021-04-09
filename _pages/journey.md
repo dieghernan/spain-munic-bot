@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.017 places 🏙. 4.114 more to go 👍.
+#### So far I have visited 4.018 places 🏙. 4.113 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 49%;" aria-valuenow="49" aria-valuemin="0"
-aria-valuemax="100"> 49.4% </span>
+aria-valuemax="100"> 49.42% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,13 +132,13 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1123
+1124
 </td>
 <td style="text-align:right;">
 2248
 </td>
 <td style="text-align:right;">
-49
+50
 </td>
 </tr>
 <tr>
@@ -8686,11 +8686,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Arenal, El
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05013">\#spainmunic05013</a>
 </td>
 <td style="text-align:left;">
 05013
@@ -8702,6 +8704,7 @@ Arenal, El
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-09 12:52:12 CEST
 </td>
 </tr>
 <tr>
