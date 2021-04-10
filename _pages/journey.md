@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.072 places 🏙. 4.059 more to go 👍.
+#### So far I have visited 4.073 places 🏙. 4.058 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
-aria-valuemax="100"> 50.08% </span>
+aria-valuemax="100"> 50.09% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,13 +132,13 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1146
+1147
 </td>
 <td style="text-align:right;">
 2248
 </td>
 <td style="text-align:right;">
-50
+51
 </td>
 </tr>
 <tr>
@@ -156316,11 +156316,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Aguasal
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic47002">\#spainmunic47002</a>
 </td>
 <td style="text-align:left;">
 47002
@@ -156332,6 +156334,7 @@ Valladolid
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-10 10:34:56 CEST
 </td>
 </tr>
 <tr>
