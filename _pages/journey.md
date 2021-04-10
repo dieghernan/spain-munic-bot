@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.109 places 🏙. 4.022 more to go 👍.
+#### So far I have visited 4.110 places 🏙. 4.021 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 51%;" aria-valuenow="51" aria-valuemin="0"
-aria-valuemax="100"> 50.53% </span>
+aria-valuemax="100"> 50.55% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1153
+1154
 </td>
 <td style="text-align:right;">
 2248
@@ -121869,11 +121869,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Tejeda y Segoyuela
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic37320">\#spainmunic37320</a>
 </td>
 <td style="text-align:left;">
 37320
@@ -121885,6 +121887,7 @@ Salamanca
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-10 23:06:35 CEST
 </td>
 </tr>
 <tr>
