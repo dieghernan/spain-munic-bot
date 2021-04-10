@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.112 places 🏙. 4.019 more to go 👍.
+#### So far I have visited 4.113 places 🏙. 4.018 more to go 👍.
 
-I think I would finish tweeting on **2021-06-10**.
+I think I would finish tweeting on **2021-06-11**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 51%;" aria-valuenow="51" aria-valuemin="0"
-aria-valuemax="100"> 50.57% </span>
+aria-valuemax="100"> 50.58% </span>
 </p>
 <!--/html_preserve-->
 
@@ -272,7 +272,7 @@ País Vasco
 La Rioja
 </td>
 <td style="text-align:right;">
-89
+90
 </td>
 <td style="text-align:right;">
 174
@@ -87846,11 +87846,13 @@ La Rioja
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Arenzana de Arriba
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic26016">\#spainmunic26016</a>
 </td>
 <td style="text-align:left;">
 26016
@@ -87862,6 +87864,7 @@ La Rioja
 La Rioja
 </td>
 <td style="text-align:left;">
+2021-04-11 00:09:17 CEST
 </td>
 </tr>
 <tr>
