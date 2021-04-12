@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.231 places 🏙. 3.900 more to go 👍.
+#### So far I have visited 4.232 places 🏙. 3.899 more to go 👍.
 
 I think I would finish tweeting on **2021-06-24**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-24**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 52%;" aria-valuenow="52" aria-valuemin="0"
-aria-valuemax="100"> 52.04% </span>
+aria-valuemax="100"> 52.05% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-146
+147
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-53
+54
 </td>
 </tr>
 <tr>
@@ -101086,11 +101086,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Biurrun-Olcoz
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31056">\#spainmunic31056</a>
 </td>
 <td style="text-align:left;">
 31056
@@ -101102,6 +101104,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-04-13 01:49:48 CEST
 </td>
 </tr>
 <tr>
