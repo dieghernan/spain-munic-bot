@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.318 places 🏙. 3.813 more to go 👍.
+#### So far I have visited 4.319 places 🏙. 3.812 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 53%;" aria-valuenow="53" aria-valuemin="0"
-aria-valuemax="100"> 53.11% </span>
+aria-valuemax="100"> 53.12% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,13 +174,13 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-270
+271
 </td>
 <td style="text-align:right;">
 542
 </td>
 <td style="text-align:right;">
-49
+50
 </td>
 </tr>
 <tr>
@@ -156340,11 +156340,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Tavernes de la Valldigna
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic46238">\#spainmunic46238</a>
 </td>
 <td style="text-align:left;">
 46238
@@ -156356,6 +156358,7 @@ Valencia
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-04-14 11:09:13 CEST
 </td>
 </tr>
 <tr>
