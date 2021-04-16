@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.460 places 🏙. 3.671 more to go 👍.
+#### So far I have visited 4.461 places 🏙. 3.670 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 55%;" aria-valuenow="55" aria-valuemin="0"
-aria-valuemax="100"> 54.85% </span>
+aria-valuemax="100"> 54.86% </span>
 </p>
 <!--/html_preserve-->
 
@@ -76,13 +76,13 @@ Aragón
 Principado de Asturias
 </td>
 <td style="text-align:right;">
-47
+48
 </td>
 <td style="text-align:right;">
 78
 </td>
 <td style="text-align:right;">
-60
+61
 </td>
 </tr>
 <tr>
@@ -108726,11 +108726,13 @@ Asturias
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Franco, El
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic33023">\#spainmunic33023</a>
 </td>
 <td style="text-align:left;">
 33023
@@ -108742,6 +108744,7 @@ Asturias
 Asturias
 </td>
 <td style="text-align:left;">
+2021-04-16 13:31:28 CEST
 </td>
 </tr>
 <tr>
