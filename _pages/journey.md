@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.469 places 🏙. 3.662 more to go 👍.
+#### So far I have visited 4.470 places 🏙. 3.661 more to go 👍.
 
 I think I would finish tweeting on **2021-06-08**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-08**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 55%;" aria-valuenow="55" aria-valuemin="0"
-aria-valuemax="100"> 54.96% </span>
+aria-valuemax="100"> 54.97% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1235
+1236
 </td>
 <td style="text-align:right;">
 2248
@@ -167337,11 +167337,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Muga de Sayago
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49136">\#spainmunic49136</a>
 </td>
 <td style="text-align:left;">
 49136
@@ -167353,6 +167355,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-16 16:31:44 CEST
 </td>
 </tr>
 <tr>
