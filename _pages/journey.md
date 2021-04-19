@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.642 places 🏙. 3.489 more to go 👍.
+#### So far I have visited 4.643 places 🏙. 3.488 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 57%;" aria-valuenow="57" aria-valuemin="0"
-aria-valuemax="100"> 57.09% </span>
+aria-valuemax="100"> 57.1% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-136
+137
 </td>
 <td style="text-align:right;">
 251
@@ -70260,11 +70260,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Ordizia
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic20076">\#spainmunic20076</a>
 </td>
 <td style="text-align:left;">
 20076
@@ -70276,6 +70278,7 @@ Guipúzcoa
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-04-19 10:54:55 CEST
 </td>
 </tr>
 <tr>
