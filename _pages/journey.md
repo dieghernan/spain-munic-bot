@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.761 places 🏙. 3.370 more to go 👍.
+#### So far I have visited 4.762 places 🏙. 3.369 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 59%;" aria-valuenow="59" aria-valuemin="0"
-aria-valuemax="100"> 58.55% </span>
+aria-valuemax="100"> 58.57% </span>
 </p>
 <!--/html_preserve-->
 
@@ -160,13 +160,13 @@ Castilla-La Mancha
 Cataluña
 </td>
 <td style="text-align:right;">
-520
+521
 </td>
 <td style="text-align:right;">
 947
 </td>
 <td style="text-align:right;">
-54
+55
 </td>
 </tr>
 <tr>
@@ -142381,11 +142381,13 @@ Cataluña
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Vilanova d’Escornalbou
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic43167">\#spainmunic43167</a>
 </td>
 <td style="text-align:left;">
 43167
@@ -142397,6 +142399,7 @@ Tarragona
 Cataluña
 </td>
 <td style="text-align:left;">
+2021-04-21 05:13:27 CEST
 </td>
 </tr>
 <tr>
