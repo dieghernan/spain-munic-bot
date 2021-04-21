@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.810 places 🏙. 3.321 more to go 👍.
+#### So far I have visited 4.811 places 🏙. 3.320 more to go 👍.
 
 I think I would finish tweeting on **2021-06-09**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-09**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 59%;" aria-valuenow="59" aria-valuemin="0"
-aria-valuemax="100"> 59.16% </span>
+aria-valuemax="100"> 59.17% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1336
+1337
 </td>
 <td style="text-align:right;">
 2248
@@ -158967,11 +158967,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Canalejas de Peñafiel
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic47033">\#spainmunic47033</a>
 </td>
 <td style="text-align:left;">
 47033
@@ -158983,6 +158985,7 @@ Valladolid
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-21 22:49:17 CEST
 </td>
 </tr>
 <tr>
