@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.848 places 🏙. 3.283 more to go 👍.
+#### So far I have visited 4.849 places 🏙. 3.282 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
-aria-valuemax="100"> 59.62% </span>
+aria-valuemax="100"> 59.64% </span>
 </p>
 <!--/html_preserve-->
 
@@ -104,13 +104,13 @@ Illes Balears
 Canarias
 </td>
 <td style="text-align:right;">
-45
+46
 </td>
 <td style="text-align:right;">
 88
 </td>
 <td style="text-align:right;">
-51
+52
 </td>
 </tr>
 <tr>
@@ -115001,11 +115001,13 @@ Canarias
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Haría
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic35010">\#spainmunic35010</a>
 </td>
 <td style="text-align:left;">
 35010
@@ -115017,6 +115019,7 @@ Las Palmas
 Canarias
 </td>
 <td style="text-align:left;">
+2021-04-22 12:39:53 CEST
 </td>
 </tr>
 <tr>
