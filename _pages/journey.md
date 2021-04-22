@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.840 places 🏙. 3.291 more to go 👍.
+#### So far I have visited 4.841 places 🏙. 3.290 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
-aria-valuemax="100"> 59.53% </span>
+aria-valuemax="100"> 59.54% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1347
+1348
 </td>
 <td style="text-align:right;">
 2248
@@ -114748,11 +114748,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Loma de Ucieza
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic34903">\#spainmunic34903</a>
 </td>
 <td style="text-align:left;">
 34903
@@ -114764,6 +114766,7 @@ Palencia
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-22 09:53:21 CEST
 </td>
 </tr>
 <tr>
