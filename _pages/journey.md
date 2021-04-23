@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.913 places 🏙. 3.218 more to go 👍.
+#### So far I have visited 4.914 places 🏙. 3.217 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
-aria-valuemax="100"> 60.42% </span>
+aria-valuemax="100"> 60.44% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1366
+1367
 </td>
 <td style="text-align:right;">
 2248
@@ -10100,11 +10100,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Gallegos de Altamiros
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05079">\#spainmunic05079</a>
 </td>
 <td style="text-align:left;">
 05079
@@ -10116,6 +10118,7 @@ Gallegos de Altamiros
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-23 14:20:52 CEST
 </td>
 </tr>
 <tr>
