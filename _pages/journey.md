@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.937 places 🏙. 3.194 more to go 👍.
+#### So far I have visited 4.938 places 🏙. 3.193 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 61%;" aria-valuenow="61" aria-valuemin="0"
-aria-valuemax="100"> 60.72% </span>
+aria-valuemax="100"> 60.73% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-165
+166
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-60
+61
 </td>
 </tr>
 <tr>
@@ -105316,11 +105316,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Olite / Erriberri
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31191">\#spainmunic31191</a>
 </td>
 <td style="text-align:left;">
 31191
@@ -105332,6 +105334,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-04-23 23:35:38 CEST
 </td>
 </tr>
 <tr>
