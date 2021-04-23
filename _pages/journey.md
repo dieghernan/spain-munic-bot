@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.890 places 🏙. 3.241 more to go 👍.
+#### So far I have visited 4.891 places 🏙. 3.240 more to go 👍.
 
 I think I would finish tweeting on **2021-06-13**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-13**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
-aria-valuemax="100"> 60.14% </span>
+aria-valuemax="100"> 60.15% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1364
+1365
 </td>
 <td style="text-align:right;">
 2248
@@ -13798,11 +13798,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villanueva del Campillo
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05260">\#spainmunic05260</a>
 </td>
 <td style="text-align:left;">
 05260
@@ -13814,6 +13816,7 @@ Villanueva del Campillo
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-23 05:54:41 CEST
 </td>
 </tr>
 <tr>
