@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.004 places 🏙. 3.127 more to go 👍.
+#### So far I have visited 5.005 places 🏙. 3.126 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 62%;" aria-valuenow="62" aria-valuemin="0"
-aria-valuemax="100"> 61.54% </span>
+aria-valuemax="100"> 61.55% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,7 +258,7 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-149
+150
 </td>
 <td style="text-align:right;">
 251
@@ -434,11 +434,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Armiñón
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic01006">\#spainmunic01006</a>
 </td>
 <td style="text-align:left;">
 01006
@@ -450,6 +452,7 @@ Armiñón
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-04-24 23:48:47 CEST
 </td>
 </tr>
 <tr>
