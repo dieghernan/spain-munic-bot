@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 4.950 places 🏙. 3.181 more to go 👍.
+#### So far I have visited 4.951 places 🏙. 3.180 more to go 👍.
 
 I think I would finish tweeting on **2021-06-16**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-16**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 61%;" aria-valuenow="61" aria-valuemin="0"
-aria-valuemax="100"> 60.88% </span>
+aria-valuemax="100"> 60.89% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1377
+1378
 </td>
 <td style="text-align:right;">
 2248
@@ -12981,11 +12981,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 San Miguel de Serrezuela
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05218">\#spainmunic05218</a>
 </td>
 <td style="text-align:left;">
 05218
@@ -12997,6 +12999,7 @@ San Miguel de Serrezuela
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-24 05:17:25 CEST
 </td>
 </tr>
 <tr>
