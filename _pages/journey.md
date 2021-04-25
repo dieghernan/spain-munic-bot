@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.063 places 🏙. 3.068 more to go 👍.
+#### So far I have visited 5.064 places 🏙. 3.067 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 62%;" aria-valuenow="62" aria-valuemin="0"
-aria-valuemax="100"> 62.27% </span>
+aria-valuemax="100"> 62.28% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-169
+170
 </td>
 <td style="text-align:right;">
 272
@@ -107314,11 +107314,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Lekunberri
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31908">\#spainmunic31908</a>
 </td>
 <td style="text-align:left;">
 31908
@@ -107330,6 +107332,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-04-25 21:36:48 CEST
 </td>
 </tr>
 <tr>
