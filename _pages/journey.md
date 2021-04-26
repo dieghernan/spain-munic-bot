@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.096 places 🏙. 3.035 more to go 👍.
+#### So far I have visited 5.097 places 🏙. 3.034 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 63%;" aria-valuenow="63" aria-valuemin="0"
-aria-valuemax="100"> 62.67% </span>
+aria-valuemax="100"> 62.69% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1418
+1419
 </td>
 <td style="text-align:right;">
 2248
@@ -10825,11 +10825,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Llanos de Tormes, Los
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05113">\#spainmunic05113</a>
 </td>
 <td style="text-align:left;">
 05113
@@ -10841,6 +10843,7 @@ Llanos de Tormes, Los
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-26 09:32:30 CEST
 </td>
 </tr>
 <tr>
