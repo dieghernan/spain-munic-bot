@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.160 places 🏙. 2.971 more to go 👍.
+#### So far I have visited 5.161 places 🏙. 2.970 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 63%;" aria-valuenow="63" aria-valuemin="0"
-aria-valuemax="100"> 63.46% </span>
+aria-valuemax="100"> 63.47% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1435
+1436
 </td>
 <td style="text-align:right;">
 2248
@@ -32594,11 +32594,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Valdeande
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09403">\#spainmunic09403</a>
 </td>
 <td style="text-align:left;">
 09403
@@ -32610,6 +32612,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-27 08:52:27 CEST
 </td>
 </tr>
 <tr>
