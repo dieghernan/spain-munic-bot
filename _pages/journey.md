@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.145 places 🏙. 2.986 more to go 👍.
+#### So far I have visited 5.146 places 🏙. 2.985 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 63%;" aria-valuenow="63" aria-valuemin="0"
-aria-valuemax="100"> 63.28% </span>
+aria-valuemax="100"> 63.29% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1430
+1431
 </td>
 <td style="text-align:right;">
 2248
@@ -81178,11 +81178,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Joarilla de las Matas
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic24086">\#spainmunic24086</a>
 </td>
 <td style="text-align:left;">
 24086
@@ -81194,6 +81196,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-27 03:09:13 CEST
 </td>
 </tr>
 <tr>
