@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.235 places 🏙. 2.896 more to go 👍.
+#### So far I have visited 5.236 places 🏙. 2.895 more to go 👍.
 
 I think I would finish tweeting on **2021-06-11**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-11**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 64%;" aria-valuenow="64" aria-valuemin="0"
-aria-valuemax="100"> 64.38% </span>
+aria-valuemax="100"> 64.4% </span>
 </p>
 <!--/html_preserve-->
 
@@ -118,13 +118,13 @@ Canarias
 Cantabria
 </td>
 <td style="text-align:right;">
-69
+70
 </td>
 <td style="text-align:right;">
 102
 </td>
 <td style="text-align:right;">
-67
+68
 </td>
 </tr>
 <tr>
@@ -127543,11 +127543,13 @@ Cantabria
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Lamasón
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic39034">\#spainmunic39034</a>
 </td>
 <td style="text-align:left;">
 39034
@@ -127559,6 +127561,7 @@ Cantabria
 Cantabria
 </td>
 <td style="text-align:left;">
+2021-04-28 11:52:36 CEST
 </td>
 </tr>
 <tr>
