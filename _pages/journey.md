@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.239 places 🏙. 2.892 more to go 👍.
+#### So far I have visited 5.240 places 🏙. 2.891 more to go 👍.
 
-I think I would finish tweeting on **2021-06-11**.
+I think I would finish tweeting on **2021-06-10**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 64%;" aria-valuenow="64" aria-valuemin="0"
-aria-valuemax="100"> 64.43% </span>
+aria-valuemax="100"> 64.44% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,13 +188,13 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-248
+249
 </td>
 <td style="text-align:right;">
 388
 </td>
 <td style="text-align:right;">
-63
+64
 </td>
 </tr>
 <tr>
@@ -16673,11 +16673,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Salvaleón
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06116">\#spainmunic06116</a>
 </td>
 <td style="text-align:left;">
 06116
@@ -16689,6 +16691,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-04-28 13:09:19 CEST
 </td>
 </tr>
 <tr>
