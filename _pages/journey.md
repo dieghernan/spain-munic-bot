@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.268 places 🏙. 2.863 more to go 👍.
+#### So far I have visited 5.269 places 🏙. 2.862 more to go 👍.
 
 I think I would finish tweeting on **2021-06-10**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-10**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 65%;" aria-valuenow="65" aria-valuemin="0"
-aria-valuemax="100"> 64.79% </span>
+aria-valuemax="100"> 64.8% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-249
+250
 </td>
 <td style="text-align:right;">
 388
@@ -15853,11 +15853,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Malpartida de la Serena
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06078">\#spainmunic06078</a>
 </td>
 <td style="text-align:left;">
 06078
@@ -15869,6 +15871,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-04-28 23:53:15 CEST
 </td>
 </tr>
 <tr>
