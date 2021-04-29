@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.309 places 🏙. 2.822 more to go 👍.
+#### So far I have visited 5.310 places 🏙. 2.821 more to go 👍.
 
-I think I would finish tweeting on **2021-06-14**.
+I think I would finish tweeting on **2021-06-17**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 65%;" aria-valuenow="65" aria-valuemin="0"
-aria-valuemax="100"> 65.29% </span>
+aria-valuemax="100"> 65.31% </span>
 </p>
 <!--/html_preserve-->
 
@@ -62,7 +62,7 @@ Andalucía
 Aragón
 </td>
 <td style="text-align:right;">
-474
+475
 </td>
 <td style="text-align:right;">
 731
@@ -73356,11 +73356,13 @@ Aragón
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Alcalá del Obispo
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic22015">\#spainmunic22015</a>
 </td>
 <td style="text-align:left;">
 22015
@@ -73372,6 +73374,7 @@ Huesca
 Aragón
 </td>
 <td style="text-align:left;">
+2021-04-29 19:32:41 CEST
 </td>
 </tr>
 <tr>
