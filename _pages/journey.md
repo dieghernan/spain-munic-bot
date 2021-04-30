@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.344 places 🏙. 2.787 more to go 👍.
+#### So far I have visited 5.345 places 🏙. 2.786 more to go 👍.
 
 I think I would finish tweeting on **2021-06-26**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-26**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 66%;" aria-valuenow="66" aria-valuemin="0"
-aria-valuemax="100"> 65.72% </span>
+aria-valuemax="100"> 65.74% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1479
+1480
 </td>
 <td style="text-align:right;">
 2248
@@ -169887,11 +169887,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Otero de Bodas
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49139">\#spainmunic49139</a>
 </td>
 <td style="text-align:left;">
 49139
@@ -169903,6 +169905,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-04-30 12:55:40 CEST
 </td>
 </tr>
 <tr>
