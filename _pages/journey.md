@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.382 places 🏙. 2.749 more to go 👍.
+#### So far I have visited 5.383 places 🏙. 2.748 more to go 👍.
 
 I think I would finish tweeting on **2021-06-26**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-26**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 66%;" aria-valuenow="66" aria-valuemin="0"
-aria-valuemax="100"> 66.19% </span>
+aria-valuemax="100"> 66.2% </span>
 </p>
 <!--/html_preserve-->
 
@@ -258,13 +258,13 @@ Comunidad Foral de Navarra
 País Vasco
 </td>
 <td style="text-align:right;">
-158
+159
 </td>
 <td style="text-align:right;">
 251
 </td>
 <td style="text-align:right;">
-62
+63
 </td>
 </tr>
 <tr>
@@ -166698,11 +166698,13 @@ País Vasco
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Balmaseda
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic48090">\#spainmunic48090</a>
 </td>
 <td style="text-align:left;">
 48090
@@ -166714,6 +166716,7 @@ Vizcaya
 País Vasco
 </td>
 <td style="text-align:left;">
+2021-05-01 07:44:43 CEST
 </td>
 </tr>
 <tr>
