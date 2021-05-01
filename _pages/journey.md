@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.410 places 🏙. 2.721 more to go 👍.
+#### So far I have visited 5.411 places 🏙. 2.720 more to go 👍.
 
 I think I would finish tweeting on **2021-06-21**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-21**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 67%;" aria-valuenow="67" aria-valuemin="0"
-aria-valuemax="100"> 66.54% </span>
+aria-valuemax="100"> 66.55% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1497
+1498
 </td>
 <td style="text-align:right;">
 2248
@@ -31308,11 +31308,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Revilla y Ahedo, La
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic09312">\#spainmunic09312</a>
 </td>
 <td style="text-align:left;">
 09312
@@ -31324,6 +31326,7 @@ Burgos
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-01 19:29:37 CEST
 </td>
 </tr>
 <tr>
