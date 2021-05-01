@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.420 places 🏙. 2.711 more to go 👍.
+#### So far I have visited 5.421 places 🏙. 2.710 more to go 👍.
 
 I think I would finish tweeting on **2021-06-21**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-21**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 67%;" aria-valuenow="67" aria-valuemin="0"
-aria-valuemax="100"> 66.66% </span>
+aria-valuemax="100"> 66.67% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-184
+185
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-67
+68
 </td>
 </tr>
 <tr>
@@ -105489,11 +105489,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Lumbier
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31159">\#spainmunic31159</a>
 </td>
 <td style="text-align:left;">
 31159
@@ -105505,6 +105507,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-05-01 23:52:50 CEST
 </td>
 </tr>
 <tr>
