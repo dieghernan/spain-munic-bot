@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.508 places 🏙. 2.623 more to go 👍.
+#### So far I have visited 5.509 places 🏙. 2.622 more to go 👍.
 
 I think I would finish tweeting on **2021-06-21**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-21**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 68%;" aria-valuenow="68" aria-valuemin="0"
-aria-valuemax="100"> 67.74% </span>
+aria-valuemax="100"> 67.75% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-262
+263
 </td>
 <td style="text-align:right;">
 388
@@ -14619,11 +14619,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Berlanga
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06019">\#spainmunic06019</a>
 </td>
 <td style="text-align:left;">
 06019
@@ -14635,6 +14637,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-05-03 17:17:04 CEST
 </td>
 </tr>
 <tr>
