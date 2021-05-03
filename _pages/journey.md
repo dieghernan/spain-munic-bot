@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.481 places 🏙. 2.650 more to go 👍.
+#### So far I have visited 5.482 places 🏙. 2.649 more to go 👍.
 
 I think I would finish tweeting on **2021-06-25**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-25**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 67%;" aria-valuenow="67" aria-valuemin="0"
-aria-valuemax="100"> 67.41% </span>
+aria-valuemax="100"> 67.42% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1514
+1515
 </td>
 <td style="text-align:right;">
 2248
@@ -171158,11 +171158,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Salce
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49183">\#spainmunic49183</a>
 </td>
 <td style="text-align:left;">
 49183
@@ -171174,6 +171176,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-03 05:23:14 CEST
 </td>
 </tr>
 <tr>
