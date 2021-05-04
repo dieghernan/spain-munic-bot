@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.582 places 🏙. 2.549 more to go 👍.
+#### So far I have visited 5.583 places 🏙. 2.548 more to go 👍.
 
 I think I would finish tweeting on **2021-06-20**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-20**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 69%;" aria-valuenow="69" aria-valuemin="0"
-aria-valuemax="100"> 68.65% </span>
+aria-valuemax="100"> 68.66% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1546
+1547
 </td>
 <td style="text-align:right;">
 2248
@@ -83146,11 +83146,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Santa María del Monte de Cea
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic24156">\#spainmunic24156</a>
 </td>
 <td style="text-align:left;">
 24156
@@ -83162,6 +83164,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-05 01:41:08 CEST
 </td>
 </tr>
 <tr>
