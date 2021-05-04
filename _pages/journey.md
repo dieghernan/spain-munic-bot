@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.540 places 🏙. 2.591 more to go 👍.
+#### So far I have visited 5.541 places 🏙. 2.590 more to go 👍.
 
 I think I would finish tweeting on **2021-06-23**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-23**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 68%;" aria-valuenow="68" aria-valuemin="0"
-aria-valuemax="100"> 68.13% </span>
+aria-valuemax="100"> 68.15% </span>
 </p>
 <!--/html_preserve-->
 
@@ -230,13 +230,13 @@ Comunidad de Madrid
 Región de Murcia
 </td>
 <td style="text-align:right;">
-32
+33
 </td>
 <td style="text-align:right;">
 45
 </td>
 <td style="text-align:right;">
-71
+73
 </td>
 </tr>
 <tr>
@@ -101488,11 +101488,13 @@ Murcia
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Campos del Río
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic30014">\#spainmunic30014</a>
 </td>
 <td style="text-align:left;">
 30014
@@ -101504,6 +101506,7 @@ Murcia
 Murcia
 </td>
 <td style="text-align:left;">
+2021-05-04 09:19:49 CEST
 </td>
 </tr>
 <tr>
