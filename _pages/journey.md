@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.584 places 🏙. 2.547 more to go 👍.
+#### So far I have visited 5.585 places 🏙. 2.546 more to go 👍.
 
 I think I would finish tweeting on **2021-06-20**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-20**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 69%;" aria-valuenow="69" aria-valuemin="0"
-aria-valuemax="100"> 68.68% </span>
+aria-valuemax="100"> 68.69% </span>
 </p>
 <!--/html_preserve-->
 
@@ -202,7 +202,7 @@ Extremadura
 Galicia
 </td>
 <td style="text-align:right;">
-220
+221
 </td>
 <td style="text-align:right;">
 313
@@ -94465,11 +94465,13 @@ Galicia
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Palas de Rei
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic27040">\#spainmunic27040</a>
 </td>
 <td style="text-align:left;">
 27040
@@ -94481,6 +94483,7 @@ Lugo
 Galicia
 </td>
 <td style="text-align:left;">
+2021-05-05 02:37:02 CEST
 </td>
 </tr>
 <tr>
