@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.611 places 🏙. 2.520 more to go 👍.
+#### So far I have visited 5.612 places 🏙. 2.519 more to go 👍.
 
 I think I would finish tweeting on **2021-06-19**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-19**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 69%;" aria-valuenow="69" aria-valuemin="0"
-aria-valuemax="100"> 69.01% </span>
+aria-valuemax="100"> 69.02% </span>
 </p>
 <!--/html_preserve-->
 
@@ -48,7 +48,7 @@ progress
 Andalucía
 </td>
 <td style="text-align:right;">
-554
+555
 </td>
 <td style="text-align:right;">
 785
@@ -40240,11 +40240,13 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villamartín
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic11041">\#spainmunic11041</a>
 </td>
 <td style="text-align:left;">
 11041
@@ -40256,6 +40258,7 @@ Cádiz
 Andalucía
 </td>
 <td style="text-align:left;">
+2021-05-05 15:06:19 CEST
 </td>
 </tr>
 <tr>
