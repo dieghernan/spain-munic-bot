@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.655 places 🏙. 2.476 more to go 👍.
+#### So far I have visited 5.656 places 🏙. 2.475 more to go 👍.
 
 I think I would finish tweeting on **2021-06-23**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-23**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
-aria-valuemax="100"> 69.55% </span>
+aria-valuemax="100"> 69.56% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1567
+1568
 </td>
 <td style="text-align:right;">
 2248
@@ -132330,11 +132330,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Mata de Cuéllar
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic40124">\#spainmunic40124</a>
 </td>
 <td style="text-align:left;">
 40124
@@ -132346,6 +132348,7 @@ Segovia
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-06 11:58:01 CEST
 </td>
 </tr>
 <tr>
