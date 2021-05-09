@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.822 places 🏙. 2.309 more to go 👍.
+#### So far I have visited 5.823 places 🏙. 2.308 more to go 👍.
 
 I think I would finish tweeting on **2021-06-19**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-19**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 72%;" aria-valuenow="72" aria-valuemin="0"
-aria-valuemax="100"> 71.6% </span>
+aria-valuemax="100"> 71.61% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1613
+1614
 </td>
 <td style="text-align:right;">
 2248
@@ -10302,11 +10302,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Garganta del Villar
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05081">\#spainmunic05081</a>
 </td>
 <td style="text-align:left;">
 05081
@@ -10318,6 +10320,7 @@ Garganta del Villar
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-09 15:44:44 CEST
 </td>
 </tr>
 <tr>
