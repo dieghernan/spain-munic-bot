@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.864 places 🏙. 2.267 more to go 👍.
+#### So far I have visited 5.865 places 🏙. 2.266 more to go 👍.
 
 I think I would finish tweeting on **2021-06-22**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-22**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 72%;" aria-valuenow="72" aria-valuemin="0"
-aria-valuemax="100"> 72.12% </span>
+aria-valuemax="100"> 72.13% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-198
+199
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-72
+73
 </td>
 </tr>
 <tr>
@@ -105190,11 +105190,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Gallipienzo / Galipentzu
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31110">\#spainmunic31110</a>
 </td>
 <td style="text-align:left;">
 31110
@@ -105206,6 +105208,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-05-10 12:02:11 CEST
 </td>
 </tr>
 <tr>
