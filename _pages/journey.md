@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 5.857 places 🏙. 2.274 more to go 👍.
+#### So far I have visited 5.858 places 🏙. 2.273 more to go 👍.
 
 I think I would finish tweeting on **2021-06-22**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-22**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 72%;" aria-valuenow="72" aria-valuemin="0"
-aria-valuemax="100"> 72.03% </span>
+aria-valuemax="100"> 72.05% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1622
+1623
 </td>
 <td style="text-align:right;">
 2248
@@ -171658,11 +171658,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Piedrahita de Castro
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49155">\#spainmunic49155</a>
 </td>
 <td style="text-align:left;">
 49155
@@ -171674,6 +171676,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-10 09:20:45 CEST
 </td>
 </tr>
 <tr>
