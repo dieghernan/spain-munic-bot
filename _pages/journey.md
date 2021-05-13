@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.019 places 🏙. 2.112 more to go 👍.
+#### So far I have visited 6.020 places 🏙. 2.111 more to go 👍.
 
 I think I would finish tweeting on **2021-06-27**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-27**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 74%;" aria-valuenow="74" aria-valuemin="0"
-aria-valuemax="100"> 74.03% </span>
+aria-valuemax="100"> 74.04% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1669
+1670
 </td>
 <td style="text-align:right;">
 2248
@@ -9141,11 +9141,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Barco de Ávila, El
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05021">\#spainmunic05021</a>
 </td>
 <td style="text-align:left;">
 05021
@@ -9157,6 +9159,7 @@ Barco de Ávila, El
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-13 14:24:03 CEST
 </td>
 </tr>
 <tr>
