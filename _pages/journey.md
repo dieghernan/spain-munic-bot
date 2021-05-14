@@ -12,7 +12,7 @@ output:
 
 #### So far I have visited 6.071 places 🏙. 2.060 more to go 👍.
 
-I think I would finish tweeting on **2021-06-27**.
+I think I would finish tweeting on **2021-06-26**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
@@ -48,7 +48,7 @@ progress
 Andalucía
 </td>
 <td style="text-align:right;">
-594
+595
 </td>
 <td style="text-align:right;">
 785
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1685
+1684
 </td>
 <td style="text-align:right;">
 2248
@@ -61539,11 +61539,13 @@ Andalucía
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Granada
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic18087">\#spainmunic18087</a>
 </td>
 <td style="text-align:left;">
 18087
@@ -61555,6 +61557,7 @@ Granada
 Andalucía
 </td>
 <td style="text-align:left;">
+2021-05-14 17:47:40 CEST
 </td>
 </tr>
 <tr>
@@ -120631,13 +120634,11 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
-✓
 </td>
 <td style="text-align:left;">
 Cabeza de Béjar, La
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic37063">\#spainmunic37063</a>
 </td>
 <td style="text-align:left;">
 37063
@@ -120649,7 +120650,6 @@ Salamanca
 Castilla y León
 </td>
 <td style="text-align:left;">
-2021-03-23 16:43:27 CET
 </td>
 </tr>
 <tr>
