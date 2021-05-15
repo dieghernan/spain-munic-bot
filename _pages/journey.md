@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.092 places 🏙. 2.039 more to go 👍.
+#### So far I have visited 6.093 places 🏙. 2.038 more to go 👍.
 
 I think I would finish tweeting on **2021-07-01**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-01**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-aria-valuemax="100"> 74.92% </span>
+aria-valuemax="100"> 74.94% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1690
+1691
 </td>
 <td style="text-align:right;">
 2248
@@ -9015,11 +9015,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Arenas de San Pedro
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05014">\#spainmunic05014</a>
 </td>
 <td style="text-align:left;">
 05014
@@ -9031,6 +9033,7 @@ Arenas de San Pedro
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-15 07:04:30 CEST
 </td>
 </tr>
 <tr>
