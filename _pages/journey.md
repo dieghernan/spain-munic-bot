@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.086 places 🏙. 2.045 more to go 👍.
+#### So far I have visited 6.087 places 🏙. 2.044 more to go 👍.
 
-I think I would finish tweeting on **2021-06-28**.
+I think I would finish tweeting on **2021-06-29**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-aria-valuemax="100"> 74.85% </span>
+aria-valuemax="100"> 74.86% </span>
 </p>
 <!--/html_preserve-->
 
@@ -202,7 +202,7 @@ Extremadura
 Galicia
 </td>
 <td style="text-align:right;">
-242
+243
 </td>
 <td style="text-align:right;">
 313
@@ -110817,11 +110817,13 @@ Galicia
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Rubiá
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic32073">\#spainmunic32073</a>
 </td>
 <td style="text-align:left;">
 32073
@@ -110833,6 +110835,7 @@ Orense
 Galicia
 </td>
 <td style="text-align:left;">
+2021-05-15 02:49:19 CEST
 </td>
 </tr>
 <tr>
