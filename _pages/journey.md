@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.241 places 🏙. 1.890 more to go 👍.
+#### So far I have visited 6.242 places 🏙. 1.889 more to go 👍.
 
 I think I would finish tweeting on **2021-06-29**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-29**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 77%;" aria-valuenow="77" aria-valuemin="0"
-aria-valuemax="100"> 76.76% </span>
+aria-valuemax="100"> 76.77% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1737
+1738
 </td>
 <td style="text-align:right;">
 2248
@@ -83183,11 +83183,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Pobladura de Pelayo García
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic24113">\#spainmunic24113</a>
 </td>
 <td style="text-align:left;">
 24113
@@ -83199,6 +83201,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-18 13:14:17 CEST
 </td>
 </tr>
 <tr>
