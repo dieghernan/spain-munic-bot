@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.296 places 🏙. 1.835 more to go 👍.
+#### So far I have visited 6.297 places 🏙. 1.834 more to go 👍.
 
 I think I would finish tweeting on **2021-06-27**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-27**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 77%;" aria-valuenow="77" aria-valuemin="0"
-aria-valuemax="100"> 77.43% </span>
+aria-valuemax="100"> 77.44% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1756
+1757
 </td>
 <td style="text-align:right;">
 2248
@@ -174571,11 +174571,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villaescusa
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49241">\#spainmunic49241</a>
 </td>
 <td style="text-align:left;">
 49241
@@ -174587,6 +174589,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-19 17:45:58 CEST
 </td>
 </tr>
 <tr>
