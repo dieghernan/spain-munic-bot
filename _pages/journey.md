@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.326 places 🏙. 1.805 more to go 👍.
+#### So far I have visited 6.327 places 🏙. 1.804 more to go 👍.
 
 I think I would finish tweeting on **2021-06-30**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-30**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 78%;" aria-valuenow="78" aria-valuemin="0"
-aria-valuemax="100"> 77.8% </span>
+aria-valuemax="100"> 77.81% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1761
+1762
 </td>
 <td style="text-align:right;">
 2248
@@ -141522,11 +141522,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Santa María de Huerta
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic42167">\#spainmunic42167</a>
 </td>
 <td style="text-align:left;">
 42167
@@ -141538,6 +141540,7 @@ Soria
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-20 10:53:35 CEST
 </td>
 </tr>
 <tr>
