@@ -10,16 +10,16 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.394 places 🏙. 1.737 more to go 👍.
+#### So far I have visited 6.395 places 🏙. 1.736 more to go 👍.
 
-I think I would finish tweeting on **2021-06-28**.
+I think I would finish tweeting on **2021-06-27**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 79%;" aria-valuenow="79" aria-valuemin="0"
-aria-valuemax="100"> 78.64% </span>
+aria-valuemax="100"> 78.65% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-215
+216
 </td>
 <td style="text-align:right;">
 272
@@ -105925,11 +105925,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Falces
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31104">\#spainmunic31104</a>
 </td>
 <td style="text-align:left;">
 31104
@@ -105941,6 +105943,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-05-21 22:40:54 CEST
 </td>
 </tr>
 <tr>
