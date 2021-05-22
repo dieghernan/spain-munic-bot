@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.413 places 🏙. 1.718 more to go 👍.
+#### So far I have visited 6.414 places 🏙. 1.717 more to go 👍.
 
 I think I would finish tweeting on **2021-06-29**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-29**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 79%;" aria-valuenow="79" aria-valuemin="0"
-aria-valuemax="100"> 78.87% </span>
+aria-valuemax="100"> 78.88% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1783
+1784
 </td>
 <td style="text-align:right;">
 2248
@@ -122088,11 +122088,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Colmenar de Montemayor
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic37109">\#spainmunic37109</a>
 </td>
 <td style="text-align:left;">
 37109
@@ -122104,6 +122106,7 @@ Salamanca
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-22 08:19:05 CEST
 </td>
 </tr>
 <tr>
