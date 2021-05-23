@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.454 places 🏙. 1.677 more to go 👍.
+#### So far I have visited 6.455 places 🏙. 1.676 more to go 👍.
 
 I think I would finish tweeting on **2021-06-27**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-27**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 79%;" aria-valuenow="79" aria-valuemin="0"
-aria-valuemax="100"> 79.38% </span>
+aria-valuemax="100"> 79.39% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1799
+1800
 </td>
 <td style="text-align:right;">
 2248
@@ -171159,11 +171159,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Cerecinos de Campos
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49046">\#spainmunic49046</a>
 </td>
 <td style="text-align:left;">
 49046
@@ -171175,6 +171177,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-23 04:45:49 CEST
 </td>
 </tr>
 <tr>
