@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.474 places 🏙. 1.657 more to go 👍.
+#### So far I have visited 6.475 places 🏙. 1.656 more to go 👍.
 
 I think I would finish tweeting on **2021-06-28**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-28**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
-aria-valuemax="100"> 79.62% </span>
+aria-valuemax="100"> 79.63% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-218
+219
 </td>
 <td style="text-align:right;">
 272
@@ -108254,11 +108254,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Peralta / Azkoien
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31202">\#spainmunic31202</a>
 </td>
 <td style="text-align:left;">
 31202
@@ -108270,6 +108272,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-05-23 16:02:04 CEST
 </td>
 </tr>
 <tr>
