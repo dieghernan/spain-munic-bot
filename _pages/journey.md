@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.504 places 🏙. 1.627 more to go 👍.
+#### So far I have visited 6.505 places 🏙. 1.626 more to go 👍.
 
 I think I would finish tweeting on **2021-06-29**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-06-29**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
-aria-valuemax="100"> 79.99% </span>
+aria-valuemax="100"> 80% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1808
+1809
 </td>
 <td style="text-align:right;">
 2248
@@ -134643,11 +134643,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Ortigosa de Pestaño
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic40151">\#spainmunic40151</a>
 </td>
 <td style="text-align:left;">
 40151
@@ -134659,6 +134661,7 @@ Segovia
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-24 08:27:35 CEST
 </td>
 </tr>
 <tr>
