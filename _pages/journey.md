@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.517 places 🏙. 1.614 more to go 👍.
+#### So far I have visited 6.518 places 🏙. 1.613 more to go 👍.
 
 I think I would finish tweeting on **2021-08-06**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-08-06**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
-aria-valuemax="100"> 80.15% </span>
+aria-valuemax="100"> 80.16% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-220
+221
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-80
+81
 </td>
 </tr>
 <tr>
@@ -106560,11 +106560,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Uharte Arakil
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31123">\#spainmunic31123</a>
 </td>
 <td style="text-align:left;">
 31123
@@ -106576,6 +106578,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-05-25 09:47:10 CEST
 </td>
 </tr>
 <tr>
