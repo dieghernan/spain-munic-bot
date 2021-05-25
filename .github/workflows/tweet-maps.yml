@@ -24,6 +24,10 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@master
         name: Setup Pandoc
         
+      - name: Install udunits by homebrew
+        if: startsWith(runner.os, 'macOS')
+        run: brew install udunits
+        
       - uses: actions/cache@v2
         name: Cache for Linux
         if: startsWith(runner.os, 'Linux')    
