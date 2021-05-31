@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.660 places 🏙. 1.471 more to go 👍.
+#### So far I have visited 6.661 places 🏙. 1.470 more to go 👍.
 
 I think I would finish tweeting on **2021-08-17**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-08-17**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 82%;" aria-valuenow="82" aria-valuemin="0"
-aria-valuemax="100"> 81.91% </span>
+aria-valuemax="100"> 81.92% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,13 +132,13 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1843
+1844
 </td>
 <td style="text-align:right;">
 2248
 </td>
 <td style="text-align:right;">
-81
+82
 </td>
 </tr>
 <tr>
@@ -12750,11 +12750,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Poyales del Hoyo
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05189">\#spainmunic05189</a>
 </td>
 <td style="text-align:left;">
 05189
@@ -12766,6 +12768,7 @@ Poyales del Hoyo
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-05-31 09:08:35 CEST
 </td>
 </tr>
 <tr>
