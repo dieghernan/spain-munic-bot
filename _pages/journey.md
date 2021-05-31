@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.673 places 🏙. 1.458 more to go 👍.
+#### So far I have visited 6.674 places 🏙. 1.457 more to go 👍.
 
 I think I would finish tweeting on **2021-08-15**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-08-15**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 82%;" aria-valuenow="82" aria-valuemin="0"
-aria-valuemax="100"> 82.07% </span>
+aria-valuemax="100"> 82.08% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,13 +188,13 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-322
+323
 </td>
 <td style="text-align:right;">
 388
 </td>
 <td style="text-align:right;">
-82
+83
 </td>
 </tr>
 <tr>
@@ -15310,11 +15310,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Castuera
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06036">\#spainmunic06036</a>
 </td>
 <td style="text-align:left;">
 06036
@@ -15326,6 +15328,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-06-01 01:26:13 CEST
 </td>
 </tr>
 <tr>
