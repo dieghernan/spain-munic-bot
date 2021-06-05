@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.745 places 🏙. 1.386 more to go 👍.
+#### So far I have visited 6.746 places 🏙. 1.385 more to go 👍.
 
 I think I would finish tweeting on **2021-08-18**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-08-18**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 83%;" aria-valuenow="83" aria-valuemin="0"
-aria-valuemax="100"> 82.95% </span>
+aria-valuemax="100"> 82.97% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,13 +174,13 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-455
+456
 </td>
 <td style="text-align:right;">
 542
 </td>
 <td style="text-align:right;">
-83
+84
 </td>
 </tr>
 <tr>
@@ -163237,11 +163237,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Villargordo del Cabriel
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic46259">\#spainmunic46259</a>
 </td>
 <td style="text-align:left;">
 46259
@@ -163253,6 +163255,7 @@ Valencia
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-06-05 20:25:13 CEST
 </td>
 </tr>
 <tr>
