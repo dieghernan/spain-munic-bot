@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.895 places 🏙. 1.236 more to go 👍.
+#### So far I have visited 6.896 places 🏙. 1.235 more to go 👍.
 
 I think I would finish tweeting on **2021-07-08**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-08**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-aria-valuemax="100"> 84.8% </span>
+aria-valuemax="100"> 84.81% </span>
 </p>
 <!--/html_preserve-->
 
@@ -62,13 +62,13 @@ Andalucía
 Aragón
 </td>
 <td style="text-align:right;">
-628
+629
 </td>
 <td style="text-align:right;">
 731
 </td>
 <td style="text-align:right;">
-85
+86
 </td>
 </tr>
 <tr>
@@ -177396,11 +177396,13 @@ Aragón
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Alfamén
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic50018">\#spainmunic50018</a>
 </td>
 <td style="text-align:left;">
 50018
@@ -177412,6 +177414,7 @@ Zaragoza
 Aragón
 </td>
 <td style="text-align:left;">
+2021-06-10 11:56:40 CEST
 </td>
 </tr>
 <tr>
