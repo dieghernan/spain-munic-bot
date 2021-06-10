@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.889 places 🏙. 1.242 more to go 👍.
+#### So far I have visited 6.890 places 🏙. 1.241 more to go 👍.
 
 I think I would finish tweeting on **2021-07-08**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-08**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-aria-valuemax="100"> 84.73% </span>
+aria-valuemax="100"> 84.74% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,13 +244,13 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-233
+234
 </td>
 <td style="text-align:right;">
 272
 </td>
 <td style="text-align:right;">
-85
+86
 </td>
 </tr>
 <tr>
@@ -108852,11 +108852,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Oronz / Orontze
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31198">\#spainmunic31198</a>
 </td>
 <td style="text-align:left;">
 31198
@@ -108868,6 +108870,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-06-10 09:25:03 CEST
 </td>
 </tr>
 <tr>
