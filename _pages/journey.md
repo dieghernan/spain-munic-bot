@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.888 places 🏙. 1.243 more to go 👍.
+#### So far I have visited 6.889 places 🏙. 1.242 more to go 👍.
 
 I think I would finish tweeting on **2021-07-08**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-08**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-aria-valuemax="100"> 84.71% </span>
+aria-valuemax="100"> 84.73% </span>
 </p>
 <!--/html_preserve-->
 
@@ -230,13 +230,13 @@ Comunidad de Madrid
 Región de Murcia
 </td>
 <td style="text-align:right;">
-36
+37
 </td>
 <td style="text-align:right;">
 45
 </td>
 <td style="text-align:right;">
-80
+82
 </td>
 </tr>
 <tr>
@@ -103480,11 +103480,13 @@ Murcia
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Alcantarilla
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic30005">\#spainmunic30005</a>
 </td>
 <td style="text-align:left;">
 30005
@@ -103496,6 +103498,7 @@ Murcia
 Murcia
 </td>
 <td style="text-align:left;">
+2021-06-10 08:58:11 CEST
 </td>
 </tr>
 <tr>
