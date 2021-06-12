@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 6.975 places 🏙. 1.156 more to go 👍.
+#### So far I have visited 6.976 places 🏙. 1.155 more to go 👍.
 
 I think I would finish tweeting on **2021-07-05**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-05**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 86%;" aria-valuenow="86" aria-valuemin="0"
-aria-valuemax="100"> 85.78% </span>
+aria-valuemax="100"> 85.8% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1935
+1936
 </td>
 <td style="text-align:right;">
 2248
@@ -82064,11 +82064,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Barrios de Luna, Los
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic24012">\#spainmunic24012</a>
 </td>
 <td style="text-align:left;">
 24012
@@ -82080,6 +82082,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-06-12 03:42:09 CEST
 </td>
 </tr>
 <tr>
