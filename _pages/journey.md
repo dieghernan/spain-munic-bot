@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.048 places 🏙. 1.083 more to go 👍.
+#### So far I have visited 7.049 places 🏙. 1.082 more to go 👍.
 
 I think I would finish tweeting on **2021-07-02**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-02**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 87%;" aria-valuenow="87" aria-valuemin="0"
-aria-valuemax="100"> 86.68% </span>
+aria-valuemax="100"> 86.69% </span>
 </p>
 <!--/html_preserve-->
 
@@ -146,7 +146,7 @@ Castilla y León
 Castilla-La Mancha
 </td>
 <td style="text-align:right;">
-801
+802
 </td>
 <td style="text-align:right;">
 919
@@ -53519,11 +53519,13 @@ Castilla-La Mancha
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Parra de las Vegas, La
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic16152">\#spainmunic16152</a>
 </td>
 <td style="text-align:left;">
 16152
@@ -53535,6 +53537,7 @@ Cuenca
 Castilla-La Mancha
 </td>
 <td style="text-align:left;">
+2021-06-13 11:16:33 CEST
 </td>
 </tr>
 <tr>
