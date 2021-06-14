@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.101 places 🏙. 1.030 more to go 👍.
+#### So far I have visited 7.102 places 🏙. 1.029 more to go 👍.
 
 I think I would finish tweeting on **2021-07-02**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-02**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 87%;" aria-valuenow="87" aria-valuemin="0"
-aria-valuemax="100"> 87.33% </span>
+aria-valuemax="100"> 87.34% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-1957
+1958
 </td>
 <td style="text-align:right;">
 2248
@@ -115805,11 +115805,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Cevico Navero
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic34058">\#spainmunic34058</a>
 </td>
 <td style="text-align:left;">
 34058
@@ -115821,6 +115823,7 @@ Palencia
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-06-14 10:53:00 CEST
 </td>
 </tr>
 <tr>
