@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.541 places 🏙. 590 more to go 👍.
+#### So far I have visited 7.542 places 🏙. 589 more to go 👍.
 
 I think I would finish tweeting on **2021-07-03**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-03**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 93%;" aria-valuenow="93" aria-valuemin="0"
-aria-valuemax="100"> 92.74% </span>
+aria-valuemax="100"> 92.76% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,13 +132,13 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2090
+2091
 </td>
 <td style="text-align:right;">
 2248
 </td>
 <td style="text-align:right;">
-92
+93
 </td>
 </tr>
 <tr>
@@ -11484,11 +11484,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Mediana de Voltoya
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05123">\#spainmunic05123</a>
 </td>
 <td style="text-align:left;">
 05123
@@ -11500,6 +11502,7 @@ Mediana de Voltoya
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-06-23 14:19:48 CEST
 </td>
 </tr>
 <tr>
