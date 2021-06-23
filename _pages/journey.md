@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.523 places 🏙. 608 more to go 👍.
+#### So far I have visited 7.524 places 🏙. 607 more to go 👍.
 
 I think I would finish tweeting on **2021-07-04**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-04**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 93%;" aria-valuenow="93" aria-valuemin="0"
-aria-valuemax="100"> 92.52% </span>
+aria-valuemax="100"> 92.53% </span>
 </p>
 <!--/html_preserve-->
 
@@ -244,7 +244,7 @@ Región de Murcia
 Comunidad Foral de Navarra
 </td>
 <td style="text-align:right;">
-253
+254
 </td>
 <td style="text-align:right;">
 272
@@ -109321,11 +109321,13 @@ Navarra
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Mirafuentes
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic31170">\#spainmunic31170</a>
 </td>
 <td style="text-align:left;">
 31170
@@ -109337,6 +109339,7 @@ Navarra
 Navarra
 </td>
 <td style="text-align:left;">
+2021-06-23 07:11:28 CEST
 </td>
 </tr>
 <tr>
