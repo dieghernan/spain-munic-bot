@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.677 places 🏙. 454 more to go 👍.
+#### So far I have visited 7.678 places 🏙. 453 more to go 👍.
 
 I think I would finish tweeting on **2021-07-02**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-02**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 94%;" aria-valuenow="94" aria-valuemin="0"
-aria-valuemax="100"> 94.42% </span>
+aria-valuemax="100"> 94.43% </span>
 </p>
 <!--/html_preserve-->
 
@@ -216,13 +216,13 @@ Galicia
 Comunidad de Madrid
 </td>
 <td style="text-align:right;">
-168
+169
 </td>
 <td style="text-align:right;">
 179
 </td>
 <td style="text-align:right;">
-93
+94
 </td>
 </tr>
 <tr>
@@ -99898,11 +99898,13 @@ Madrid
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Horcajuelo de la Sierra
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic28071">\#spainmunic28071</a>
 </td>
 <td style="text-align:left;">
 28071
@@ -99914,6 +99916,7 @@ Madrid
 Madrid
 </td>
 <td style="text-align:left;">
+2021-06-25 23:10:41 CEST
 </td>
 </tr>
 <tr>
