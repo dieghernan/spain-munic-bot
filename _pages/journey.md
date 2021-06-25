@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.656 places 🏙. 475 more to go 👍.
+#### So far I have visited 7.657 places 🏙. 474 more to go 👍.
 
 I think I would finish tweeting on **2021-07-03**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-03**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 94%;" aria-valuenow="94" aria-valuemin="0"
-aria-valuemax="100"> 94.16% </span>
+aria-valuemax="100"> 94.17% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-365
+366
 </td>
 <td style="text-align:right;">
 388
@@ -37923,11 +37923,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Jaraíz de la Vera
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10104">\#spainmunic10104</a>
 </td>
 <td style="text-align:left;">
 10104
@@ -37939,6 +37941,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-06-25 15:18:38 CEST
 </td>
 </tr>
 <tr>
