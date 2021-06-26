@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.699 places 🏙. 432 more to go 👍.
+#### So far I have visited 7.700 places 🏙. 431 more to go 👍.
 
 I think I would finish tweeting on **2021-07-03**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-03**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-aria-valuemax="100"> 94.69% </span>
+aria-valuemax="100"> 94.7% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,13 +188,13 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-368
+369
 </td>
 <td style="text-align:right;">
 388
 </td>
 <td style="text-align:right;">
-94
+95
 </td>
 </tr>
 <tr>
@@ -36843,11 +36843,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Casas del Monte
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic10055">\#spainmunic10055</a>
 </td>
 <td style="text-align:left;">
 10055
@@ -36859,6 +36861,7 @@ Cáceres
 Extremadura
 </td>
 <td style="text-align:left;">
+2021-06-26 09:31:36 CEST
 </td>
 </tr>
 <tr>
