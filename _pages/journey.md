@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.766 places 🏙. 365 more to go 👍.
+#### So far I have visited 7.767 places 🏙. 364 more to go 👍.
 
 I think I would finish tweeting on **2021-07-03**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-03**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 96%;" aria-valuenow="96" aria-valuemin="0"
-aria-valuemax="100"> 95.51% </span>
+aria-valuemax="100"> 95.52% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2147
+2148
 </td>
 <td style="text-align:right;">
 2248
@@ -144374,11 +144374,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Quintana Redonda
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic42144">\#spainmunic42144</a>
 </td>
 <td style="text-align:left;">
 42144
@@ -144390,6 +144392,7 @@ Soria
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-06-27 15:47:10 CEST
 </td>
 </tr>
 <tr>
