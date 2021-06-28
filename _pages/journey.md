@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.799 places 🏙. 332 more to go 👍.
+#### So far I have visited 7.800 places 🏙. 331 more to go 👍.
 
 I think I would finish tweeting on **2021-07-04**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-04**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 96%;" aria-valuenow="96" aria-valuemin="0"
-aria-valuemax="100"> 95.92% </span>
+aria-valuemax="100"> 95.93% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2159
+2160
 </td>
 <td style="text-align:right;">
 2248
@@ -85408,11 +85408,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Prioro
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic24120">\#spainmunic24120</a>
 </td>
 <td style="text-align:left;">
 24120
@@ -85424,6 +85426,7 @@ León
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-06-28 09:10:22 CEST
 </td>
 </tr>
 <tr>
