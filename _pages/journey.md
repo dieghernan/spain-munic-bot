@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 7.852 places 🏙. 279 more to go 👍.
+#### So far I have visited 7.853 places 🏙. 278 more to go 👍.
 
 I think I would finish tweeting on **2021-07-04**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-04**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 97%;" aria-valuenow="97" aria-valuemin="0"
-aria-valuemax="100"> 96.57% </span>
+aria-valuemax="100"> 96.58% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2171
+2172
 </td>
 <td style="text-align:right;">
 2248
@@ -168314,11 +168314,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Medina de Rioseco
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic47086">\#spainmunic47086</a>
 </td>
 <td style="text-align:left;">
 47086
@@ -168330,6 +168332,7 @@ Valladolid
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-06-29 09:48:17 CEST
 </td>
 </tr>
 <tr>
