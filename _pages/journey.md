@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 8.002 places 🏙. 129 more to go 👍.
+#### So far I have visited 8.003 places 🏙. 128 more to go 👍.
 
 I think I would finish tweeting on **2021-07-04**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-04**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 98%;" aria-valuenow="98" aria-valuemin="0"
-aria-valuemax="100"> 98.41% </span>
+aria-valuemax="100"> 98.43% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,13 +174,13 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-531
+532
 </td>
 <td style="text-align:right;">
 542
 </td>
 <td style="text-align:right;">
-97
+98
 </td>
 </tr>
 <tr>
@@ -164119,11 +164119,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Llocnou d’En Fenollet
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic46151">\#spainmunic46151</a>
 </td>
 <td style="text-align:left;">
 46151
@@ -164135,6 +164137,7 @@ Valencia
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-07-02 12:48:09 CEST
 </td>
 </tr>
 <tr>
