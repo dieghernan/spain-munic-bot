@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 8.050 places 🏙. 81 more to go 👍.
+#### So far I have visited 8.051 places 🏙. 80 more to go 👍.
 
 I think I would finish tweeting on **2021-07-05**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-05**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 99%;" aria-valuenow="99" aria-valuemin="0"
-aria-valuemax="100"> 99% </span>
+aria-valuemax="100"> 99.02% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2232
+2233
 </td>
 <td style="text-align:right;">
 2248
@@ -178381,11 +178381,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Rionegro del Puente
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic49177">\#spainmunic49177</a>
 </td>
 <td style="text-align:left;">
 49177
@@ -178397,6 +178399,7 @@ Zamora
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-07-03 20:53:49 CEST
 </td>
 </tr>
 <tr>
