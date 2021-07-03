@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 8.054 places 🏙. 77 more to go 👍.
+#### So far I have visited 8.055 places 🏙. 76 more to go 👍.
 
 I think I would finish tweeting on **2021-07-05**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-05**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 99%;" aria-valuenow="99" aria-valuemin="0"
-aria-valuemax="100"> 99.05% </span>
+aria-valuemax="100"> 99.07% </span>
 </p>
 <!--/html_preserve-->
 
@@ -174,13 +174,13 @@ Cataluña
 Comunidad Valenciana
 </td>
 <td style="text-align:right;">
-536
+537
 </td>
 <td style="text-align:right;">
 542
 </td>
 <td style="text-align:right;">
-98
+99
 </td>
 </tr>
 <tr>
@@ -5284,11 +5284,13 @@ Comunidad Valenciana
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Hondón de los Frailes
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic03078">\#spainmunic03078</a>
 </td>
 <td style="text-align:left;">
 03078
@@ -5300,6 +5302,7 @@ Alicante
 Comunidad Valenciana
 </td>
 <td style="text-align:left;">
+2021-07-03 23:33:21 CEST
 </td>
 </tr>
 <tr>
