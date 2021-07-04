@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 8.065 places 🏙. 66 more to go 👍.
+#### So far I have visited 8.066 places 🏙. 65 more to go 👍.
 
 I think I would finish tweeting on **2021-07-06**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-06**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 99%;" aria-valuenow="99" aria-valuemin="0"
-aria-valuemax="100"> 99.19% </span>
+aria-valuemax="100"> 99.2% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2235
+2236
 </td>
 <td style="text-align:right;">
 2248
@@ -13164,11 +13164,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Riofrío
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05195">\#spainmunic05195</a>
 </td>
 <td style="text-align:left;">
 05195
@@ -13180,6 +13182,7 @@ Riofrío
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-07-04 12:51:03 CEST
 </td>
 </tr>
 <tr>
