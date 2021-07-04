@@ -10,7 +10,7 @@ output:
     preserve_yaml: true
 ---
 
-#### So far I have visited 8.063 places 🏙. 68 more to go 👍.
+#### So far I have visited 8.064 places 🏙. 67 more to go 👍.
 
 I think I would finish tweeting on **2021-07-06**.
 
@@ -19,7 +19,7 @@ I think I would finish tweeting on **2021-07-06**.
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 99%;" aria-valuenow="99" aria-valuemin="0"
-aria-valuemax="100"> 99.16% </span>
+aria-valuemax="100"> 99.18% </span>
 </p>
 <!--/html_preserve-->
 
@@ -132,7 +132,7 @@ Cantabria
 Castilla y León
 </td>
 <td style="text-align:right;">
-2234
+2235
 </td>
 <td style="text-align:right;">
 2248
@@ -14127,11 +14127,13 @@ Castilla y León
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Sotillo de la Adrada
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic05240">\#spainmunic05240</a>
 </td>
 <td style="text-align:left;">
 05240
@@ -14143,6 +14145,7 @@ Sotillo de la Adrada
 Castilla y León
 </td>
 <td style="text-align:left;">
+2021-07-04 10:46:43 CEST
 </td>
 </tr>
 <tr>
