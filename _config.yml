@@ -4,7 +4,7 @@ baseurl: spain-munic-bot
 gtag_id: G-CZM7V4KRH5
 title: spain-munic-bot
 timezone: "Europe/Madrid"
-og_image: /assets/img/munic-streets.png
+og_image: /assets/img/sample.png
 author:
   name: dieghernan
   location: "Madrid, España"
@@ -16,8 +16,6 @@ navbar:
   nav:
     - title: "✈️ The Journey"
       url: /journey
-    - title: "📈 Activity"
-      url: /activity
     - title: "<i class='fab fa-github'></i> Source Code"
       url: https://github.com/dieghernan/spain-munic-bot
 
