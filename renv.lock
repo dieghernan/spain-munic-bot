@@ -368,6 +368,19 @@
         "vctrs"
       ]
     },
+    "httpuv": {
+      "Package": "httpuv",
+      "Version": "1.6.5",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "97fe71f0a4a1c9890e6c2128afa04bc0",
+      "Requirements": [
+        "R6",
+        "Rcpp",
+        "later",
+        "promises"
+      ]
+    },
     "httr": {
       "Package": "httr",
       "Version": "1.4.2",
@@ -416,6 +429,17 @@
       "Repository": "CRAN",
       "Hash": "3d5108641f47470611a32d0bdf357a72",
       "Requirements": []
+    },
+    "later": {
+      "Package": "later",
+      "Version": "1.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "7e7b457d7766bc47f2a5f21cc2984f8e",
+      "Requirements": [
+        "Rcpp",
+        "rlang"
+      ]
     },
     "lattice": {
       "Package": "lattice",
@@ -564,6 +588,20 @@
         "prettyunits"
       ]
     },
+    "promises": {
+      "Package": "promises",
+      "Version": "1.2.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "4ab2c43adb4d4699cf3690acd378d75d",
+      "Requirements": [
+        "R6",
+        "Rcpp",
+        "later",
+        "magrittr",
+        "rlang"
+      ]
+    },
     "proxy": {
       "Package": "proxy",
       "Version": "0.4-26",
@@ -641,11 +679,11 @@
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
+      "RemoteUsername": "ropensci",
       "RemoteRepo": "rtweet",
-      "RemoteUsername": "dieghernan",
-      "RemoteRef": "HEAD",
+      "RemoteRef": "master",
       "RemoteSha": "6e4eb40680c8682cb229d17050f16d3341de37d2",
-      "Hash": "fc425f436519a56f81a41e4e2737e10a",
+      "Hash": "db55702e10b280c4dcb29f5697893712",
       "Requirements": [
         "bit64",
         "curl",

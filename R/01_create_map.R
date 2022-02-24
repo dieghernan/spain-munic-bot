@@ -12,6 +12,7 @@ library(cowplot)
 library(rtweet)
 library(tidyr)
 library(jsonlite)
+library(httpuv)
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
@@ -30,7 +31,7 @@ token <- rtweet_bot(
   access_secret = access_token_secret
 )
 
-auth_setup_default()
+auth_as(token)
 
 # 2. Load data ----
 
