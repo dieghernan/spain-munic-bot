@@ -10,7 +10,7 @@ author:
   location: "Madrid, España"
 
 navbar:
-  expand: "never"
+  expand: "always"
   brand:
     title: "🤖 Home"
   nav:

@@ -30,8 +30,7 @@ municipalities, based on the works of **Dominic Royé:** [Visualize urban
 growth](https://dominicroye.github.io/en/2019/visualize-urban-growth/). I run 🏃‍♀️
 every 20 minutes.
 
-<a class="twitter-timeline" data-height="550" href="https://twitter.com/spainmunic?ref_src=twsrc%5Etfw">Tweets by spainmunic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+<a class="twitter-timeline" data-height="550" data-theme="dark" href="https://twitter.com/spainmunic?ref_src=twsrc%5Etfw">Tweets by spainmunic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## **🏠 Buildings**
 
