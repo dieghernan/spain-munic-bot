@@ -10,16 +10,16 @@ subtitle: A summary with the codes and executions of the bot
 title: ✈️ The Journey
 ---
 
-#### So far I have visited 8 places 🏙. 7.600 more to go 👍.
+#### So far I have visited 9 places 🏙. 7.599 more to go 👍.
 
-I think I would finish tweeting on **2026-01-19**.
+I think I would finish tweeting on **2025-08-13**.
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
 <p class="progress" style="height:3vh;">
 <span class="progress-bar progress-bar-striped" role="progressbar"
 style="width: 0%;" aria-valuenow="0" aria-valuemin="0"
-aria-valuemax="100"> 0.11% </span>
+aria-valuemax="100"> 0.12% </span>
 </p>
 <!--/html_preserve-->
 
@@ -188,7 +188,7 @@ Comunidad Valenciana
 Extremadura
 </td>
 <td style="text-align:right;">
-1
+2
 </td>
 <td style="text-align:right;">
 388
@@ -5303,7 +5303,7 @@ Andalucía
 Bédar
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic04022">\#spainmunic04022</a>
+<a href="https://twitter.com/search/?q=%23spainmunic04022">#spainmunic04022</a>
 </td>
 <td style="text-align:left;">
 04022
@@ -7986,7 +7986,7 @@ Castilla y León
 Collado del Mirón
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic05063">\#spainmunic05063</a>
+<a href="https://twitter.com/search/?q=%23spainmunic05063">#spainmunic05063</a>
 </td>
 <td style="text-align:left;">
 05063
@@ -12983,11 +12983,13 @@ Extremadura
 </tr>
 <tr>
 <td style="text-align:left;">
+✓
 </td>
 <td style="text-align:left;">
 Fuentes de León
 </td>
 <td style="text-align:left;">
+<a href="https://twitter.com/search/?q=%23spainmunic06055">#spainmunic06055</a>
 </td>
 <td style="text-align:left;">
 06055
@@ -12999,6 +13001,7 @@ Badajoz
 Extremadura
 </td>
 <td style="text-align:left;">
+2022-02-24 13:57:48 CET
 </td>
 </tr>
 <tr>
@@ -28329,7 +28332,7 @@ Castilla y León
 Sotillo de la Ribera
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic09369">\#spainmunic09369</a>
+<a href="https://twitter.com/search/?q=%23spainmunic09369">#spainmunic09369</a>
 </td>
 <td style="text-align:left;">
 09369
@@ -30872,7 +30875,7 @@ Extremadura
 Cabezuela del Valle
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic10035">\#spainmunic10035</a>
+<a href="https://twitter.com/search/?q=%23spainmunic10035">#spainmunic10035</a>
 </td>
 <td style="text-align:left;">
 10035
@@ -88255,7 +88258,7 @@ Andalucía
 Málaga
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic29067">\#spainmunic29067</a>
+<a href="https://twitter.com/search/?q=%23spainmunic29067">#spainmunic29067</a>
 </td>
 <td style="text-align:left;">
 29067
@@ -129998,7 +130001,7 @@ Castilla-La Mancha
 Noblejas
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic45115">\#spainmunic45115</a>
+<a href="https://twitter.com/search/?q=%23spainmunic45115">#spainmunic45115</a>
 </td>
 <td style="text-align:left;">
 45115
@@ -136541,7 +136544,7 @@ Comunidad Valenciana
 Tavernes Blanques
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic46237">\#spainmunic46237</a>
+<a href="https://twitter.com/search/?q=%23spainmunic46237">#spainmunic46237</a>
 </td>
 <td style="text-align:left;">
 46237
@@ -145184,7 +145187,7 @@ Castilla y León
 San Pedro de Ceque
 </td>
 <td style="text-align:left;">
-<a href="https://twitter.com/search/?q=%23spainmunic49193">\#spainmunic49193</a>
+<a href="https://twitter.com/search/?q=%23spainmunic49193">#spainmunic49193</a>
 </td>
 <td style="text-align:left;">
 49193
