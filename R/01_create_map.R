@@ -30,6 +30,7 @@ token <- rtweet_bot(
   access_secret = access_token_secret
 )
 
+auth_setup_default()
 
 # 2. Load data ----
 
