@@ -1,5 +1,7 @@
 remote_theme: dieghernan/chulapa
 twitter_site: spainmunic
+repository: dieghernan/spain-munic-bot
+url: https://dieghernan.github.io
 baseurl: spain-munic-bot
 gtag_id: G-CZM7V4KRH5
 title: spain-munic-bot
@@ -58,32 +60,3 @@ exclude:
   - data/
   - LICENSE
   - spainmunic_dashboard/
-
-include:
-  - _pages
-
-# XX. Other settings - no need to modify
-compress_html:
-  clippings: all
-  blanklines: true
-
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  footnote_backlink: "&uarr;"
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  
-sass:
-  sass_dir: _sass
-  style: compressed
-
