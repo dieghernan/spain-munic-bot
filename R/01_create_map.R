@@ -12,7 +12,7 @@ library(cowplot)
 library(rtweet)
 library(tidyr)
 library(jsonlite)
-library(httpuv)
+
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
@@ -332,7 +332,8 @@ ggsave(
   dpi = 300,
   width = 2100,
   height = 2100,
-  units = "px"
+  units = "px",
+  bg="black"
 )
 
 
