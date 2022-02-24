@@ -20,20 +20,19 @@ library(mapSpain)
 library(sf)
 library(dplyr)
 library(lubridate)
+library(readr)
 
 datalog <-
-  read.csv2("../assets/datalog.csv",
-            sep = ",",
-            stringsAsFactors = FALSE) %>%
-  select(LAU_CODE_NUM,
-         datetime) %>%
+  read_csv("../assets/datalog.csv",
+           show_col_types = FALSE) %>%
   mutate(datetime = parse_date_time(datetime, c("Ymd HMS"), tz = "CET"))
 
-data <- esp_get_munic(year = 2019,
+data <- esp_get_capimun(year = 2021,
                       cache_dir = "data",
                       moveCAN = FALSE) %>%
   st_drop_geometry() %>%
-  mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
+  mutate(LAU_CODE_NUM = as.numeric(LAU_CODE)) %>%
+  filter(!codauto %in% c(15, 16))
 
 been <- datalog %>% select(LAU_CODE_NUM) %>% unique() %>% nrow()
 notbeen <- nrow(data) - been
@@ -62,9 +61,7 @@ notbeen <- prettyNum(notbeen, big.mark = ".", decimal.mark = ",")
 
 #### So far I have visited `r been` places 🏙. `r notbeen` more to go 👍.
 
-
 I think I would finish tweeting on **`r d`**.
-
 
 <!--html_preserve-->
 <!--Ugly hack to make it work -->
@@ -77,8 +74,7 @@ I think I would finish tweeting on **`r d`**.
 </p>
 <!--/html_preserve-->
 
-
-<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;">
+<img src="https://dieghernan.github.io/spain-munic-bot/assets/img/journey.png" alt="journey-small" style="max-width: 66%;"/>
 
 ```{r summaryccaa, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -123,10 +119,9 @@ knitr::kable(
 )
 ```
 
-
-The next table shows the summary of executions of the bot. You would find a link to the hashtag that I used for labelling each town. Just 
-follow the hashtag to see the map I tweeted.
-
+The next table shows the summary of executions of the bot. You would find a link
+to the hashtag that I used for labelling each town. Just follow the hashtag to
+see the map I tweeted.
 
 ```{r summary, echo=FALSE, message=FALSE, warning=FALSE}
 

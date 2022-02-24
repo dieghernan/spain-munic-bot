@@ -8,7 +8,7 @@ project_links:
       label: See on Github
 ---
 
-## 🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action
+## 🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {CatastRo} posted with {rtweet} via a GitHub Action
 
 <div markdown="1" class="badges">
 ![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/last-tweet/badge.svg)
@@ -31,9 +31,10 @@ Hi! I am a bot 🤖 that tweets a random map of a Spanish municipality with its 
 
 <a class="twitter-timeline" data-height="550" href="https://twitter.com/spainmunic?ref_src=twsrc%5Etfw">Tweets by spainmunic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 🕒 Last maps 
+## **:house: Buildings**
 
-![satellite](/assets/img/munic-satellite.png)
+I create a map of the Urban Growth of Spanish cities, based on the works of
+**Dominic Royé:** [Visualize urban growth](https://dominicroye.github.io/en/2019/visualize-urban-growth/)
 
 ![streets](/assets/img/munic-streets.png)
 
@@ -50,10 +51,11 @@ Places I have visited 🇪🇸
 
 Core packages used in the project are:
 
-- [{mapSpain}](https://ropenspain.github.io/mapSpain/) for the location of the municipalities, base polygons and coordinates and imagery,
-- [{osmdata}](https://docs.ropensci.org/osmdata/) for the streets,
-- [{tmap}](https://mtennekes.github.io/tmap/) for plotting,
-- [{rtweet}](https://docs.ropensci.org/rtweet/) for posting,
+-   [{CatastRo}](https://ropenspain.github.io/CatastRo/) for the buildings.
+-   [{mapSpain}](https://ropenspain.github.io/mapSpain/) for the location of the
+    municipalities.
+-   [{ggplot2}](https://ggplot2.tidyverse.org/) for plotting,
+-   [{rtweet}](https://docs.ropensci.org/rtweet/) for posting,
 
 Other packages used are {sf}, {dplyr} and another common supporting packages. 
 
