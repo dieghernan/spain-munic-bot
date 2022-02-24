@@ -17,7 +17,7 @@ time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
 
 message("Connect with twitter")
-auth_as("create_token")
+
 api_key <- Sys.getenv("TWITTER_API_KEY")
 api_secret_key <- Sys.getenv("TWITTER_API_SECRET")
 access_token <- Sys.getenv("TWITTER_ACCESS_TOKEN")
