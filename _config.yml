@@ -57,6 +57,11 @@ exclude:
   - vendor
   - index.Rmd
   - R/
+  - renv/
   - data/
   - LICENSE
   - spainmunic_dashboard/
+  
+include:
+ - _pages
+ 
