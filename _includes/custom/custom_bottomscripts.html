@@ -1,0 +1,61 @@
+<!-- start custom scripts to be placed at the bottom of the page -->
+
+
+	{% if page.datatables %}
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+<script>
+// Datatables
+$(document).ready(function() {
+  $('#summary').DataTable( {
+    "order": [[ 6, "desc" ]]
+    });
+});
+
+$(document).ready(function() {
+  $('#summaryccaa').DataTable({
+    "order": [
+      [3, "desc"]
+    ],
+    columnDefs: [{
+        targets: [1, 2],
+        "render": function(toFormat) {
+          return toFormat.toString().replace(
+            /\B(?=(\d{3})+(?!\d))/g, "."
+          );
+        }
+      },
+      {
+        "render": function(data, type, row) {
+          return '<div class="progress my-1 vw-100" style="max-width:30vw">' +
+            '<div class="progress-bar progress-bar-striped" style="width:' +
+            data +
+            '%">' +
+            data +
+            "%" +
+            "</div></div>";
+        },
+        "targets": 3
+      }
+    ],
+    "language": {
+      "decimal": ",",
+      "thousands": "."
+    }	  
+  });
+});
+</script>
+	{% endif %}
+
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','o5ki7');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+
+
+<!-- end custom bottom scripts -->
