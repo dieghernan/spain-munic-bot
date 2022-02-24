@@ -10,12 +10,10 @@ author:
   location: "Madrid, España"
 
 navbar:
-  expand: sm
+  expand: never
   brand:
     title: "🤖 Home"
   nav:
-    - title: "✈️ The Journey"
-      url: /journey
     - title: "<i class='fab fa-github'></i> Source Code"
       url: https://github.com/dieghernan/spain-munic-bot
 
@@ -36,7 +34,7 @@ footer:
 
 chulapa-skin:
   autothemer: true
-  skin: journal
+  skin: twitter-lights-out
 
 defaults:
   - scope:
@@ -45,14 +43,6 @@ defaults:
       layout: "default"
       header_type: "base"
       show_sociallinks: true
-  - scope:
-      path: "assets/img/archive_satellite"
-    values:
-      image_col: satellite
-  - scope:
-      path: "assets/img/archive_streets"
-    values:
-      image_col: streets
 
 plugins:
   - jekyll-github-metadata

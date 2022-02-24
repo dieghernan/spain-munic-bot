@@ -25,27 +25,25 @@ project_links:
 <a href="https://twitter.com/spainmunic?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @spainmunic</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-
-Hi! I am a bot 🤖 that tweets a random map of a Spanish municipality with its name, province, and autonomous community (and a inset map of Spain showing the region and the community). I run 🏃‍♀️ every 20 minutes.
-
+Hi! I am a bot 🤖 that tweets a random map of buildings of Spanish
+municipalities, based on the works of **Dominic Royé:** [Visualize urban
+growth](https://dominicroye.github.io/en/2019/visualize-urban-growth/). I run 🏃‍♀️
+every 20 minutes.
 
 <a class="twitter-timeline" data-height="550" href="https://twitter.com/spainmunic?ref_src=twsrc%5Etfw">Tweets by spainmunic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
 ## **🏠 Buildings**
 
-I create a map of the Urban Growth of Spanish cities, based on the works of
-**Dominic Royé:** [Visualize urban growth](https://dominicroye.github.io/en/2019/visualize-urban-growth/)
+A sample map!
 
-![streets](/assets/img/munic-streets.png)
+![streets](/assets/img/sample.png)
 
 ## ✈️ The Journey
 
 ![journey](/assets/img/journey.png)
 
-Places I have visited 🇪🇸
-{: .caption}
-
-### See [here](https://dieghernan.github.io/spain-munic-bot/journey) the maps I have created 🗺
+### See [here](https://github.com/dieghernan/spain-munic-bot/blob/main/assets/datalog.csv) the maps I have created 🗺
 
 ## 📦 R packages
 
@@ -57,7 +55,7 @@ Core packages used in the project are:
 -   [{ggplot2}](https://ggplot2.tidyverse.org/) for plotting,
 -   [{rtweet}](https://docs.ropensci.org/rtweet/) for posting,
 
-Other packages used are {sf}, {dplyr} and another common supporting packages. 
+Other packages used are {sf}, {dplyr} and another common supporting packages.
 
 This project uses {renv} for ensuring fully reproducibility across platforms.
 
@@ -65,16 +63,18 @@ This project uses {renv} for ensuring fully reproducibility across platforms.
 
 -   Based on
 
-    -   [italiancomuni](https://twitter.com/italiancomuni), by \@espinielli.
+    -   [italiancomuni](https://twitter.com/italiancomuni), by
+        [\@espinielli](https://github.com/espinielli).
 
 -   Automation:
 
-    -   GitHub Actions as per \@espinielli's [GitHub Repo](https://github.com/espinielli/italian-comuni-bot).
+    -   GitHub Actions as per [\@espinielli](https://github.com/espinielli)'s
+        [GitHub Repo](https://github.com/espinielli/italian-comuni-bot).
 
 -   sources:
 
-    - [mapSpain](https://ropenspain.github.io/mapSpain/) R package.
-    - [osmdata](https://docs.ropensci.org/osmdata/) for the streets.
+    -   [mapSpain](https://ropenspain.github.io/mapSpain/) R package.
+    -   [{CatastRo}](https://ropenspain.github.io/CatastRo/) for the buildings.
 
 ## ❔How to run it
 
