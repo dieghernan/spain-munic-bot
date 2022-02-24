@@ -11,13 +11,13 @@
   "Packages": {
     "CatastRo": {
       "Package": "CatastRo",
-      "Version": "0.1.0.9000",
+      "Version": "0.2.0",
       "Source": "Repository",
       "Repository": "https://ropenspain.r-universe.dev",
       "RemoteUrl": "https://github.com/rOpenSpain/CatastRo",
       "RemoteRef": "HEAD",
-      "RemoteSha": "ca34f74ac225fdd47dadd38987d37713d5486231",
-      "Hash": "8cfd411df540baa04517e16a5581e2a9",
+      "RemoteSha": "b9db505d245cf7d3dbce48ed3b2c403e909346de",
+      "Hash": "ddd9a2779f86fdea24b7dea53ffb3d04",
       "Requirements": [
         "dplyr",
         "httr",
@@ -98,14 +98,6 @@
       "Requirements": [
         "sys"
       ]
-    },
-    "base64enc": {
-      "Package": "base64enc",
-      "Version": "0.1-3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "543776ae6848fde2f48ff3816d0628bc",
-      "Requirements": []
     },
     "bit": {
       "Package": "bit",
@@ -266,14 +258,6 @@
         "rlang"
       ]
     },
-    "evaluate": {
-      "Package": "evaluate",
-      "Version": "0.15",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "699a7a93d08c962d9f8950b2d7a227f1",
-      "Requirements": []
-    },
     "fansi": {
       "Package": "fansi",
       "Version": "1.0.2",
@@ -288,14 +272,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "c98eb5133d9cb9e1622b8691487f11bb",
-      "Requirements": []
-    },
-    "fastmap": {
-      "Package": "fastmap",
-      "Version": "1.1.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
       "Requirements": []
     },
     "generics": {
@@ -378,16 +354,6 @@
       "Hash": "ac5c6baf7822ce8732b343f14c072c4d",
       "Requirements": []
     },
-    "highr": {
-      "Package": "highr",
-      "Version": "0.9",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "8eb36c8125038e648e5d111c0d7b2ed4",
-      "Requirements": [
-        "xfun"
-      ]
-    },
     "hms": {
       "Package": "hms",
       "Version": "1.1.1",
@@ -400,19 +366,6 @@
         "pkgconfig",
         "rlang",
         "vctrs"
-      ]
-    },
-    "htmltools": {
-      "Package": "htmltools",
-      "Version": "0.5.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "526c484233f42522278ab06fb185cb26",
-      "Requirements": [
-        "base64enc",
-        "digest",
-        "fastmap",
-        "rlang"
       ]
     },
     "httr": {
@@ -437,16 +390,6 @@
       "Hash": "7ab57a6de7f48a8dc84910d1eca42883",
       "Requirements": []
     },
-    "jquerylib": {
-      "Package": "jquerylib",
-      "Version": "0.1.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "5aab57a3bd297eee1c1d862735972182",
-      "Requirements": [
-        "htmltools"
-      ]
-    },
     "jsonify": {
       "Package": "jsonify",
       "Version": "1.2.1",
@@ -465,20 +408,6 @@
       "Repository": "CRAN",
       "Hash": "d07e729b27b372429d42d24d503613a0",
       "Requirements": []
-    },
-    "knitr": {
-      "Package": "knitr",
-      "Version": "1.37",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "a4ec675eb332a33fe7b7fe26f70e1f98",
-      "Requirements": [
-        "evaluate",
-        "highr",
-        "stringr",
-        "xfun",
-        "yaml"
-      ]
     },
     "labeling": {
       "Package": "labeling",
@@ -706,24 +635,6 @@
       "Hash": "3bf0219f19d9f5b3c682acbb3546a151",
       "Requirements": []
     },
-    "rmarkdown": {
-      "Package": "rmarkdown",
-      "Version": "2.11",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "320017b52d05a943981272b295750388",
-      "Requirements": [
-        "evaluate",
-        "htmltools",
-        "jquerylib",
-        "jsonlite",
-        "knitr",
-        "stringr",
-        "tinytex",
-        "xfun",
-        "yaml"
-      ]
-    },
     "rtweet": {
       "Package": "rtweet",
       "Version": "0.7.0.9013",
@@ -731,10 +642,10 @@
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "rtweet",
-      "RemoteUsername": "ropensci",
+      "RemoteUsername": "dieghernan",
       "RemoteRef": "HEAD",
       "RemoteSha": "6e4eb40680c8682cb229d17050f16d3341de37d2",
-      "Hash": "848b2823707cadc44c5fb531982c0f5b",
+      "Hash": "fc425f436519a56f81a41e4e2737e10a",
       "Requirements": [
         "bit64",
         "curl",
@@ -889,16 +800,6 @@
         "vctrs"
       ]
     },
-    "tinytex": {
-      "Package": "tinytex",
-      "Version": "0.37",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "a80abeb527a977e4bef21873d29222dd",
-      "Requirements": [
-        "xfun"
-      ]
-    },
     "tzdb": {
       "Package": "tzdb",
       "Version": "0.2.0",
@@ -986,28 +887,12 @@
       "Hash": "d6bc0432436a0aefbf29d5de8588b876",
       "Requirements": []
     },
-    "xfun": {
-      "Package": "xfun",
-      "Version": "0.29",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e2e5fb1a74fbb68b27d6efc5372635dc",
-      "Requirements": []
-    },
     "xml2": {
       "Package": "xml2",
       "Version": "1.3.3",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "40682ed6a969ea5abfd351eb67833adc",
-      "Requirements": []
-    },
-    "yaml": {
-      "Package": "yaml",
-      "Version": "2.3.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "458bb38374d73bf83b1bb85e353da200",
       "Requirements": []
     }
   }

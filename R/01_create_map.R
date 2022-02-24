@@ -16,6 +16,21 @@ library(jsonlite)
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
 
+message("Connect with twitter")
+
+api_key <- Sys.getenv("TWITTER_API_KEY")
+api_secret_key <- Sys.getenv("TWITTER_API_SECRET")
+access_token <- Sys.getenv("TWITTER_ACCESS_TOKEN")
+access_token_secret <- Sys.getenv("TWITTER_ACCESS_TOKEN_SECRET")
+# authenticate via web browser
+token <- rtweet_bot(
+  api_key = api_key,
+  api_secret = api_secret_key,
+  access_token = access_token,
+  access_secret = access_token_secret
+)
+
+
 # 2. Load data ----
 
 data <- esp_get_capimun(moveCAN = FALSE) %>%
@@ -33,7 +48,7 @@ namesprov <- esp_codelist %>%
 
 data <- data %>%
   mutate(nameinit = name,
-         name = trimws(tools::toTitleCase(word(name, sep = "/"))),) %>%
+         name = trimws(tools::toTitleCase(word(name, sep = "/"))), ) %>%
   select(cpro, name, LAU_CODE, LAU_CODE_NUM) %>%
   left_join(namesprov)
 
@@ -53,7 +68,7 @@ if (file.exists("assets/datalog.csv")) {
 
 # 3. Select randomly after clean up ----
 
-data_filter <-  data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM,]
+data_filter <-  data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM, ]
 
 
 # Override
@@ -65,11 +80,11 @@ if (file.exists("assets/override.csv")) {
   overridenum <- override$LAU_CODE_NUM
   file.remove("assets/override.csv")
   data_filter <-
-    data[data$LAU_CODE_NUM %in% overridenum,]
+    data[data$LAU_CODE_NUM %in% overridenum, ]
   
   # Dedupe
   datalog <-
-    datalog[datalog$LAU_CODE_NUM != data_filter$LAU_CODE_NUM, ]
+    datalog[datalog$LAU_CODE_NUM != data_filter$LAU_CODE_NUM,]
 }
 
 
@@ -342,7 +357,7 @@ municall <- municall %>% inner_join(journerylog) %>% arrange(order)
 
 cent <- municall
 
-last <- cent[nrow(cent),]
+last <- cent[nrow(cent), ]
 
 line <- st_linestring(st_coordinates(cent)) %>%
   st_sfc(crs = st_crs(cent))
@@ -370,7 +385,7 @@ sub <- paste0(sub, " (", perc, ").")
 
 journey <- ggplot(ccaa_nopvn) +
   geom_sf(col = NA, fill = "grey75") +
-  geom_sf(data = pvn, col=NA, fill="black") +
+  geom_sf(data = pvn, col = NA, fill = "black") +
   geom_sf(data = boxcan, color = "grey75") +
   theme_void() +
   labs(title = "spain-munic-bot journey",
@@ -381,10 +396,12 @@ journey <- ggplot(ccaa_nopvn) +
 
 if (nrow(cent) > 1) {
   journey <- journey +
-    geom_sf(data = line,
-            color="red",
-            alpha=0.5,
-            size=0.5) +
+    geom_sf(
+      data = line,
+      color = "red",
+      alpha = 0.5,
+      size = 0.5
+    ) +
     geom_sf(
       data = last,
       size = 2,
@@ -474,32 +491,56 @@ hash2 <- paste0(" #", gsub(" ", "", df$prov.shortname.es), " ")
 msg <- paste0(msg, hash2)
 
 
+# Add packs
+
+packs <- ifelse((nrow(datalog) %% 500) == 20,
+                "Done in #rstats using #ggplot2, #CatastRo, #rspatial, #mapSpain and #rtweet",
+                ""
+)
+
+msg <- paste(msg, packs)
+
+
+# Add credits
+cred <- ifelse(nrow(datalog) %% 520 == 0,
+               "Sources #CatastroESP #rstatsES ",
+               "")
+
+msg <- paste(msg, cred)
 
 # Tweet!
 
-# message("Connect with twitter")
-#
-# api_key <- Sys.getenv("TWITTER_API_KEY")
-# api_secret_key <- Sys.getenv("TWITTER_API_SECRET")
-# access_token <- Sys.getenv("TWITTER_ACCESS_TOKEN")
-# access_token_secret <- Sys.getenv("TWITTER_ACCESS_TOKEN_SECRET")
-## authenticate via web browser
-# token <- rtweet_bot(
-#   # app = "spainmunic",
-#   api_key = api_key,
-#   api_secret = api_secret_key,
-#   access_token = access_token,
-#   access_secret = access_token_secret
-# )
-# post_tweet(
-#   status = msg,
-#   media = name,
-#   media_alt_text = paste0("Map of buildings of ", df$name),
-#   lat = coords[2],
-#   long = coords[1],
-#   display_coordinates = TRUE
-# )
+post_tweet(
+  status = msg,
+  media = name,
+  media_alt_text = paste0("Map of buildings of ", df$name),
+  lat = coords[2],
+  long = coords[1],
+  display_coordinates = TRUE
+)
 
+
+
+if ((nrow(datalog) %% 600) == 0) {
+  Sys.sleep(3)
+  seen <- nrow(datalog)
+  left <- nrow(mapdata) - seen
+  seen <- prettyNum(seen, big.mark = ".", decimal.mark = ",")
+  left <- prettyNum(left, big.mark = ".", decimal.mark = ",")
+  msg <- paste0(
+    "Time to recap! ",
+    seen,
+    " places visited, ",
+    left,
+    " left. Check my journey so far https://dieghernan.github.io/spain-munic-bot #rspatial"
+  )
+  msg <- gsub("  ", " ", msg)
+  post_tweet(msg,
+             media = file.path("assets", "img", "journey.png"),
+             media_alt_text = "My journey")
+  message("Tweet summary posted")
+  
+}
 
 #9. Clean ----
 # Save datalog if everything was correct
