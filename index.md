@@ -31,7 +31,7 @@ Hi! I am a bot 🤖 that tweets a random map of a Spanish municipality with its 
 
 <a class="twitter-timeline" data-height="550" href="https://twitter.com/spainmunic?ref_src=twsrc%5Etfw">Tweets by spainmunic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## **:house: Buildings**
+## **🏠 Buildings**
 
 I create a map of the Urban Growth of Spanish cities, based on the works of
 **Dominic Royé:** [Visualize urban growth](https://dominicroye.github.io/en/2019/visualize-urban-growth/)
