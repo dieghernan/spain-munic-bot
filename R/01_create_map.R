@@ -382,7 +382,7 @@ datalog <- datalog %>%
   drop_na() %>%
   distinct()
 
-
+datalog <- datalog[, names(df)]
 
 
 municall <- esp_get_capimun(moveCAN = c(13, 0)) %>%
@@ -602,7 +602,6 @@ if ((nrow(datalog) %% 600) == 0) {
 # Save datalog if everything was correct
 
 message("Status; OK")
-datalog <- datalog[c(names(df), "url")]
 
 
 write_csv(datalog, "./assets/datalog.csv")
