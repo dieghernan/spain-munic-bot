@@ -74,8 +74,6 @@ if (file.exists("assets/datalog.csv")) {
   datalog <- tibble::tibble(LAU_CODE_NUM = 999999)
 }
 
-
-
 # 3. Select randomly after clean up ----
 
 data_filter <- data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM, ]
@@ -381,6 +379,10 @@ datalog <- datalog %>%
   drop_na() %>%
   distinct()
 
+datalog$LAU_CODE <- sprintf("%05d", datalog$LAU_CODE_NUM)
+datalog$url <- paste0("https://twitter.com/hashtag/spainmunic", datalog$LAU_CODE)
+
+
 municall <- esp_get_capimun(moveCAN = c(13, 0)) %>%
   mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
 
@@ -598,7 +600,7 @@ if ((nrow(datalog) %% 600) == 0) {
 # Save datalog if everything was correct
 
 message("Status; OK")
-datalog <- datalog[names(df)]
+datalog <- datalog[c(names(df), "url")]
 
 
 write_csv(datalog, "./assets/datalog.csv")
