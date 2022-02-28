@@ -369,13 +369,6 @@ df$datetime <- timejson
 
 # Convert cols
 
-datalog <- datalog %>% mutate(
-  codauto = as.numeric(codauto),
-  cpro = as.numeric(cpro),
-  LAU_CODE = as.character(LAU_CODE),
-  LAU_CODE_NUM = as.numeric(LAU_CODE_NUM)
-)
-
 df <- df %>% mutate(
   codauto = as.numeric(codauto),
   cpro = as.numeric(cpro),

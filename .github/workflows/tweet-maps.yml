@@ -2,8 +2,8 @@ name: last-tweet
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron:  '1,21,41 * * * *'
+  schedule:
+    - cron:  '1,21,41 * * * *'
   
 
 jobs:

@@ -12,7 +12,7 @@ project_links:
 
 <div markdown="1" class="badges">
 ![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/last-tweet/badge.svg)
-![](https://img.shields.io/badge/active-since%202020–01%E2%80%9329-brightgreen)
+![](https://img.shields.io/badge/active-since%202021%E2%80%9302%E2%80%9328-brightgreen)
 ![progress](https://img.shields.io/badge/dynamic/json?color=blue&label=progress&query=%24.progress%5B%3A1%5D&url=https%3A%2F%2Fdieghernan.github.io%2Fspain-munic-bot%2Fassets%2Flasttweet.json)
 ![last-visited](https://img.shields.io/badge/dynamic/json?color=yellow&label=last%20visited&query=%24.lastseen%5B%3A1%5D&url=https%3A%2F%2Fdieghernan.github.io%2Fspain-munic-bot%2Fassets%2Flasttweet.json&style=social)
 ![last-tweet](https://img.shields.io/badge/dynamic/json?color=yellow&label=last%20tweet&query=%24.lasttweet%5B%3A1%5D&url=https%3A%2F%2Fdieghernan.github.io%2Fspain-munic-bot%2Fassets%2Flasttweet.json&style=social&logo=twitter)
