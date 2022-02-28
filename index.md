@@ -13,9 +13,9 @@ project_links:
 <div markdown="1" class="badges">
 ![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/last-tweet/badge.svg)
 ![](https://img.shields.io/badge/active-since%202021%E2%80%9302%E2%80%9328-brightgreen)
-![progress](https://img.shields.io/badge/dynamic/json?color=blue&label=progress&query=%24.progress%5B%3A1%5D&url=https%3A%2F%2Fdieghernan.github.io%2Fspain-munic-bot%2Fassets%2Flasttweet.json)
-![last-visited](https://img.shields.io/badge/dynamic/json?color=yellow&label=last%20visited&query=%24.lastseen%5B%3A1%5D&url=https%3A%2F%2Fdieghernan.github.io%2Fspain-munic-bot%2Fassets%2Flasttweet.json&style=social)
-![last-tweet](https://img.shields.io/badge/dynamic/json?color=yellow&label=last%20tweet&query=%24.lasttweet%5B%3A1%5D&url=https%3A%2F%2Fdieghernan.github.io%2Fspain-munic-bot%2Fassets%2Flasttweet.json&style=social&logo=twitter)
+![progress](https://img.shields.io/badge/dynamic/json?label=progress&query=progress&url=https://dieghernan.github.io/spain-munic-bot/assets/lasttweet.json)
+![last-visited](https://img.shields.io/badge/dynamic/json?label=last%20visited&query=lastseen&url=https://dieghernan.github.io/spain-munic-bot/assets/lasttweet.json&style=social)
+![last-tweet](https://img.shields.io/badge/dynamic/json?label=last%20tweet&query=lasttweet&url=https://dieghernan.github.io/spain-munic-bot/assets/lasttweet.json&style=social&logo=twitter)
 ![Followers](https://img.shields.io/twitter/follow/spainmunic?label=Followers&style=social)
 [![ko-fi](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://ko-fi.com/dieghernan)
 </div>
