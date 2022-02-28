@@ -9,6 +9,3 @@ source("R/01_create_map.R")
 #                   output_format = "md_document", quiet = TRUE)
 
 rm(list = ls())
-
-
-

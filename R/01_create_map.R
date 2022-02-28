@@ -49,8 +49,10 @@ namesprov <- esp_codelist %>%
 
 
 data <- data %>%
-  mutate(nameinit = name,
-         name = trimws(tools::toTitleCase(word(name, sep = "/"))), ) %>%
+  mutate(
+    nameinit = name,
+    name = trimws(tools::toTitleCase(word(name, sep = "/"))),
+  ) %>%
   select(cpro, name, LAU_CODE, LAU_CODE_NUM) %>%
   left_join(namesprov)
 
@@ -60,7 +62,13 @@ data <- data %>%
 if (file.exists("assets/datalog.csv")) {
   datalog <-
     read_csv("assets/datalog.csv", show_col_types = FALSE)
-  
+
+  datalog <- datalog %>% mutate(
+    codauto = as.numeric(codauto),
+    cpro = as.numeric(cpro),
+    LAU_CODE = as.character(LAU_CODE),
+    LAU_CODE_NUM = as.numeric(LAU_CODE_NUM)
+  )
 } else {
   # If it doesn't exist, create one empty
   datalog <- tibble::tibble(LAU_CODE_NUM = 999999)
@@ -70,7 +78,7 @@ if (file.exists("assets/datalog.csv")) {
 
 # 3. Select randomly after clean up ----
 
-data_filter <-  data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM, ]
+data_filter <- data[!data$LAU_CODE_NUM %in% datalog$LAU_CODE_NUM, ]
 
 
 # Override
@@ -83,10 +91,10 @@ if (file.exists("assets/override.csv")) {
   file.remove("assets/override.csv")
   data_filter <-
     data[data$LAU_CODE_NUM %in% overridenum, ]
-  
+
   # Dedupe
   datalog <-
-    datalog[datalog$LAU_CODE_NUM != data_filter$LAU_CODE_NUM,]
+    datalog[datalog$LAU_CODE_NUM != data_filter$LAU_CODE_NUM, ]
 }
 
 
@@ -118,10 +126,12 @@ df <- munic %>%
 
 
 
-message("Munic selected: ",
-        df$name,
-        " ",
-        df$LAU_CODE)
+message(
+  "Munic selected: ",
+  df$name,
+  " ",
+  df$LAU_CODE
+)
 
 # 4. Spatial operations----
 
@@ -143,7 +153,7 @@ buff <- center %>%
   st_buffer(init) %>%
   st_geometry()
 
-bu_cut <- st_intersection(bu, buff)
+bu_cut <- suppressWarnings(st_intersection(bu, buff))
 perc <- as.double(sum(st_area(bu_cut)) / st_area(buff))
 
 # If not to much building increase buffer
@@ -160,23 +170,24 @@ while (continue) {
   } else {
     init <- init - 100
   }
-  
+
   # Handle map
   buff <- center %>%
     st_transform(st_crs(bu)) %>%
     st_buffer(init) %>%
     st_geometry()
-  
-  
-  bu_cut <- st_intersection(bu, buff)
-  
-  
-  if (init <= 200)
+
+
+  bu_cut <- suppressWarnings(st_intersection(bu, buff))
+
+
+  if (init <= 200) {
     break
-  
-  
+  }
+
+
   perc <- as.double(sum(st_area(bu_cut)) / st_area(buff))
-  
+
   if (perc < .1) {
     continue <- TRUE
   } else {
@@ -206,9 +217,12 @@ dataviz <- bu_cut %>%
 
 dis_years <- length(unique(dataviz$year))
 cuts <- classInt::classIntervals(dataviz$year,
-                                 style = "quantile",
-                                 n = min(15,
-                                         dis_years - 1))
+  style = "quantile",
+  n = min(
+    15,
+    dis_years - 1
+  )
+)
 
 brk <- unique(as.integer(cuts$brks))
 
@@ -226,9 +240,10 @@ labs[1] <- paste0("< ", brk[2])
 labs[length(labs)] <- paste0(brk[(length(brk) - 1)], " - ")
 
 dataviz$year_cat <- cut(dataviz$year,
-                        brk,
-                        include.lowest = TRUE,
-                        labels = labs)
+  brk,
+  include.lowest = TRUE,
+  labels = labs
+)
 
 
 
@@ -240,8 +255,10 @@ pp <- ggplot(dataviz) +
   geom_sf(aes(fill = year_cat), color = NA) +
   scale_fill_manual(values = hcl.colors(length(labs), "Spectral")) +
   guides(fill = guide_legend(keywidth = .7, keyheight = .3)) +
-  coord_sf(xlim = lim_map[c(1, 3)],
-           ylim = lim_map[c(2, 4)]) +
+  coord_sf(
+    xlim = lim_map[c(1, 3)],
+    ylim = lim_map[c(2, 4)]
+  ) +
   theme_void() +
   labs(
     title = df$name,
@@ -304,14 +321,19 @@ inset <- ggplot(ccaa) +
     color = adjustcolor("white", alpha.f = 0.7),
     size = 0.06
   ) +
-  geom_sf(data = munic_cent,
-          color = hcl.colors(15, "Spectral")[8],
-          size = 2) +
+  geom_sf(
+    data = munic_cent,
+    color = hcl.colors(15, "Spectral")[8],
+    size = 2
+  ) +
   theme_void() +
-  theme(plot.background = element_rect(fill = "black",
-                                       color =
-                                         adjustcolor("white",
-                                                     alpha.f = 0.5)))
+  theme(plot.background = element_rect(
+    fill = "black",
+    color =
+      adjustcolor("white",
+        alpha.f = 0.5
+      )
+  ))
 
 
 # Add inset to map
@@ -321,9 +343,10 @@ inset <- ggplot(ccaa) +
 gg_w_inset <- ggdraw() +
   draw_plot(pp) +
   draw_plot(inset,
-            height = 0.17,
-            x = -0.36,
-            y = 0.02)
+    height = 0.17,
+    x = -0.36,
+    y = 0.02
+  )
 
 name <- file.path("assets", "img", "imgtweet.png")
 ggsave(
@@ -333,18 +356,35 @@ ggsave(
   width = 2100,
   height = 2100,
   units = "px",
-  bg="black"
+  bg = "black"
 )
 
 
-#7. Save the Journey ----
+# 7. Save the Journey ----
 
 timejson <-
   as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
 
 df$datetime <- timejson
 
-datalog <- datalog %>% bind_rows(df) %>%
+# Convert cols
+
+datalog <- datalog %>% mutate(
+  codauto = as.numeric(codauto),
+  cpro = as.numeric(cpro),
+  LAU_CODE = as.character(LAU_CODE),
+  LAU_CODE_NUM = as.numeric(LAU_CODE_NUM)
+)
+
+df <- df %>% mutate(
+  codauto = as.numeric(codauto),
+  cpro = as.numeric(cpro),
+  LAU_CODE = as.character(LAU_CODE),
+  LAU_CODE_NUM = as.numeric(LAU_CODE_NUM)
+)
+
+datalog <- datalog %>%
+  bind_rows(df) %>%
   drop_na() %>%
   distinct()
 
@@ -352,11 +392,16 @@ municall <- esp_get_capimun(moveCAN = c(13, 0)) %>%
   mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
 
 
-journerylog <- datalog %>% select(LAU_CODE_NUM) %>%
-  mutate(LAU_CODE_NUM = as.numeric(LAU_CODE_NUM),
-         order = seq_len(nrow(datalog)))
+journerylog <- datalog %>%
+  select(LAU_CODE_NUM) %>%
+  mutate(
+    LAU_CODE_NUM = as.numeric(LAU_CODE_NUM),
+    order = seq_len(nrow(datalog))
+  )
 
-municall <- municall %>% inner_join(journerylog) %>% arrange(order)
+municall <- municall %>%
+  inner_join(journerylog) %>%
+  arrange(order)
 
 cent <- municall
 
@@ -367,7 +412,10 @@ line <- st_linestring(st_coordinates(cent)) %>%
 
 # Subtitle
 uniquevisited <-
-  datalog %>% select(LAU_CODE) %>% unique() %>% nrow()
+  datalog %>%
+  select(LAU_CODE) %>%
+  unique() %>%
+  nrow()
 
 # Pais Vasco y Navarra no están en el censo
 ccaa_nopvn <- ccaa %>%
@@ -378,9 +426,11 @@ pvn <- ccaa %>%
 
 all <- nrow(mapdata)
 sub <-
-  paste0(prettyNum(uniquevisited, big.mark = ","),
-         " visited of ",
-         prettyNum(all, big.mark = ","))
+  paste0(
+    prettyNum(uniquevisited, big.mark = ","),
+    " visited of ",
+    prettyNum(all, big.mark = ",")
+  )
 perc <- paste0(round(100 * uniquevisited / all, 2), "%")
 
 sub <- paste0(sub, " (", perc, ").")
@@ -391,10 +441,14 @@ journey <- ggplot(ccaa_nopvn) +
   geom_sf(data = pvn, col = NA, fill = "black") +
   geom_sf(data = boxcan, color = "grey75") +
   theme_void() +
-  labs(title = "spain-munic-bot journey",
-       subtitle = sub) +
-  theme(plot.title = element_text(hjust = 0.5),
-        plot.subtitle = element_text(hjust = 0.5))
+  labs(
+    title = "spain-munic-bot journey",
+    subtitle = sub
+  ) +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5)
+  )
 
 
 if (nrow(cent) > 1) {
@@ -411,7 +465,6 @@ if (nrow(cent) > 1) {
       color = "red",
       alpha = 0.6
     )
-  
 }
 
 ggsave(
@@ -424,8 +477,10 @@ ggsave(
 
 # Write JSON file
 
-lastseen <- paste0(munic$name,
-                   ", ", munic$prov)
+lastseen <- paste0(
+  munic$name,
+  ", ", munic$prov
+)
 
 
 tweet <- list(
@@ -449,7 +504,7 @@ prettylab <- function(x, type) {
   m <- (x - D) * 60
   M <- as.integer(m)
   S <- round((m - M) * 60, 2)
-  
+
   if (type == "lon") {
     if (coordinit > 0) {
       lab <- "E"
@@ -463,7 +518,7 @@ prettylab <- function(x, type) {
       lab <- "S"
     }
   }
-  
+
   label <- paste0(D, "\u00b0 ", M, "' ", S, '\" ', lab)
   return(label)
 }
@@ -497,8 +552,8 @@ msg <- paste0(msg, hash2)
 # Add packs
 
 packs <- ifelse((nrow(datalog) %% 500) == 20,
-                "Done in #rstats using #ggplot2, #CatastRo, #rspatial, #mapSpain and #rtweet ",
-                ""
+  "Done in #rstats using #ggplot2, #CatastRo, #rspatial, #mapSpain and #rtweet ",
+  ""
 )
 
 msg <- paste(msg, packs)
@@ -506,8 +561,9 @@ msg <- paste(msg, packs)
 
 # Add credits
 cred <- ifelse(nrow(datalog) %% 520 == 0,
-               "Sources #CatastroESP #rstatsES ",
-               "")
+  "Sources #CatastroESP #rstatsES ",
+  ""
+)
 
 msg <- paste(msg, cred)
 
@@ -539,13 +595,13 @@ if ((nrow(datalog) %% 600) == 0) {
   )
   msg <- gsub("  ", " ", msg)
   post_tweet(msg,
-             media = file.path("assets", "img", "journey.png"),
-             media_alt_text = "My journey")
+    media = file.path("assets", "img", "journey.png"),
+    media_alt_text = "My journey"
+  )
   message("Tweet summary posted")
-  
 }
 
-#9. Clean ----
+# 9. Clean ----
 # Save datalog if everything was correct
 
 message("Status; OK")

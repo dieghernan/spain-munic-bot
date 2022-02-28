@@ -454,10 +454,10 @@
     },
     "mapSpain": {
       "Package": "mapSpain",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "40b7fe34ebbcd2c2ab3ea439729066cd",
+      "Hash": "b3fb9544db93932cc8045e6632d5baed",
       "Requirements": [
         "countrycode",
         "giscoR",
@@ -467,10 +467,10 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.8-38",
+      "Version": "1.8-39",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "be3c61ffbb1e3d3b3df214d192ac5444",
+      "Hash": "055265005c238024e306fe0b600c89ff",
       "Requirements": [
         "Matrix",
         "nlme"
