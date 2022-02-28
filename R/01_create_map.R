@@ -374,13 +374,15 @@ df <- df %>% mutate(
   LAU_CODE_NUM = as.numeric(LAU_CODE_NUM)
 )
 
+df$LAU_CODE <- sprintf("%05d", df$LAU_CODE_NUM)
+df$url <- paste0("https://twitter.com/hashtag/spainmunic", df$LAU_CODE)
+
 datalog <- datalog %>%
   bind_rows(df) %>%
   drop_na() %>%
   distinct()
 
-datalog$LAU_CODE <- sprintf("%05d", datalog$LAU_CODE_NUM)
-datalog$url <- paste0("https://twitter.com/hashtag/spainmunic", datalog$LAU_CODE)
+
 
 
 municall <- esp_get_capimun(moveCAN = c(13, 0)) %>%
