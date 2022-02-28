@@ -385,7 +385,7 @@ datalog <- datalog %>%
 datalog <- datalog[, names(df)]
 
 
-municall <- esp_get_capimun(moveCAN = c(13, 0)) %>%
+municall <- esp_get_capimun() %>%
   mutate(LAU_CODE_NUM = as.numeric(LAU_CODE))
 
 
