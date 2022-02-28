@@ -1,11 +1,8 @@
 Sys.setenv(MAPSPAIN_CACHE_DIR = "data")
 
-
-source("R/01_create_map.R")
-
-# message("Start to create the journey")
-# library(rmarkdown)
-# rmarkdown::render("R/journey.Rmd", output_dir = "_pages/",
-#                   output_format = "md_document", quiet = TRUE)
+for (i in 1:3) {
+  source("R/01_create_map.R")
+  Sys.sleep(3)
+}
 
 rm(list = ls())
