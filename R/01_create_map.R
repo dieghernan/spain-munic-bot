@@ -497,7 +497,7 @@ msg <- paste0(msg, hash2)
 # Add packs
 
 packs <- ifelse((nrow(datalog) %% 500) == 20,
-                "Done in #rstats using #ggplot2, #CatastRo, #rspatial, #mapSpain and #rtweet",
+                "Done in #rstats using #ggplot2, #CatastRo, #rspatial, #mapSpain and #rtweet ",
                 ""
 )
 

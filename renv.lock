@@ -13,10 +13,7 @@
       "Package": "CatastRo",
       "Version": "0.2.0",
       "Source": "Repository",
-      "Repository": "https://ropenspain.r-universe.dev",
-      "RemoteUrl": "https://github.com/rOpenSpain/CatastRo",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "b9db505d245cf7d3dbce48ed3b2c403e909346de",
+      "Repository": "CRAN",
       "Hash": "ddd9a2779f86fdea24b7dea53ffb3d04",
       "Requirements": [
         "dplyr",
