@@ -85,7 +85,7 @@ if (file.exists("assets/override.csv")) {
   message("Override!")
   override <-
     read_csv("assets/override.csv", show_col_types = FALSE)
-  overridenum <- override$LAU_CODE_NUM
+  overridenum <- as.double(override$LAU_CODE_NUM)
   file.remove("assets/override.csv")
   data_filter <-
     data[data$LAU_CODE_NUM %in% overridenum, ]
