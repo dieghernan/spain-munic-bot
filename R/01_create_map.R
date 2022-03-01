@@ -12,6 +12,7 @@ library(cowplot)
 library(rtweet)
 library(tidyr)
 library(jsonlite)
+library(ragg)
 
 
 time <- as.character(format(Sys.time(), tz = "CET", usetz = TRUE))
@@ -404,8 +405,6 @@ cent <- municall
 
 last <- cent[nrow(cent), ]
 
-line <- st_linestring(st_coordinates(cent)) %>%
-  st_sfc(crs = st_crs(cent))
 
 # Subtitle
 uniquevisited <-
@@ -434,7 +433,7 @@ sub <- paste0(sub, " (", perc, ").")
 
 
 journey <- ggplot(ccaa_nopvn) +
-  geom_sf(col = NA, fill = "grey75") +
+  geom_sf(col = "grey90", fill = "grey75") +
   geom_sf(data = pvn, col = NA, fill = "black") +
   geom_sf(data = boxcan, color = "grey75") +
   theme_void() +
@@ -451,16 +450,10 @@ journey <- ggplot(ccaa_nopvn) +
 if (nrow(cent) > 1) {
   journey <- journey +
     geom_sf(
-      data = line,
+      data = cent[-nrow(cent), ],
       color = "red",
-      alpha = 0.5,
-      size = 0.5
-    ) +
-    geom_sf(
-      data = last,
-      size = 2,
-      color = "red",
-      alpha = 0.6
+      alpha = 0.6,
+      size = 1.2
     )
 }
 
