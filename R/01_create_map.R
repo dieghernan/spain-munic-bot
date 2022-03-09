@@ -433,8 +433,8 @@ sub <- paste0(sub, " (", perc, ").")
 
 
 journey <- ggplot(ccaa_nopvn) +
-  geom_sf(col = "grey90", fill = "grey75") +
-  geom_sf(data = pvn, col = NA, fill = "black") +
+  geom_sf(col = "grey90", fill = "grey75", size = 0.1) +
+  geom_sf(data = pvn, col = NA, fill = "black", size = 0.1) +
   geom_sf(data = boxcan, color = "grey75") +
   theme_void() +
   labs(
@@ -452,7 +452,7 @@ if (nrow(cent) > 1) {
     geom_sf(
       data = cent[-nrow(cent), ],
       color = "red",
-      alpha = 0.6,
+      alpha = 0.3,
       size = 1.2
     )
 }
