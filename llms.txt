@@ -1,6 +1,6 @@
 # spain-munic-bot
 
-> An R project by Diego Hernangómez for generating maps of buildings and urban growth in Spanish municipalities and publishing them through a Twitter bot.
+> An R project by dieghernan for generating maps of buildings and urban growth in Spanish municipalities and publishing them through a Twitter bot.
 
 Maps use CatastRo for building data, mapSpain for municipality locations and ggplot2 for plotting. The repository documents posting through rtweet and automation with GitHub Actions. It uses renv for dependency management. Automated posting is disabled. The last public output record is dated May 17, 2022; this is the date of the published record, not a guarantee about any external executions.
 
@@ -23,4 +23,4 @@ The project credits Dominic Royé's urban-growth visualizations and the italianc
 ## Optional
 
 - [Source repository](https://github.com/dieghernan/spain-munic-bot): Additional scripts and reproducibility files.
-- [Author](https://dieghernan.github.io/): Diego Hernangómez's personal site.
+- [Author](https://dieghernan.github.io/): dieghernan's personal site.
