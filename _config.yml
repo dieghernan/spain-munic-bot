@@ -1,69 +1,125 @@
+# Site configuration
 remote_theme: dieghernan/chulapa
-twitter_site: spainmunic
-repository: dieghernan/spain-munic-bot
-url: https://dieghernan.github.io
-baseurl: spain-munic-bot
-gtag_id: G-CZM7V4KRH5
+
+# Site identity and SEO
+locale: en-US
 title: spain-munic-bot
-timezone: "Europe/Madrid"
-og_image: /assets/img/sample.png
+subtitle: Maps of Spanish municipalities generated with R
+description: R-generated maps of buildings and urban growth in Spanish municipalities,
+  with an archive of the spain-munic-bot project.
+url: https://dieghernan.github.io
+baseurl: "/spain-munic-bot"
+repository: dieghernan/spain-munic-bot
+timezone: Europe/Madrid
+
+# Sharing images
+og_image: "/assets/img/sample.png"
+og_image_alt: Buildings in Málaga colored by construction period, with a locator map
+  of Spain.
+og_image_width: 2100
+og_image_height: 2100
+og_image_type: image/png
+twitter_site: spainmunic
+
+# Author and publisher
 author:
+  name: Diego Hernangómez
   url: https://dieghernan.github.io/
   avatar: https://dieghernan.github.io/assets/img/site/avatar.png
-  name: dieghernan
-  location: "Madrid, España"
+  location: Madrid, Spain
+  links:
+  - url: https://x.com/dhernangomez
+    icon: fab fa-square-x-twitter
+    label: Twitter/X
+  - url: https://fosstodon.org/@dhernangomez
+    icon: fa-brands fa-mastodon
+    label: Mastodon
+  - url: https://bsky.app/profile/dieghernan.bsky.social
+    icon: fa-brands fa-square-bluesky
+    label: Bluesky
+  - url: https://github.com/dieghernan/
+    icon: fab fa-github
+    label: GitHub
+  - url: https://stackoverflow.com/users/7877917/dieghernan
+    icon: fab fa-stack-overflow
+    label: Stack Overflow
+  - url: https://orcid.org/0000-0001-8457-4658
+    icon: fa-brands fa-orcid
+    label: ORCID
+publisher:
+  type: Person
+  name: Diego Hernangómez
+  url: https://dieghernan.github.io/
+  image: https://dieghernan.github.io/assets/img/site/avatar.png
 
+# Analytics
+gtag_id: G-CZM7V4KRH5
+
+# Navigation
 navbar:
-  expand: "always"
+  expand: always
   brand:
-    title: "🤖 Home"
+    title: "\U0001F916 Home"
   nav:
-    - title: "<i class='fab fa-github'></i> Source Code"
-      url: https://github.com/dieghernan/spain-munic-bot
-
+  - title: "<i class='fab fa-github'></i> Source Code"
+    url: https://github.com/dieghernan/spain-munic-bot
 footer:
   links:
-    - label: "StackOverflow"
-      icon: "fab fa-stack-overflow"
-      url: https://stackoverflow.com/users/7877917/dieghernan
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: https://github.com/dieghernan/
-    - label: "Blog"
-      icon: "fas fa-blog"
-      url: "https://dieghernan.github.io/"
-    - label: "RPubs"
-      icon: "fab fa-r-project"
-      url: "https://rpubs.com/dieghernan"
+  - label: Stack Overflow
+    icon: fab fa-stack-overflow
+    url: https://stackoverflow.com/users/7877917/dieghernan
+  - label: GitHub
+    icon: fab fa-github
+    url: https://github.com/dieghernan/
+  - label: Blog
+    icon: fas fa-blog
+    url: https://dieghernan.github.io/
+  - label: RPubs
+    icon: fab fa-r-project
+    url: https://rpubs.com/dieghernan
 
+# Appearance
 chulapa-skin:
   autothemer: true
   skin: twitter-lights-out
 
+# Content and build settings
 defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      header_type: "base"
-      show_sociallinks: true
-
-plugins:
-  - jekyll-github-metadata
-  - jekyll-paginate
-  - jekyll-include-cache
-  - jekyll-sitemap
-exclude:
-  - README.md
-  - Gemfile
-  - vendor
-  - index.Rmd
-  - R/
-  - renv/
-  - data/
-  - LICENSE
-  - spainmunic_dashboard/
-  
+- scope:
+    path: ''
+  values:
+    layout: default
+    header_type: base
+    show_sociallinks: true
 include:
- - _pages
- 
+- _pages
+incremental: false
+exclude:
+- README.md
+- Gemfile
+- vendor
+- index.Rmd
+- R/
+- renv/
+- data/
+- LICENSE
+- spainmunic_dashboard/
+- AGENTS.md
+- Gemfile.lock
+- ".bundle"
+plugins:
+- jekyll-remote-theme
+- jekyll-github-metadata
+- jekyll-include-cache
+- jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true
+  silence_deprecations:
+  - import
+  - global-builtin
+  - color-functions
+  - abs-percent
+  - function-units
+  - if-function

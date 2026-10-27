@@ -2,7 +2,7 @@
 
 > An R project by Diego Hernangómez for generating maps of buildings and urban growth in Spanish municipalities and publishing them through a Twitter bot.
 
-Maps use CatastRo for building data, mapSpain for municipality locations and ggplot2 for plotting. The repository documents posting through rtweet and automation with GitHub Actions. It uses renv for dependency management. Historical descriptions of a 20-minute posting schedule are not evidence that the bot or its Twitter integration is currently running; consult the workflow history and output records for activity.
+Maps use CatastRo for building data, mapSpain for municipality locations and ggplot2 for plotting. The repository documents posting through rtweet and automation with GitHub Actions. It uses renv for dependency management. Automated posting is disabled. The last public output record is dated May 17, 2022; this is the date of the published record, not a guarantee about any external executions.
 
 The project credits Dominic Royé's urban-growth visualizations and the italiancomuni bot as inspirations.
 
