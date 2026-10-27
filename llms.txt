@@ -1,0 +1,26 @@
+# spain-munic-bot
+
+> An R project by Diego Hernangómez for generating maps of buildings and urban growth in Spanish municipalities and publishing them through a Twitter bot.
+
+Maps use CatastRo for building data, mapSpain for municipality locations and ggplot2 for plotting. The repository documents posting through rtweet and automation with GitHub Actions. It uses renv for dependency management. Automated posting is disabled. The last public output record is dated May 17, 2022; this is the date of the published record, not a guarantee about any external executions.
+
+The project credits Dominic Royé's urban-growth visualizations and the italiancomuni bot as inspirations.
+
+## Documentation
+
+- [Project website](https://dieghernan.github.io/spain-munic-bot/): Overview, sample maps and project journey.
+- [README](https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/README.md): Dependencies, credits and execution instructions.
+- [Website content](https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/index.md): Project description in Markdown.
+
+## Code and outputs
+
+- [Entry script](https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/R/trigger.R): Script invoked by the documented Rscript command.
+- [Map creation](https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/R/01_create_map.R): Map-generation implementation.
+- [Map records](https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/assets/datalog.csv): Records of generated maps.
+- [Workflow history](https://github.com/dieghernan/spain-munic-bot/actions): Automation runs and their outcomes.
+- [License](https://raw.githubusercontent.com/dieghernan/spain-munic-bot/main/LICENSE): Repository license.
+
+## Optional
+
+- [Source repository](https://github.com/dieghernan/spain-munic-bot): Additional scripts and reproducibility files.
+- [Author](https://dieghernan.github.io/): Diego Hernangómez's personal site.

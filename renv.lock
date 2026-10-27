@@ -13,10 +13,7 @@
       "Package": "CatastRo",
       "Version": "0.2.0",
       "Source": "Repository",
-      "Repository": "https://ropenspain.r-universe.dev",
-      "RemoteUrl": "https://github.com/rOpenSpain/CatastRo",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "b9db505d245cf7d3dbce48ed3b2c403e909346de",
+      "Repository": "CRAN",
       "Hash": "ddd9a2779f86fdea24b7dea53ffb3d04",
       "Requirements": [
         "dplyr",
@@ -457,10 +454,10 @@
     },
     "mapSpain": {
       "Package": "mapSpain",
-      "Version": "0.6.0",
+      "Version": "0.6.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "40b7fe34ebbcd2c2ab3ea439729066cd",
+      "Hash": "b3fb9544db93932cc8045e6632d5baed",
       "Requirements": [
         "countrycode",
         "giscoR",
@@ -470,10 +467,10 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.8-38",
+      "Version": "1.8-39",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "be3c61ffbb1e3d3b3df214d192ac5444",
+      "Hash": "055265005c238024e306fe0b600c89ff",
       "Requirements": [
         "Matrix",
         "nlme"
@@ -583,6 +580,17 @@
         "rlang"
       ]
     },
+    "ragg": {
+      "Package": "ragg",
+      "Version": "1.2.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "14932bb6f2739c771ca4ceaba6b4248e",
+      "Requirements": [
+        "systemfonts",
+        "textshaping"
+      ]
+    },
     "rapidjsonr": {
       "Package": "rapidjsonr",
       "Version": "1.2.0",
@@ -621,10 +629,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.15.2",
+      "Version": "0.15.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "206c4ef8b7ad6fb1060d69aa7b9dfe69",
+      "Hash": "318c703b833089e1bc0c6a198362ca19",
       "Requirements": []
     },
     "rlang": {
@@ -739,6 +747,16 @@
       "Hash": "b227d13e29222b4574486cfcbde077fa",
       "Requirements": []
     },
+    "systemfonts": {
+      "Package": "systemfonts",
+      "Version": "1.0.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "90b28393209827327de889f49935140a",
+      "Requirements": [
+        "cpp11"
+      ]
+    },
     "terra": {
       "Package": "terra",
       "Version": "1.5-21",
@@ -747,6 +765,17 @@
       "Hash": "a713f0d9f9a2b68af112a991adbfe5d5",
       "Requirements": [
         "Rcpp"
+      ]
+    },
+    "textshaping": {
+      "Package": "textshaping",
+      "Version": "0.3.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1ab6223d3670fac7143202cb6a2d43d5",
+      "Requirements": [
+        "cpp11",
+        "systemfonts"
       ]
     },
     "tibble": {

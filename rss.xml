@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
-		<title>spain-munic-bot | </title>
+		<title>spain-munic-bot | Maps of Spanish municipalities generated with R</title>
 		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
 		<link>https://dieghernan.github.io/spain-munic-bot</link>
-		<description>🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action</description>
+		<description>R-generated maps of buildings and urban growth in Spanish municipalities, with an archive of the spain-munic-bot project.</description>
 		<language>en-US</language>
-		<copyright>(c) 2022, dieghernan</copyright>	
-		<pubDate>Thu, 24 Feb 2022 16:40:09 +0100</pubDate>
-		<lastBuildDate>Thu, 24 Feb 2022 16:40:09 +0100</lastBuildDate>
+		<copyright>(c) 2026, Diego Hernangómez</copyright>	
+		<pubDate>Tue, 27 Oct 2026 16:21:16 +0100</pubDate>
+		<lastBuildDate>Tue, 27 Oct 2026 16:21:16 +0100</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://dieghernan.github.io/spain-munic-bot/rss.xml" rel="self" type="application/rss+xml" />
 		<image>
-			<title>spain-munic-bot | </title>
+			<title>spain-munic-bot | Maps of Spanish municipalities generated with R</title>
 			<url>https://dieghernan.github.io/spain-munic-bot/assets/img/sample.png</url>
 			<link>https://dieghernan.github.io/spain-munic-bot</link>
-			<description>🤖 Twitter bot: random municipalities of Spain 🇪🇸 with {mapSpain} posted with {rtweet} via a GitHub Action</description>
+			<description>R-generated maps of buildings and urban growth in Spanish municipalities, with an archive of the spain-munic-bot project.</description>
 		</image></channel>
 </rss>

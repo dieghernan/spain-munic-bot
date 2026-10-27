@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["custom.scss"],"names":[],"mappings":"AAGA,YACE,eACA,YACA,qBACA,SACA","sourcesContent":["@charset \"utf-8\";\n\n// Reset img for badges\n.badges img {\n  max-width: none;\n  height: auto;\n  display: inline-block;\n  margin: 0;\n  border-radius: 0;\n}"],"file":"custom.css"}
