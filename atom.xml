@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://dieghernan.github.io/spain-munic-bot/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://dieghernan.github.io/spain-munic-bot" rel="alternate" type="text/html" />
-	<updated>2026-10-27T16:36:23+01:00</updated>
+	<updated>2026-10-27T16:39:39+01:00</updated>
 	<id>https://dieghernan.github.io/spain-munic-bot/atom.xml</id>
 	<title>spain-munic-bot | Maps of Spanish municipalities generated with R</title>
 	<subtitle>Maps of Spanish municipalities generated with R</subtitle>
