@@ -35,11 +35,11 @@ dated May 17, 2022.
 
 Example: buildings in Málaga grouped by construction period.
 
-![Buildings in Málaga colored by construction period, with a locator map of Spain.](/assets/img/sample.png)
+![Buildings in Málaga colored by construction period, with a locator map of Spain.]({{ '/assets/img/sample.png' | relative_url }})
 
 ## Project journey
 
-![Map of municipalities visited by the bot: 7,536 of 7,608, or 99.05%, in the saved project record.](/assets/img/journey.png)
+![Map of municipalities visited by the bot: 7,536 of 7,608, or 99.05%, in the saved project record.]({{ '/assets/img/journey.png' | relative_url }})
 
 Browse the [generated-map records](https://github.com/dieghernan/spain-munic-bot/blob/main/assets/datalog.csv).
 
