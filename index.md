@@ -12,7 +12,7 @@ project_links:
 ## About the project
 
 <div markdown="1" class="badges">
-![tweet-maps](https://github.com/dieghernan/spain-munic-bot/workflows/last-tweet/badge.svg)
+[![Site deployment](https://github.com/dieghernan/spain-munic-bot/actions/workflows/build-chulapa-gh-pages.yml/badge.svg)](https://github.com/dieghernan/spain-munic-bot/actions/workflows/build-chulapa-gh-pages.yml)
 ![progress](https://img.shields.io/badge/dynamic/json?label=progress&query=progress&url=https://dieghernan.github.io/spain-munic-bot/assets/lasttweet.json)
 ![last-visited](https://img.shields.io/badge/dynamic/json?label=last%20visited&query=lastseen&url=https://dieghernan.github.io/spain-munic-bot/assets/lasttweet.json&style=social)
 ![last-tweet](https://img.shields.io/badge/dynamic/json?label=last%20tweet&query=lasttweet&url=https://dieghernan.github.io/spain-munic-bot/assets/lasttweet.json&style=social&logo=twitter)
