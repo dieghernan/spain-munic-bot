@@ -73,3 +73,10 @@ From the command line it is enough to run the following command:
         $ Rscript R/trigger.R
 
 This will trigger `R/01_create_map.R` and compose the tweet.
+
+## Author identity and Webmentions
+
+The site keeps its project branding and shows the author's avatar and name in an
+h-card linked to <https://dieghernan.github.io/>. The custom head advertises the
+existing Webmention.io receiver for `dieghernan.github.io`. This enables endpoint
+discovery for incoming mentions; it does not display mentions or send them.

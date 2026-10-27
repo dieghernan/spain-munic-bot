@@ -8,6 +8,8 @@ title: spain-munic-bot
 timezone: "Europe/Madrid"
 og_image: /assets/img/sample.png
 author:
+  url: https://dieghernan.github.io/
+  avatar: https://dieghernan.github.io/assets/img/site/avatar.png
   name: dieghernan
   location: "Madrid, España"
 
