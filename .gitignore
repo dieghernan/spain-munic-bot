@@ -4,3 +4,6 @@
 .Ruserdata
 project.Rproj
 rsconnect/
+_site/
+.jekyll-cache/
+.bundle/

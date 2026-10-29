@@ -13,12 +13,12 @@ repository: dieghernan/spain-munic-bot
 timezone: Europe/Madrid
 
 # Sharing images
-og_image: "/assets/img/sample.png"
-og_image_alt: Buildings in Málaga colored by construction period, with a locator map
-  of Spain.
-og_image_width: 2100
-og_image_height: 2100
-og_image_type: image/png
+og_image: https://dieghernan.github.io/spain-munic-bot/assets/img/social-preview.jpg
+og_image_alt: spain-munic-bot. Spanish municipalities, building by building.
+  Map of Málaga buildings colored by construction period on a black background.
+og_image_width: 1200
+og_image_height: 630
+og_image_type: image/jpeg
 twitter_site: spainmunic
 
 # Author and publisher
@@ -95,6 +95,7 @@ include:
 - _pages
 incremental: false
 exclude:
+- scripts
 - README.md
 - Gemfile
 - vendor

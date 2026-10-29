@@ -1,6 +1,12 @@
 ---
 layout: default
 title: spain-munic-bot
+og_image: https://dieghernan.github.io/spain-munic-bot/assets/img/social-preview.jpg
+og_image_alt: spain-munic-bot. Spanish municipalities, building by building.
+  Map of Málaga buildings colored by construction period on a black background.
+og_image_width: 1200
+og_image_height: 630
+og_image_type: image/jpeg
 subtitle: Maps of Spanish municipalities generated with R
 excerpt: An archive of R-generated maps of buildings and urban growth in Spanish municipalities. Automated posting is disabled.
 project_links:
