@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>spain-munic-bot social card</title>
+  <style>
+    @font-face {
+      font-family: 'Libre Franklin';
+      src: url('./assets/libre-franklin/LibreFranklin.ttf');
+      font-weight: 100 900;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+    body { background: #000; color: #fff; font-family: 'Libre Franklin', sans-serif; }
+    .map {
+      position: absolute; top: 0; right: 0; width: 64%; height: 100%;
+      overflow: hidden;
+    }
+    .map img {
+      position: absolute; width: 160%; max-width: none;
+      top: -40%; left: -11%;
+    }
+    .fade {
+      position: absolute; inset: 0;
+      background: linear-gradient(90deg, #000 0%, #000 34%, #000d 43%, #0000 67%);
+    }
+    main { position: absolute; inset: 10.3% 5%; }
+    .tag { color: #1d9bf0; font-size: 1.5625vw; font-weight: 700; }
+    h1 {
+      margin: 4.1vw 0 0; font-size: 6.5625vw; line-height: 1.12;
+      letter-spacing: -.19vw; font-weight: 800;
+    }
+    .description {
+      margin: 3.4vw 0 0; color: #c1c2c2; font-size: 2.18vw;
+      line-height: 1.45;
+    }
+    footer { position: absolute; bottom: 0; font-size: 1.5625vw; }
+    .credit {
+      position: absolute; bottom: 3%; right: 3%; padding: .6em .9em;
+      background: #000e; color: #c1c2c2; font-size: 1.015625vw;
+    }
+  </style>
+</head>
+<body>
+  <div class="map"><img src="../assets/img/sample.png" alt="Málaga buildings by construction period"></div>
+  <div class="fade"></div>
+  <main>
+    <div class="tag">SPAIN · URBAN GROWTH</div>
+    <h1>spain-<br>munic-bot</h1>
+    <p class="description">Spanish municipalities,<br>building by building.</p>
+    <footer>Explore the maps. Discover their history.</footer>
+  </main>
+  <div class="credit">Málaga · Data: D. G. Catastro</div>
+</body>
+</html>
