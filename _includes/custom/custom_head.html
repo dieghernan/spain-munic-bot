@@ -27,3 +27,6 @@
 
 
 <!-- end custom head snippets -->
+{% if page.url == '/' %}
+{% include custom/structured_data/project.html %}
+{% endif %}

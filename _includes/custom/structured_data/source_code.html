@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "@id": {{ '/' | absolute_url | append: '#source-code' | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  {% for property in site.data.structured_data.software %}
+  {{ property[0] | jsonify }}: {{ property[1] | jsonify }},
+  {% endfor %}
+  "author": {{ site.data.structured_data.creator | jsonify }}
+}
