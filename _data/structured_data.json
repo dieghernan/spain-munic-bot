@@ -1,0 +1,25 @@
+{
+  "creator": {
+    "@type": "Person",
+    "@id": "https://dieghernan.github.io/#author",
+    "name": "Diego Hernangómez",
+    "url": "https://dieghernan.github.io/",
+    "sameAs": "https://orcid.org/0000-0001-8457-4658"
+  },
+  "software": {
+    "name": "spain-munic-bot",
+    "description": "R scripts for generating maps of buildings and urban growth in Spanish municipalities and preparing posts for the spain-munic-bot account. Automated posting is disabled; the website preserves the project archive and saved map-generation records.",
+    "codeRepository": "https://github.com/dieghernan/spain-munic-bot",
+    "programmingLanguage": "R",
+    "runtimePlatform": "R",
+    "license": "https://opensource.org/licenses/MIT",
+    "keywords": [
+      "R",
+      "Spain",
+      "municipalities",
+      "cartography",
+      "urban growth",
+      "bot"
+    ]
+  }
+}
