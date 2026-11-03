@@ -33,6 +33,13 @@ jobs:
         env:
           JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install microformats parser
+        run: python -m pip install -r scripts/requirements-microformats.txt
+      - name: Check page authorship
+        run: python -m unittest discover -s scripts -p test_authorship.py
       - name: Check project structured data
         run: python3 -m unittest discover -s scripts -p test_structured_data.py
       - name: Upload built site
