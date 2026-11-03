@@ -59,9 +59,9 @@ gtag_id: G-CZM7V4KRH5
 navbar:
   expand: always
   brand:
-    title: "\U0001F916 Home"
+    title: "🤖 spain-munic-bot"
   nav:
-  - title: "<i class='fab fa-github'></i> Source Code"
+  - title: '<i class="fab fa-github mr-1" aria-hidden="true"></i> GitHub'
     url: https://github.com/dieghernan/spain-munic-bot
 footer:
   links:
