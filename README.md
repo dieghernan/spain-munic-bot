@@ -73,4 +73,5 @@ credentials before running it. The command can publish posts.
 
         $ Rscript R/trigger.R
 
-This will trigger `R/01_create_map.R` and compose the tweet.
+The entry point attempts to run R/01_create_map.R three times per invocation.
+Each successful run can publish a map and update the local log.
