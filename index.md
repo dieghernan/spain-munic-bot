@@ -49,7 +49,7 @@ Example: buildings in Málaga grouped by construction period.
 
 Browse the [generated-map records](https://github.com/dieghernan/spain-munic-bot/blob/main/assets/datalog.csv).
 
-## R packages
+## **R** packages
 
 Core packages used in the project are:
 
@@ -61,7 +61,7 @@ Core packages used in the project are:
 
 Other packages include **sf**, **dplyr** and supporting tools.
 
-The project uses **renv** to record its R package dependencies. External data
+The project uses **renv** to record its **R** package dependencies. External data
 services and publishing APIs may have changed since the maps were generated.
 
 ## Credits
@@ -73,19 +73,19 @@ services and publishing APIs may have changed since the maps were generated.
 
 -   Automation:
 
-    -   GitHub Actions as per [\@espinielli](https://github.com/espinielli)'s
+    -   **GitHub Actions** based on [\@espinielli](https://github.com/espinielli)'s
         [GitHub Repo](https://github.com/espinielli/italian-comuni-bot).
 
 -   Sources:
 
-    -   [mapSpain](https://ropenspain.github.io/mapSpain/) R package.
+    -   [**mapSpain**](https://ropenspain.github.io/mapSpain/) for municipal geography.
     -   [**CatastRo**](https://ropenspain.github.io/CatastRo/) for the buildings.
 
 ## Original execution workflow
 
 The original entry point is shown below. It invokes the map-generation and
 Twitter publishing code. Review its configuration, dependencies and API
-credentials before running it; it is not a preview-only command.
+credentials before running it. The command can publish posts.
 
         $ Rscript R/trigger.R
 

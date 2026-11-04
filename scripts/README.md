@@ -1,8 +1,8 @@
 # Social images
 
 `social-card.html` composes the site's existing Málaga building map with the
-Libre Franklin typeface and the black, white and blue palette from Chulapa's
-`twitter-lights-out` skin. The source map is `assets/img/sample.png`; its
+Libre Franklin typeface and the black, white and blue palette from the **Chulapa**
+`twitter-lights-out` skin. The source map is `assets/img/sample.png`. Its
 construction-period colors are preserved.
 
 Serve the repository root, open `scripts/social-card.html` and capture a JPEG

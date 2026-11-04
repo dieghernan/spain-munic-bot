@@ -7,7 +7,7 @@
 ![Followers](https://img.shields.io/twitter/follow/spainmunic?label=Followers&style=social)
 [![ko-fi](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg)](https://ko-fi.com/dieghernan)
 
-## A Twitter bot written in R
+## A Twitter bot written in **R**
 
 <p align="center">
 <a href="https://twitter.com/spainmunic"><img src="https://img.shields.io/badge/Follow-%40spainmunic-blue?style=flat&labelColor=1DA1F2&color=1DA1F2&logo=twitter&logoColor=white" alt="Follow spainmunic on Twitter" height=25 ></a>
@@ -34,7 +34,7 @@ Browse the [generated-map records](https://github.com/dieghernan/spain-munic-bot
 
 ![Map of municipalities visited by the bot: 7,536 of 7,608, or 99.05%, in the saved project record.](assets/img/journey.png)
 
-## R packages
+## **R** packages
 
 Core packages used in the project are:
 
@@ -46,7 +46,7 @@ Core packages used in the project are:
 
 Other packages include **sf**, **dplyr** and supporting tools.
 
-The project uses **renv** to record its R package dependencies. External data
+The project uses **renv** to record its **R** package dependencies. External data
 services and publishing APIs may have changed since the maps were generated.
 
 ## Credits
@@ -57,19 +57,19 @@ services and publishing APIs may have changed since the maps were generated.
 
 -   Automation:
 
-    -   GitHub Actions as per \@espinielli's [GitHub
+    -   **GitHub Actions** based on \@espinielli's [GitHub
         Repo](https://github.com/espinielli/italian-comuni-bot).
 
 -   Sources:
 
-    -   [mapSpain](https://ropenspain.github.io/mapSpain/) R package.
-    -   [osmdata](https://docs.ropensci.org/osmdata/) for the streets.
+    -   [**mapSpain**](https://ropenspain.github.io/mapSpain/) for municipal geography.
+    -   [**osmdata**](https://docs.ropensci.org/osmdata/) for the streets.
 
 ## Original execution workflow
 
 The original entry point is shown below. It invokes the map-generation and
 Twitter publishing code. Review its configuration, dependencies and API
-credentials before running it; it is not a preview-only command.
+credentials before running it. The command can publish posts.
 
         $ Rscript R/trigger.R
 
