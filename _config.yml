@@ -61,7 +61,7 @@ navbar:
   brand:
     title: "🤖 spain-munic-bot"
   nav:
-  - title: '<i class="fab fa-github mr-1" aria-hidden="true"></i> GitHub'
+  - title: <i class="fab fa-github mr-1" aria-hidden="true"></i><span class="d-none">GitHub</span><span class="sr-only">GitHub repo of this project</span>
     url: https://github.com/dieghernan/spain-munic-bot
 footer:
   links:
