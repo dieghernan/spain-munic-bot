@@ -9,3 +9,4 @@ _site/
 .bundle/
 
 __pycache__/
+Gemfile.lock
