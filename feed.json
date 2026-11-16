@@ -1,0 +1,17 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "spain-munic-bot",
+  "home_page_url": "https://dieghernan.github.io/spain-munic-bot/",
+  "feed_url": "https://dieghernan.github.io/spain-munic-bot/feed.json",
+  "language": "en-US",
+  "description": "R-generated maps of buildings and urban growth in Spanish municipalities, with an archive of the spain-munic-bot project.",
+  "icon": "https://dieghernan.github.io/spain-munic-bot/assets/img/social-preview.jpg",
+  
+  "authors": [{
+    "name": "Diego HH",
+    "url": "https://dieghernan.github.io/"
+  }],
+  "items": [
+    
+  ]
+}
